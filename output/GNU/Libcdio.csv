@@ -1,0 +1,5 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2017-18201,CWE-415 - CWE definition,415,Libcdio,2018-02-26,
+CVE-2017-18199,CWE-476 - CWE definition,476,Libcdio,2018-02-24,DoS
+CVE-2017-18198,CWE-125 - CWE definition,125,Libcdio,2018-02-24,DoS
+CVE-2007-6613,CWE-119 - CWE definition,119,Libcdio,2008-01-03,DoS Exec Code Overflow

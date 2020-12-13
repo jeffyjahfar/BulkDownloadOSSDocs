@@ -1,0 +1,9 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2016-2037,CWE-119 - CWE definition,119,Cpio,2016-02-22,DoS Overflow
+CVE-2015-1197,,,Cpio,2015-02-19,
+CVE-2014-9112,CWE-119 - CWE definition,119,Cpio,2014-12-02,DoS Overflow
+CVE-2010-4226,CWE-59 - CWE definition,59,Cpio,2014-02-06,
+CVE-2010-0624,CWE-119 - CWE definition,119,Cpio,2010-03-15,DoS Exec Code Overflow Mem. Corr.
+CVE-2005-4268,CWE-119 - CWE definition,119,Cpio,2005-12-15,DoS Exec Code Overflow
+CVE-2005-1229,,,Cpio,2005-05-02,Dir. Trav.
+CVE-2005-1111,,,Cpio,2005-05-02,

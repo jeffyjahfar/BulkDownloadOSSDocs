@@ -1,0 +1,6 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2008-3863,CWE-119 - CWE definition,119,Enscript,2008-10-23,Exec Code Overflow
+CVE-2004-1186,,,Enscript,2004-12-31,DoS Overflow
+CVE-2004-1185,,,Enscript,2005-01-21,Exec Code
+CVE-2004-1184,,,Enscript,2005-01-21,Exec Code
+CVE-2002-0044,,,Enscript,2002-01-31,

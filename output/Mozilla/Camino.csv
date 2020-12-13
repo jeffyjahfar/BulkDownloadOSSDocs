@@ -1,0 +1,5 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2006-1901,,,Camino,2006-04-20,DoS
+CVE-2005-2114,,,Camino,2005-07-05,DoS
+CVE-2005-0238,,,Camino,2005-05-02,
+CVE-2005-0233,,,Camino,2005-02-08,

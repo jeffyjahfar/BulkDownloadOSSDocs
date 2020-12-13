@@ -1,0 +1,15 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2010-0309,CWE-16 - CWE definition,16,Kernel,2010-02-12,DoS
+CVE-2009-4004,CWE-119 - CWE definition,119,Kernel,2009-11-19,DoS Overflow +Priv Mem. Corr.
+CVE-2009-3624,CWE-310 - CWE definition,310,Kernel,2009-11-02,DoS +Priv
+CVE-2009-3621,,,Kernel,2009-10-22,DoS
+CVE-2009-3547,CWE-362 - CWE definition,362,Kernel,2009-11-04,DoS +Priv
+CVE-2009-2903,CWE-399 - CWE definition,399,Kernel,2009-09-15,DoS
+CVE-2009-2847,,,Kernel,2009-08-18,+Info
+CVE-2009-2844,CWE-399 - CWE definition,399,Kernel,2009-08-18,DoS
+CVE-2009-2768,CWE-119 - CWE definition,119,Kernel,2009-08-14,DoS Overflow
+CVE-2009-2767,CWE-119 - CWE definition,119,Kernel,2009-08-14,DoS Overflow +Priv
+CVE-2009-2692,CWE-119 - CWE definition,119,Kernel,2009-08-14,Overflow +Priv
+CVE-2009-2406,CWE-119 - CWE definition,119,Kernel,2009-07-31,DoS Overflow +Priv
+CVE-2009-1389,CWE-119 - CWE definition,119,Kernel,2009-06-16,DoS Overflow Mem. Corr.
+CVE-2009-1385,CWE-189 - CWE definition,189,Kernel,2009-06-04,DoS

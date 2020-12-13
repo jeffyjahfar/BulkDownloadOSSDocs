@@ -1,0 +1,151 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2018-5123,CWE-352 - CWE definition,352,Bugzilla,2019-04-29,
+CVE-2016-2803,CWE-79 - CWE definition,79,Bugzilla,2017-04-12,XSS
+CVE-2015-8509,CWE-200 - CWE definition,200,Bugzilla,2016-01-03,+Info
+CVE-2015-8508,CWE-79 - CWE definition,79,Bugzilla,2016-01-03,XSS
+CVE-2015-4499,CWE-20 - CWE definition,20,Bugzilla,2015-09-13,
+CVE-2014-8630,CWE-77 - CWE definition,77,Bugzilla,2015-02-01,Exec Code
+CVE-2014-1573,CWE-79 - CWE definition,79,Bugzilla,2014-10-12,XSS
+CVE-2014-1572,CWE-264 - CWE definition,264,Bugzilla,2014-10-12,
+CVE-2014-1571,CWE-200 - CWE definition,200,Bugzilla,2014-10-12,+Info
+CVE-2014-1546,CWE-352 - CWE definition,352,Bugzilla,2014-08-14,+Info CSRF
+CVE-2014-1517,CWE-287 - CWE definition,287,Bugzilla,2014-04-19,+Info CSRF
+CVE-2013-1743,CWE-79 - CWE definition,79,Bugzilla,2013-10-24,XSS
+CVE-2013-1742,CWE-79 - CWE definition,79,Bugzilla,2013-10-24,XSS
+CVE-2013-1734,CWE-352 - CWE definition,352,Bugzilla,2013-10-24,CSRF
+CVE-2013-1733,CWE-352 - CWE definition,352,Bugzilla,2013-10-24,CSRF
+CVE-2013-0786,CWE-200 - CWE definition,200,Bugzilla,2013-02-24,+Info
+CVE-2013-0785,CWE-79 - CWE definition,79,Bugzilla,2013-02-24,XSS
+CVE-2012-5884,CWE-200 - CWE definition,200,Bugzilla,2012-11-16,+Info
+CVE-2012-5883,CWE-79 - CWE definition,79,Bugzilla,2012-11-16,XSS
+CVE-2012-4747,CWE-264 - CWE definition,264,Bugzilla,2012-09-04,
+CVE-2012-4199,CWE-200 - CWE definition,200,Bugzilla,2012-11-16,+Info
+CVE-2012-4198,CWE-200 - CWE definition,200,Bugzilla,2012-11-16,+Info
+CVE-2012-4197,CWE-200 - CWE definition,200,Bugzilla,2012-11-16,+Info
+CVE-2012-4189,CWE-79 - CWE definition,79,Bugzilla,2012-11-16,XSS
+CVE-2012-3981,CWE-255 - CWE definition,255,Bugzilla,2012-09-04,
+CVE-2012-1969,CWE-264 - CWE definition,264,Bugzilla,2012-07-30,+Info
+CVE-2012-1968,CWE-264 - CWE definition,264,Bugzilla,2012-07-30,+Info
+CVE-2012-0466,CWE-264 - CWE definition,264,Bugzilla,2012-04-27,XSS +Info
+CVE-2012-0465,CWE-264 - CWE definition,264,Bugzilla,2012-04-27,Bypass
+CVE-2012-0453,CWE-352 - CWE definition,352,Bugzilla,2012-02-24,CSRF
+CVE-2012-0448,CWE-20 - CWE definition,20,Bugzilla,2012-02-02,
+CVE-2012-0440,CWE-352 - CWE definition,352,Bugzilla,2012-02-02,CSRF
+CVE-2011-3669,CWE-352 - CWE definition,352,Bugzilla,2012-01-02,CSRF
+CVE-2011-3668,CWE-352 - CWE definition,352,Bugzilla,2012-01-02,CSRF
+CVE-2011-3667,CWE-287 - CWE definition,287,Bugzilla,2012-01-02,
+CVE-2011-3657,CWE-79 - CWE definition,79,Bugzilla,2012-01-02,XSS
+CVE-2011-2979,,,Bugzilla,2011-08-09,
+CVE-2011-2978,CWE-20 - CWE definition,20,Bugzilla,2011-08-09,
+CVE-2011-2977,,,Bugzilla,2011-08-09,+Info
+CVE-2011-2976,CWE-79 - CWE definition,79,Bugzilla,2011-08-09,XSS
+CVE-2011-2381,CWE-94 - CWE definition,94,Bugzilla,2011-08-09,
+CVE-2011-2380,CWE-200 - CWE definition,200,Bugzilla,2011-08-09,+Info
+CVE-2011-2379,CWE-79 - CWE definition,79,Bugzilla,2011-08-09,XSS
+CVE-2011-0048,CWE-79 - CWE definition,79,Bugzilla,2011-01-28,XSS
+CVE-2011-0046,CWE-352 - CWE definition,352,Bugzilla,2011-01-28,CSRF
+CVE-2010-4572,CWE-94 - CWE definition,94,Bugzilla,2011-01-28,Http R.Spl.
+CVE-2010-4570,CWE-79 - CWE definition,79,Bugzilla,2011-01-28,XSS
+CVE-2010-4569,CWE-79 - CWE definition,79,Bugzilla,2011-01-28,XSS
+CVE-2010-4568,CWE-264 - CWE definition,264,Bugzilla,2011-01-28,
+CVE-2010-4567,CWE-79 - CWE definition,79,Bugzilla,2011-01-28,XSS
+CVE-2018-5123,CWE-352 - CWE definition,352,Bugzilla,2019-04-29,
+CVE-2016-2803,CWE-79 - CWE definition,79,Bugzilla,2017-04-12,XSS
+CVE-2015-8509,CWE-200 - CWE definition,200,Bugzilla,2016-01-03,+Info
+CVE-2015-8508,CWE-79 - CWE definition,79,Bugzilla,2016-01-03,XSS
+CVE-2015-4499,CWE-20 - CWE definition,20,Bugzilla,2015-09-13,
+CVE-2014-8630,CWE-77 - CWE definition,77,Bugzilla,2015-02-01,Exec Code
+CVE-2014-1573,CWE-79 - CWE definition,79,Bugzilla,2014-10-12,XSS
+CVE-2014-1572,CWE-264 - CWE definition,264,Bugzilla,2014-10-12,
+CVE-2014-1571,CWE-200 - CWE definition,200,Bugzilla,2014-10-12,+Info
+CVE-2014-1546,CWE-352 - CWE definition,352,Bugzilla,2014-08-14,+Info CSRF
+CVE-2014-1517,CWE-287 - CWE definition,287,Bugzilla,2014-04-19,+Info CSRF
+CVE-2013-1743,CWE-79 - CWE definition,79,Bugzilla,2013-10-24,XSS
+CVE-2013-1742,CWE-79 - CWE definition,79,Bugzilla,2013-10-24,XSS
+CVE-2013-1734,CWE-352 - CWE definition,352,Bugzilla,2013-10-24,CSRF
+CVE-2013-1733,CWE-352 - CWE definition,352,Bugzilla,2013-10-24,CSRF
+CVE-2013-0786,CWE-200 - CWE definition,200,Bugzilla,2013-02-24,+Info
+CVE-2013-0785,CWE-79 - CWE definition,79,Bugzilla,2013-02-24,XSS
+CVE-2012-5884,CWE-200 - CWE definition,200,Bugzilla,2012-11-16,+Info
+CVE-2012-5883,CWE-79 - CWE definition,79,Bugzilla,2012-11-16,XSS
+CVE-2012-4747,CWE-264 - CWE definition,264,Bugzilla,2012-09-04,
+CVE-2012-4199,CWE-200 - CWE definition,200,Bugzilla,2012-11-16,+Info
+CVE-2012-4198,CWE-200 - CWE definition,200,Bugzilla,2012-11-16,+Info
+CVE-2012-4197,CWE-200 - CWE definition,200,Bugzilla,2012-11-16,+Info
+CVE-2012-4189,CWE-79 - CWE definition,79,Bugzilla,2012-11-16,XSS
+CVE-2012-3981,CWE-255 - CWE definition,255,Bugzilla,2012-09-04,
+CVE-2012-1969,CWE-264 - CWE definition,264,Bugzilla,2012-07-30,+Info
+CVE-2012-1968,CWE-264 - CWE definition,264,Bugzilla,2012-07-30,+Info
+CVE-2012-0466,CWE-264 - CWE definition,264,Bugzilla,2012-04-27,XSS +Info
+CVE-2012-0465,CWE-264 - CWE definition,264,Bugzilla,2012-04-27,Bypass
+CVE-2012-0453,CWE-352 - CWE definition,352,Bugzilla,2012-02-24,CSRF
+CVE-2012-0448,CWE-20 - CWE definition,20,Bugzilla,2012-02-02,
+CVE-2012-0440,CWE-352 - CWE definition,352,Bugzilla,2012-02-02,CSRF
+CVE-2011-3669,CWE-352 - CWE definition,352,Bugzilla,2012-01-02,CSRF
+CVE-2011-3668,CWE-352 - CWE definition,352,Bugzilla,2012-01-02,CSRF
+CVE-2011-3667,CWE-287 - CWE definition,287,Bugzilla,2012-01-02,
+CVE-2011-3657,CWE-79 - CWE definition,79,Bugzilla,2012-01-02,XSS
+CVE-2011-2979,,,Bugzilla,2011-08-09,
+CVE-2011-2978,CWE-20 - CWE definition,20,Bugzilla,2011-08-09,
+CVE-2011-2977,,,Bugzilla,2011-08-09,+Info
+CVE-2011-2976,CWE-79 - CWE definition,79,Bugzilla,2011-08-09,XSS
+CVE-2011-2381,CWE-94 - CWE definition,94,Bugzilla,2011-08-09,
+CVE-2011-2380,CWE-200 - CWE definition,200,Bugzilla,2011-08-09,+Info
+CVE-2011-2379,CWE-79 - CWE definition,79,Bugzilla,2011-08-09,XSS
+CVE-2011-0048,CWE-79 - CWE definition,79,Bugzilla,2011-01-28,XSS
+CVE-2011-0046,CWE-352 - CWE definition,352,Bugzilla,2011-01-28,CSRF
+CVE-2010-4572,CWE-94 - CWE definition,94,Bugzilla,2011-01-28,Http R.Spl.
+CVE-2010-4570,CWE-79 - CWE definition,79,Bugzilla,2011-01-28,XSS
+CVE-2010-4569,CWE-79 - CWE definition,79,Bugzilla,2011-01-28,XSS
+CVE-2010-4568,CWE-264 - CWE definition,264,Bugzilla,2011-01-28,
+CVE-2010-4567,CWE-79 - CWE definition,79,Bugzilla,2011-01-28,XSS
+CVE-2018-5123,CWE-352 - CWE definition,352,Bugzilla,2019-04-29,
+CVE-2016-2803,CWE-79 - CWE definition,79,Bugzilla,2017-04-12,XSS
+CVE-2015-8509,CWE-200 - CWE definition,200,Bugzilla,2016-01-03,+Info
+CVE-2015-8508,CWE-79 - CWE definition,79,Bugzilla,2016-01-03,XSS
+CVE-2015-4499,CWE-20 - CWE definition,20,Bugzilla,2015-09-13,
+CVE-2014-8630,CWE-77 - CWE definition,77,Bugzilla,2015-02-01,Exec Code
+CVE-2014-1573,CWE-79 - CWE definition,79,Bugzilla,2014-10-12,XSS
+CVE-2014-1572,CWE-264 - CWE definition,264,Bugzilla,2014-10-12,
+CVE-2014-1571,CWE-200 - CWE definition,200,Bugzilla,2014-10-12,+Info
+CVE-2014-1546,CWE-352 - CWE definition,352,Bugzilla,2014-08-14,+Info CSRF
+CVE-2014-1517,CWE-287 - CWE definition,287,Bugzilla,2014-04-19,+Info CSRF
+CVE-2013-1743,CWE-79 - CWE definition,79,Bugzilla,2013-10-24,XSS
+CVE-2013-1742,CWE-79 - CWE definition,79,Bugzilla,2013-10-24,XSS
+CVE-2013-1734,CWE-352 - CWE definition,352,Bugzilla,2013-10-24,CSRF
+CVE-2013-1733,CWE-352 - CWE definition,352,Bugzilla,2013-10-24,CSRF
+CVE-2013-0786,CWE-200 - CWE definition,200,Bugzilla,2013-02-24,+Info
+CVE-2013-0785,CWE-79 - CWE definition,79,Bugzilla,2013-02-24,XSS
+CVE-2012-5884,CWE-200 - CWE definition,200,Bugzilla,2012-11-16,+Info
+CVE-2012-5883,CWE-79 - CWE definition,79,Bugzilla,2012-11-16,XSS
+CVE-2012-4747,CWE-264 - CWE definition,264,Bugzilla,2012-09-04,
+CVE-2012-4199,CWE-200 - CWE definition,200,Bugzilla,2012-11-16,+Info
+CVE-2012-4198,CWE-200 - CWE definition,200,Bugzilla,2012-11-16,+Info
+CVE-2012-4197,CWE-200 - CWE definition,200,Bugzilla,2012-11-16,+Info
+CVE-2012-4189,CWE-79 - CWE definition,79,Bugzilla,2012-11-16,XSS
+CVE-2012-3981,CWE-255 - CWE definition,255,Bugzilla,2012-09-04,
+CVE-2012-1969,CWE-264 - CWE definition,264,Bugzilla,2012-07-30,+Info
+CVE-2012-1968,CWE-264 - CWE definition,264,Bugzilla,2012-07-30,+Info
+CVE-2012-0466,CWE-264 - CWE definition,264,Bugzilla,2012-04-27,XSS +Info
+CVE-2012-0465,CWE-264 - CWE definition,264,Bugzilla,2012-04-27,Bypass
+CVE-2012-0453,CWE-352 - CWE definition,352,Bugzilla,2012-02-24,CSRF
+CVE-2012-0448,CWE-20 - CWE definition,20,Bugzilla,2012-02-02,
+CVE-2012-0440,CWE-352 - CWE definition,352,Bugzilla,2012-02-02,CSRF
+CVE-2011-3669,CWE-352 - CWE definition,352,Bugzilla,2012-01-02,CSRF
+CVE-2011-3668,CWE-352 - CWE definition,352,Bugzilla,2012-01-02,CSRF
+CVE-2011-3667,CWE-287 - CWE definition,287,Bugzilla,2012-01-02,
+CVE-2011-3657,CWE-79 - CWE definition,79,Bugzilla,2012-01-02,XSS
+CVE-2011-2979,,,Bugzilla,2011-08-09,
+CVE-2011-2978,CWE-20 - CWE definition,20,Bugzilla,2011-08-09,
+CVE-2011-2977,,,Bugzilla,2011-08-09,+Info
+CVE-2011-2976,CWE-79 - CWE definition,79,Bugzilla,2011-08-09,XSS
+CVE-2011-2381,CWE-94 - CWE definition,94,Bugzilla,2011-08-09,
+CVE-2011-2380,CWE-200 - CWE definition,200,Bugzilla,2011-08-09,+Info
+CVE-2011-2379,CWE-79 - CWE definition,79,Bugzilla,2011-08-09,XSS
+CVE-2011-0048,CWE-79 - CWE definition,79,Bugzilla,2011-01-28,XSS
+CVE-2011-0046,CWE-352 - CWE definition,352,Bugzilla,2011-01-28,CSRF
+CVE-2010-4572,CWE-94 - CWE definition,94,Bugzilla,2011-01-28,Http R.Spl.
+CVE-2010-4570,CWE-79 - CWE definition,79,Bugzilla,2011-01-28,XSS
+CVE-2010-4569,CWE-79 - CWE definition,79,Bugzilla,2011-01-28,XSS
+CVE-2010-4568,CWE-264 - CWE definition,264,Bugzilla,2011-01-28,
+CVE-2010-4567,CWE-79 - CWE definition,79,Bugzilla,2011-01-28,XSS

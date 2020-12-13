@@ -1,0 +1,13 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2019-15531,CWE-125 - CWE definition,125,Libextractor,2019-08-23,
+CVE-2018-20431,CWE-476 - CWE definition,476,Libextractor,2018-12-24,
+CVE-2018-20430,CWE-125 - CWE definition,125,Libextractor,2018-12-24,
+CVE-2018-16430,CWE-125 - CWE definition,125,Libextractor,2018-09-03,
+CVE-2018-14347,CWE-835 - CWE definition,835,Libextractor,2018-07-17,
+CVE-2017-17440,CWE-476 - CWE definition,476,Libextractor,2017-12-06,DoS
+CVE-2017-15922,CWE-125 - CWE definition,125,Libextractor,2017-10-26,
+CVE-2017-15602,CWE-835 - CWE definition,835,Libextractor,2017-10-18,
+CVE-2017-15601,CWE-119 - CWE definition,119,Libextractor,2017-10-18,Overflow
+CVE-2017-15600,CWE-476 - CWE definition,476,Libextractor,2017-10-18,
+CVE-2017-15267,CWE-476 - CWE definition,476,Libextractor,2017-10-11,
+CVE-2017-15266,CWE-369 - CWE definition,369,Libextractor,2017-10-11,

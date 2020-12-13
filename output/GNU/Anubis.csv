@@ -1,0 +1,3 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2004-0354,,,Anubis,2004-11-23,Exec Code
+CVE-2004-0353,,,Anubis,2004-11-23,Overflow +Priv

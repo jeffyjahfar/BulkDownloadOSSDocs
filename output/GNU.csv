@@ -1,0 +1,102 @@
+Product,URL,Num_Vulnerabilities
+A2ps,/vulnerability-list/vendor_id-72/product_id-4046/GNU-A2ps.html,5,4046,72
+Adns,/vulnerability-list/vendor_id-72/product_id-14951/GNU-Adns.html,1,14951,72
+Anubis,/vulnerability-list/vendor_id-72/product_id-3901/GNU-Anubis.html,2,3901,72
+Aspell,/vulnerability-list/vendor_id-72/product_id-3716/GNU-Aspell.html,1,3716,72
+Automake,/vulnerability-list/vendor_id-72/product_id-18502/GNU-Automake.html,2,18502,72
+Bash,/vulnerability-list/vendor_id-72/product_id-21050/GNU-Bash.html,16,21050,72
+Binutils,/vulnerability-list/vendor_id-72/product_id-6825/GNU-Binutils.html,179,6825,72
+Cfengine,/vulnerability-list/vendor_id-72/product_id-1041/GNU-Cfengine.html,6,1041,72
+Cflow,/vulnerability-list/vendor_id-72/product_id-59240/GNU-Cflow.html,2,59240,72
+Chess,/vulnerability-list/vendor_id-72/product_id-1867/GNU-Chess.html,2,1867,72
+Classpath,/vulnerability-list/vendor_id-72/product_id-15725/GNU-Classpath.html,1,15725,72
+Coreutils,/vulnerability-list/vendor_id-72/product_id-5075/GNU-Coreutils.html,10,5075,72
+Cpio,/vulnerability-list/vendor_id-72/product_id-5080/GNU-Cpio.html,8,5080,72
+CVS,/vulnerability-list/vendor_id-72/product_id-40040/GNU-CVS.html,1,40040,72
+Data Display Debugger,/vulnerability-list/vendor_id-72/product_id-2545/GNU-Data-Display-Debugger.html,1,2545,72
+ED,/vulnerability-list/vendor_id-72/product_id-1094/GNU-ED.html,4,1094,72
+Eglibc,/vulnerability-list/vendor_id-72/product_id-20649/GNU-Eglibc.html,3,20649,72
+Emacs,/vulnerability-list/vendor_id-72/product_id-741/GNU-Emacs.html,21,741,72
+Enscript,/vulnerability-list/vendor_id-72/product_id-1800/GNU-Enscript.html,5,1800,72
+Escript,/vulnerability-list/vendor_id-72/product_id-15742/GNU-Escript.html,1,15742,72
+Fileutils,/vulnerability-list/vendor_id-72/product_id-2008/GNU-Fileutils.html,3,2008,72
+Findutils,/vulnerability-list/vendor_id-72/product_id-1521/GNU-Findutils.html,2,1521,72
+Finger Service,/vulnerability-list/vendor_id-72/product_id-122/GNU-Finger-Service.html,1,122,72
+Fingerd,/vulnerability-list/vendor_id-72/product_id-123/GNU-Fingerd.html,3,123,72
+Flash Player,/vulnerability-list/vendor_id-72/product_id-11072/GNU-Flash-Player.html,1,11072,72
+Flim,/vulnerability-list/vendor_id-72/product_id-3622/GNU-Flim.html,1,3622,72
+G++,/vulnerability-list/vendor_id-72/product_id-959/GNU-G-.html,1,959,72
+GCC,/vulnerability-list/vendor_id-72/product_id-960/GNU-GCC.html,8,960,72
+GDB,/vulnerability-list/vendor_id-72/product_id-5321/GNU-GDB.html,6,5321,72
+Gettext,/vulnerability-list/vendor_id-72/product_id-4701/GNU-Gettext.html,2,4701,72
+Gimp,/vulnerability-list/vendor_id-72/product_id-11980/GNU-Gimp.html,4,11980,72
+Glibc,/vulnerability-list/vendor_id-72/product_id-767/GNU-Glibc.html,108,767,72
+Global,/vulnerability-list/vendor_id-72/product_id-42182/GNU-Global.html,1,42182,72
+Gnash,/vulnerability-list/vendor_id-72/product_id-20395/GNU-Gnash.html,3,20395,72
+Gnats,/vulnerability-list/vendor_id-72/product_id-4014/GNU-Gnats.html,3,4014,72
+Gnu Patch,/vulnerability-list/vendor_id-72/product_id-20583/GNU-Gnu-Patch.html,1,20583,72
+Gnu Screen,/vulnerability-list/vendor_id-72/product_id-17190/GNU-Gnu-Screen.html,2,17190,72
+Gnubiff,/vulnerability-list/vendor_id-72/product_id-4402/GNU-Gnubiff.html,3,4402,72
+Gnumail,/vulnerability-list/vendor_id-72/product_id-10514/GNU-Gnumail.html,1,10514,72
+Gnumeric,/vulnerability-list/vendor_id-72/product_id-457/GNU-Gnumeric.html,1,457,72
+Gnump3d,/vulnerability-list/vendor_id-72/product_id-5997/GNU-Gnump3d.html,6,5997,72
+Gnutls,/vulnerability-list/vendor_id-72/product_id-4433/GNU-Gnutls.html,51,4433,72
+Gnutls Libtasn1,/vulnerability-list/vendor_id-72/product_id-38055/GNU-Gnutls-Libtasn1.html,1,38055,72
+Gpgme,/vulnerability-list/vendor_id-72/product_id-10513/GNU-Gpgme.html,2,10513,72
+Grep,/vulnerability-list/vendor_id-72/product_id-23804/GNU-Grep.html,2,23804,72
+Groff,/vulnerability-list/vendor_id-72/product_id-1066/GNU-Groff.html,11,1066,72
+Grub,/vulnerability-list/vendor_id-72/product_id-27576/GNU-Grub.html,1,27576,72
+Grub 2,/vulnerability-list/vendor_id-72/product_id-18384/GNU-Grub-2.html,1,18384,72
+Grub Legacy,/vulnerability-list/vendor_id-72/product_id-14856/GNU-Grub-Legacy.html,1,14856,72
+Grub2,/vulnerability-list/vendor_id-72/product_id-32736/GNU-Grub2.html,1,32736,72
+Guile,/vulnerability-list/vendor_id-72/product_id-35586/GNU-Guile.html,2,35586,72
+Guixsd,/vulnerability-list/vendor_id-72/product_id-42930/GNU-Guixsd.html,1,42930,72
+GV,/vulnerability-list/vendor_id-72/product_id-9192/GNU-GV.html,2,9192,72
+Gzip,/vulnerability-list/vendor_id-72/product_id-1670/GNU-Gzip.html,9,1670,72
+Ibackup,/vulnerability-list/vendor_id-72/product_id-15110/GNU-Ibackup.html,1,15110,72
+Iceweasel,/vulnerability-list/vendor_id-72/product_id-10909/GNU-Iceweasel.html,1,10909,72
+Inet,/vulnerability-list/vendor_id-72/product_id-137/GNU-Inet.html,4,137,72
+Inetutils,/vulnerability-list/vendor_id-72/product_id-4157/GNU-Inetutils.html,1,4157,72
+Ksymoops,/vulnerability-list/vendor_id-72/product_id-3705/GNU-Ksymoops.html,1,3705,72
+Less,/vulnerability-list/vendor_id-72/product_id-4294/GNU-Less.html,2,4294,72
+Libc,/vulnerability-list/vendor_id-72/product_id-119/GNU-Libc.html,1,119,72
+Libcdio,/vulnerability-list/vendor_id-72/product_id-12832/GNU-Libcdio.html,4,12832,72
+Libextractor,/vulnerability-list/vendor_id-72/product_id-40839/GNU-Libextractor.html,12,40839,72
+Libiberty,/vulnerability-list/vendor_id-72/product_id-23096/GNU-Libiberty.html,10,23096,72
+Libidn,/vulnerability-list/vendor_id-72/product_id-34531/GNU-Libidn.html,5,34531,72
+Libmicrohttpd,/vulnerability-list/vendor_id-72/product_id-26645/GNU-Libmicrohttpd.html,2,26645,72
+Libssp,/vulnerability-list/vendor_id-72/product_id-38265/GNU-Libssp.html,1,38265,72
+Libtasn1,/vulnerability-list/vendor_id-72/product_id-22173/GNU-Libtasn1.html,10,22173,72
+Libtool,/vulnerability-list/vendor_id-72/product_id-3917/GNU-Libtool.html,2,3917,72
+Libtool-ltdl,/vulnerability-list/vendor_id-72/product_id-9833/GNU-Libtool-ltdl.html,1,9833,72
+LSH,/vulnerability-list/vendor_id-72/product_id-3099/GNU-LSH.html,2,3099,72
+M4,/vulnerability-list/vendor_id-72/product_id-13775/GNU-M4.html,2,13775,72
+Mailman,/vulnerability-list/vendor_id-72/product_id-913/GNU-Mailman.html,35,913,72
+Mailutils,/vulnerability-list/vendor_id-72/product_id-4161/GNU-Mailutils.html,7,4161,72
+Make,/vulnerability-list/vendor_id-72/product_id-663/GNU-Make.html,1,663,72
+Nano,/vulnerability-list/vendor_id-72/product_id-19122/GNU-Nano.html,2,19122,72
+Ncurses,/vulnerability-list/vendor_id-72/product_id-38464/GNU-Ncurses.html,13,38464,72
+Osip,/vulnerability-list/vendor_id-72/product_id-37079/GNU-Osip.html,4,37079,72
+Parallel,/vulnerability-list/vendor_id-72/product_id-31790/GNU-Parallel.html,2,31790,72
+Patch,/vulnerability-list/vendor_id-72/product_id-30942/GNU-Patch.html,10,30942,72
+Phpbook,/vulnerability-list/vendor_id-72/product_id-5628/GNU-Phpbook.html,3,5628,72
+Privacy Guard,/vulnerability-list/vendor_id-72/product_id-1056/GNU-Privacy-Guard.html,10,1056,72
+Pspp,/vulnerability-list/vendor_id-72/product_id-38732/GNU-Pspp.html,8,38732,72
+Queue,/vulnerability-list/vendor_id-72/product_id-4056/GNU-Queue.html,1,4056,72
+Radius,/vulnerability-list/vendor_id-72/product_id-1806/GNU-Radius.html,6,1806,72
+Readline,/vulnerability-list/vendor_id-72/product_id-28345/GNU-Readline.html,1,28345,72
+Realtime Linux Security Module,/vulnerability-list/vendor_id-72/product_id-4043/GNU-Realtime-Linux-Security-Module.html,1,4043,72
+Recutils,/vulnerability-list/vendor_id-72/product_id-52109/GNU-Recutils.html,10,52109,72
+Rsync,/vulnerability-list/vendor_id-72/product_id-3492/GNU-Rsync.html,1,3492,72
+Rush,/vulnerability-list/vendor_id-72/product_id-27589/GNU-Rush.html,1,27589,72
+Sccs,/vulnerability-list/vendor_id-72/product_id-13872/GNU-Sccs.html,1,13872,72
+Screen,/vulnerability-list/vendor_id-72/product_id-1860/GNU-Screen.html,6,1860,72
+Sharutils,/vulnerability-list/vendor_id-72/product_id-1920/GNU-Sharutils.html,5,1920,72
+TAR,/vulnerability-list/vendor_id-72/product_id-1394/GNU-TAR.html,13,1394,72
+Texinfo,/vulnerability-list/vendor_id-72/product_id-5857/GNU-Texinfo.html,2,5857,72
+Tramp,/vulnerability-list/vendor_id-72/product_id-12314/GNU-Tramp.html,1,12314,72
+Userv,/vulnerability-list/vendor_id-72/product_id-953/GNU-Userv.html,1,953,72
+Wget,/vulnerability-list/vendor_id-72/product_id-332/GNU-Wget.html,15,332,72
+Xemacs,/vulnerability-list/vendor_id-72/product_id-4750/GNU-Xemacs.html,2,4750,72
+Zebra,/vulnerability-list/vendor_id-72/product_id-3163/GNU-Zebra.html,3,3163,72
+Zlib,/vulnerability-list/vendor_id-72/product_id-1820/GNU-Zlib.html,9,1820,72

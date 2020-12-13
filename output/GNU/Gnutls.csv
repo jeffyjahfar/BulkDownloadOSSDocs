@@ -1,0 +1,101 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2019-3836,CWE-824 - CWE definition,824,Gnutls,2019-04-01,
+CVE-2019-3829,CWE-415 - CWE definition,415,Gnutls,2019-03-27,Mem. Corr.
+CVE-2018-16868,CWE-310 - CWE definition,310,Gnutls,2018-12-03,
+CVE-2018-10846,CWE-327 - CWE definition,327,Gnutls,2018-08-22,
+CVE-2018-10845,CWE-327 - CWE definition,327,Gnutls,2018-08-22,
+CVE-2018-10844,CWE-327 - CWE definition,327,Gnutls,2018-08-22,
+CVE-2017-7869,CWE-787 - CWE definition,787,Gnutls,2017-04-14,Overflow
+CVE-2017-7507,CWE-476 - CWE definition,476,Gnutls,2017-06-16,
+CVE-2017-5337,CWE-119 - CWE definition,119,Gnutls,2017-03-24,Overflow
+CVE-2017-5336,CWE-119 - CWE definition,119,Gnutls,2017-03-24,Overflow
+CVE-2017-5335,CWE-125 - CWE definition,125,Gnutls,2017-03-24,DoS
+CVE-2017-5334,CWE-415 - CWE definition,415,Gnutls,2017-03-24,
+CVE-2016-7444,CWE-264 - CWE definition,264,Gnutls,2016-09-27,Bypass
+CVE-2015-6251,,,Gnutls,2015-08-24,DoS
+CVE-2015-3308,,,Gnutls,2015-09-02,DoS
+CVE-2015-0282,CWE-310 - CWE definition,310,Gnutls,2015-03-24,
+CVE-2014-8564,CWE-310 - CWE definition,310,Gnutls,2014-11-13,DoS
+CVE-2014-8155,CWE-17 - CWE definition,17,Gnutls,2015-08-14,
+CVE-2014-3469,,,Gnutls,2014-06-05,DoS
+CVE-2014-3468,CWE-189 - CWE definition,189,Gnutls,2014-06-05,
+CVE-2014-3467,,,Gnutls,2014-06-05,DoS
+CVE-2014-3466,CWE-119 - CWE definition,119,Gnutls,2014-06-03,DoS Exec Code Overflow Mem. Corr.
+CVE-2014-3465,,,Gnutls,2014-06-10,DoS
+CVE-2014-1959,CWE-264 - CWE definition,264,Gnutls,2014-03-06,Bypass
+CVE-2014-0092,CWE-310 - CWE definition,310,Gnutls,2014-03-06,
+CVE-2013-4487,CWE-189 - CWE definition,189,Gnutls,2013-11-20,DoS Mem. Corr.
+CVE-2013-4466,CWE-119 - CWE definition,119,Gnutls,2013-11-20,DoS Overflow Mem. Corr.
+CVE-2013-2116,CWE-20 - CWE definition,20,Gnutls,2013-07-03,DoS
+CVE-2013-1619,CWE-310 - CWE definition,310,Gnutls,2013-02-08,
+CVE-2012-1663,CWE-399 - CWE definition,399,Gnutls,2012-03-13,DoS
+CVE-2012-1573,CWE-310 - CWE definition,310,Gnutls,2012-03-26,DoS Mem. Corr.
+CVE-2012-1569,CWE-189 - CWE definition,189,Gnutls,2012-03-26,DoS Mem. Corr.
+CVE-2012-0390,CWE-310 - CWE definition,310,Gnutls,2012-01-05,Exec Code
+CVE-2011-4128,CWE-119 - CWE definition,119,Gnutls,2011-12-08,DoS Overflow
+CVE-2010-0731,CWE-119 - CWE definition,119,Gnutls,2010-03-26,Overflow Bypass
+CVE-2009-5138,CWE-264 - CWE definition,264,Gnutls,2014-03-06,Bypass
+CVE-2009-3555,CWE-310 - CWE definition,310,Gnutls,2009-11-09,
+CVE-2009-2730,CWE-310 - CWE definition,310,Gnutls,2009-08-12,
+CVE-2009-2409,CWE-310 - CWE definition,310,Gnutls,2009-07-30,
+CVE-2009-1417,CWE-310 - CWE definition,310,Gnutls,2009-04-30,
+CVE-2009-1416,CWE-310 - CWE definition,310,Gnutls,2009-04-30,
+CVE-2009-1415,CWE-255 - CWE definition,255,Gnutls,2009-04-30,DoS
+CVE-2008-4989,CWE-255 - CWE definition,255,Gnutls,2008-11-12,
+CVE-2008-2377,CWE-119 - CWE definition,119,Gnutls,2008-08-08,DoS Exec Code Overflow
+CVE-2008-1950,CWE-189 - CWE definition,189,Gnutls,2008-05-21,DoS
+CVE-2008-1949,CWE-287 - CWE definition,287,Gnutls,2008-05-21,DoS
+CVE-2008-1948,CWE-189 - CWE definition,189,Gnutls,2008-05-21,DoS Exec Code Overflow
+CVE-2006-7239,CWE-310 - CWE definition,310,Gnutls,2010-05-24,DoS
+CVE-2006-4790,,,Gnutls,2006-09-14,
+CVE-2005-1431,,,Gnutls,2005-05-03,DoS
+CVE-2019-3836,CWE-824 - CWE definition,824,Gnutls,2019-04-01,
+CVE-2019-3829,CWE-415 - CWE definition,415,Gnutls,2019-03-27,Mem. Corr.
+CVE-2018-16868,CWE-310 - CWE definition,310,Gnutls,2018-12-03,
+CVE-2018-10846,CWE-327 - CWE definition,327,Gnutls,2018-08-22,
+CVE-2018-10845,CWE-327 - CWE definition,327,Gnutls,2018-08-22,
+CVE-2018-10844,CWE-327 - CWE definition,327,Gnutls,2018-08-22,
+CVE-2017-7869,CWE-787 - CWE definition,787,Gnutls,2017-04-14,Overflow
+CVE-2017-7507,CWE-476 - CWE definition,476,Gnutls,2017-06-16,
+CVE-2017-5337,CWE-119 - CWE definition,119,Gnutls,2017-03-24,Overflow
+CVE-2017-5336,CWE-119 - CWE definition,119,Gnutls,2017-03-24,Overflow
+CVE-2017-5335,CWE-125 - CWE definition,125,Gnutls,2017-03-24,DoS
+CVE-2017-5334,CWE-415 - CWE definition,415,Gnutls,2017-03-24,
+CVE-2016-7444,CWE-264 - CWE definition,264,Gnutls,2016-09-27,Bypass
+CVE-2015-6251,,,Gnutls,2015-08-24,DoS
+CVE-2015-3308,,,Gnutls,2015-09-02,DoS
+CVE-2015-0282,CWE-310 - CWE definition,310,Gnutls,2015-03-24,
+CVE-2014-8564,CWE-310 - CWE definition,310,Gnutls,2014-11-13,DoS
+CVE-2014-8155,CWE-17 - CWE definition,17,Gnutls,2015-08-14,
+CVE-2014-3469,,,Gnutls,2014-06-05,DoS
+CVE-2014-3468,CWE-189 - CWE definition,189,Gnutls,2014-06-05,
+CVE-2014-3467,,,Gnutls,2014-06-05,DoS
+CVE-2014-3466,CWE-119 - CWE definition,119,Gnutls,2014-06-03,DoS Exec Code Overflow Mem. Corr.
+CVE-2014-3465,,,Gnutls,2014-06-10,DoS
+CVE-2014-1959,CWE-264 - CWE definition,264,Gnutls,2014-03-06,Bypass
+CVE-2014-0092,CWE-310 - CWE definition,310,Gnutls,2014-03-06,
+CVE-2013-4487,CWE-189 - CWE definition,189,Gnutls,2013-11-20,DoS Mem. Corr.
+CVE-2013-4466,CWE-119 - CWE definition,119,Gnutls,2013-11-20,DoS Overflow Mem. Corr.
+CVE-2013-2116,CWE-20 - CWE definition,20,Gnutls,2013-07-03,DoS
+CVE-2013-1619,CWE-310 - CWE definition,310,Gnutls,2013-02-08,
+CVE-2012-1663,CWE-399 - CWE definition,399,Gnutls,2012-03-13,DoS
+CVE-2012-1573,CWE-310 - CWE definition,310,Gnutls,2012-03-26,DoS Mem. Corr.
+CVE-2012-1569,CWE-189 - CWE definition,189,Gnutls,2012-03-26,DoS Mem. Corr.
+CVE-2012-0390,CWE-310 - CWE definition,310,Gnutls,2012-01-05,Exec Code
+CVE-2011-4128,CWE-119 - CWE definition,119,Gnutls,2011-12-08,DoS Overflow
+CVE-2010-0731,CWE-119 - CWE definition,119,Gnutls,2010-03-26,Overflow Bypass
+CVE-2009-5138,CWE-264 - CWE definition,264,Gnutls,2014-03-06,Bypass
+CVE-2009-3555,CWE-310 - CWE definition,310,Gnutls,2009-11-09,
+CVE-2009-2730,CWE-310 - CWE definition,310,Gnutls,2009-08-12,
+CVE-2009-2409,CWE-310 - CWE definition,310,Gnutls,2009-07-30,
+CVE-2009-1417,CWE-310 - CWE definition,310,Gnutls,2009-04-30,
+CVE-2009-1416,CWE-310 - CWE definition,310,Gnutls,2009-04-30,
+CVE-2009-1415,CWE-255 - CWE definition,255,Gnutls,2009-04-30,DoS
+CVE-2008-4989,CWE-255 - CWE definition,255,Gnutls,2008-11-12,
+CVE-2008-2377,CWE-119 - CWE definition,119,Gnutls,2008-08-08,DoS Exec Code Overflow
+CVE-2008-1950,CWE-189 - CWE definition,189,Gnutls,2008-05-21,DoS
+CVE-2008-1949,CWE-287 - CWE definition,287,Gnutls,2008-05-21,DoS
+CVE-2008-1948,CWE-189 - CWE definition,189,Gnutls,2008-05-21,DoS Exec Code Overflow
+CVE-2006-7239,CWE-310 - CWE definition,310,Gnutls,2010-05-24,DoS
+CVE-2006-4790,,,Gnutls,2006-09-14,
+CVE-2005-1431,,,Gnutls,2005-05-03,DoS

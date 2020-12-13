@@ -1,0 +1,21 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2012-3979,,,Firefox Mobile,2012-08-29,Exec Code
+CVE-2012-1144,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1143,CWE-189 - CWE definition,189,Firefox Mobile,2012-04-25,DoS
+CVE-2012-1142,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1141,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1140,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1139,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1138,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1137,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1136,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1135,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1134,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1133,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1132,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1131,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1130,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1129,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1128,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1127,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.
+CVE-2012-1126,CWE-119 - CWE definition,119,Firefox Mobile,2012-04-25,DoS Exec Code Overflow Mem. Corr.

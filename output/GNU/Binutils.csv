@@ -1,0 +1,180 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2019-1010204,CWE-125 - CWE definition,125,Binutils,2019-07-23,DoS
+CVE-2019-17451,CWE-190 - CWE definition,190,Binutils,2019-10-10,Overflow
+CVE-2019-17450,CWE-674 - CWE definition,674,Binutils,2019-10-10,DoS
+CVE-2019-14444,CWE-190 - CWE definition,190,Binutils,2019-07-30,Overflow
+CVE-2019-14250,CWE-190 - CWE definition,190,Binutils,2019-07-24,Overflow
+CVE-2019-12972,CWE-125 - CWE definition,125,Binutils,2019-06-26,
+CVE-2019-9077,CWE-119 - CWE definition,119,Binutils,2019-02-23,Overflow
+CVE-2019-9076,CWE-399 - CWE definition,399,Binutils,2019-02-23,
+CVE-2019-9075,CWE-119 - CWE definition,119,Binutils,2019-02-23,Overflow
+CVE-2019-9074,CWE-125 - CWE definition,125,Binutils,2019-02-23,
+CVE-2019-9073,CWE-399 - CWE definition,399,Binutils,2019-02-23,
+CVE-2019-9072,CWE-399 - CWE definition,399,Binutils,2019-02-23,
+CVE-2019-9071,CWE-399 - CWE definition,399,Binutils,2019-02-23,
+CVE-2019-9070,CWE-125 - CWE definition,125,Binutils,2019-02-23,
+CVE-2018-1000876,CWE-190 - CWE definition,190,Binutils,2018-12-20,Exec Code Overflow
+CVE-2018-20712,CWE-125 - CWE definition,125,Binutils,2019-01-14,
+CVE-2018-20673,CWE-190 - CWE definition,190,Binutils,2019-01-04,Overflow
+CVE-2018-20671,CWE-190 - CWE definition,190,Binutils,2019-01-04,Overflow
+CVE-2018-20657,CWE-772 - CWE definition,772,Binutils,2019-01-02,DoS
+CVE-2018-20651,CWE-476 - CWE definition,476,Binutils,2019-01-01,DoS
+CVE-2018-20623,CWE-416 - CWE definition,416,Binutils,2018-12-31,
+CVE-2018-20002,CWE-772 - CWE definition,772,Binutils,2018-12-09,DoS
+CVE-2018-19932,CWE-190 - CWE definition,190,Binutils,2018-12-07,Overflow
+CVE-2018-19931,CWE-119 - CWE definition,119,Binutils,2018-12-07,Overflow
+CVE-2018-18701,CWE-835 - CWE definition,835,Binutils,2018-10-29,
+CVE-2018-18700,CWE-835 - CWE definition,835,Binutils,2018-10-29,
+CVE-2018-18607,CWE-476 - CWE definition,476,Binutils,2018-10-23,DoS
+CVE-2018-18606,CWE-476 - CWE definition,476,Binutils,2018-10-23,DoS
+CVE-2018-18605,CWE-125 - CWE definition,125,Binutils,2018-10-23,DoS
+CVE-2018-18484,CWE-400 - CWE definition,400,Binutils,2018-10-18,
+CVE-2018-18483,CWE-190 - CWE definition,190,Binutils,2018-10-18,DoS Overflow
+CVE-2018-18309,CWE-119 - CWE definition,119,Binutils,2018-10-14,DoS Overflow
+CVE-2018-17985,CWE-400 - CWE definition,400,Binutils,2018-10-04,
+CVE-2018-17794,CWE-476 - CWE definition,476,Binutils,2018-09-30,
+CVE-2018-17360,CWE-125 - CWE definition,125,Binutils,2018-09-23,DoS
+CVE-2018-17359,CWE-119 - CWE definition,119,Binutils,2018-09-23,DoS Overflow
+CVE-2018-17358,CWE-119 - CWE definition,119,Binutils,2018-09-23,DoS Overflow
+CVE-2018-13033,CWE-770 - CWE definition,770,Binutils,2018-07-01,DoS
+CVE-2018-12934,CWE-770 - CWE definition,770,Binutils,2018-06-28,
+CVE-2018-12700,CWE-835 - CWE definition,835,Binutils,2018-06-23,
+CVE-2018-12699,CWE-787 - CWE definition,787,Binutils,2018-06-23,DoS Overflow
+CVE-2018-12698,,,Binutils,2018-06-23,
+CVE-2018-12697,CWE-476 - CWE definition,476,Binutils,2018-06-23,
+CVE-2018-12641,CWE-400 - CWE definition,400,Binutils,2018-06-22,
+CVE-2018-10535,CWE-476 - CWE definition,476,Binutils,2018-04-29,DoS
+CVE-2018-10534,CWE-787 - CWE definition,787,Binutils,2018-04-29,
+CVE-2018-10373,CWE-476 - CWE definition,476,Binutils,2018-04-25,DoS
+CVE-2018-10372,CWE-125 - CWE definition,125,Binutils,2018-04-25,DoS
+CVE-2018-9996,CWE-674 - CWE definition,674,Binutils,2018-04-10,
+CVE-2018-9138,CWE-674 - CWE definition,674,Binutils,2018-03-30,
+CVE-2018-8945,CWE-20 - CWE definition,20,Binutils,2018-03-22,DoS
+CVE-2018-7643,CWE-190 - CWE definition,190,Binutils,2018-03-02,DoS Overflow
+CVE-2018-7642,CWE-476 - CWE definition,476,Binutils,2018-03-02,DoS
+CVE-2018-7570,CWE-476 - CWE definition,476,Binutils,2018-02-28,DoS
+CVE-2018-7569,CWE-190 - CWE definition,190,Binutils,2018-02-28,DoS Overflow
+CVE-2018-7568,CWE-190 - CWE definition,190,Binutils,2018-02-28,DoS Overflow
+CVE-2018-7208,CWE-20 - CWE definition,20,Binutils,2018-02-17,DoS
+CVE-2018-6872,CWE-125 - CWE definition,125,Binutils,2018-02-09,DoS
+CVE-2018-6759,CWE-20 - CWE definition,20,Binutils,2018-02-06,DoS
+CVE-2018-6543,CWE-190 - CWE definition,190,Binutils,2018-02-02,DoS Overflow
+CVE-2018-6323,CWE-190 - CWE definition,190,Binutils,2018-01-26,DoS Overflow
+CVE-2017-17126,CWE-119 - CWE definition,119,Binutils,2017-12-04,DoS Overflow
+CVE-2017-17125,CWE-125 - CWE definition,125,Binutils,2017-12-04,DoS
+CVE-2017-17124,CWE-119 - CWE definition,119,Binutils,2017-12-04,DoS Overflow
+CVE-2017-17123,CWE-476 - CWE definition,476,Binutils,2017-12-04,DoS
+CVE-2017-17122,CWE-190 - CWE definition,190,Binutils,2017-12-04,DoS Overflow
+CVE-2017-17121,CWE-119 - CWE definition,119,Binutils,2017-12-04,DoS Overflow
+CVE-2017-17080,CWE-125 - CWE definition,125,Binutils,2017-11-30,DoS
+CVE-2017-16832,CWE-190 - CWE definition,190,Binutils,2017-11-15,DoS
+CVE-2017-16831,CWE-190 - CWE definition,190,Binutils,2017-11-15,DoS Overflow
+CVE-2017-16830,CWE-190 - CWE definition,190,Binutils,2017-11-15,DoS Overflow
+CVE-2017-16829,CWE-125 - CWE definition,125,Binutils,2017-11-15,DoS
+CVE-2017-16828,CWE-190 - CWE definition,190,Binutils,2017-11-15,DoS Overflow
+CVE-2017-16827,CWE-119 - CWE definition,119,Binutils,2017-11-15,DoS Overflow
+CVE-2017-16826,CWE-119 - CWE definition,119,Binutils,2017-11-15,DoS Overflow
+CVE-2017-15996,CWE-119 - CWE definition,119,Binutils,2017-10-29,DoS Overflow
+CVE-2017-15939,CWE-476 - CWE definition,476,Binutils,2017-10-27,DoS
+CVE-2017-15938,CWE-119 - CWE definition,119,Binutils,2017-10-27,DoS Overflow
+CVE-2017-15225,CWE-772 - CWE definition,772,Binutils,2017-10-10,DoS
+CVE-2017-15025,CWE-369 - CWE definition,369,Binutils,2017-10-04,DoS
+CVE-2017-15024,CWE-835 - CWE definition,835,Binutils,2017-10-04,DoS
+CVE-2017-15023,CWE-476 - CWE definition,476,Binutils,2017-10-04,DoS
+CVE-2017-15022,CWE-476 - CWE definition,476,Binutils,2017-10-04,DoS
+CVE-2017-15021,CWE-125 - CWE definition,125,Binutils,2017-10-04,DoS
+CVE-2017-15020,CWE-125 - CWE definition,125,Binutils,2017-10-04,DoS
+CVE-2017-14974,CWE-476 - CWE definition,476,Binutils,2017-10-01,DoS
+CVE-2017-14940,CWE-476 - CWE definition,476,Binutils,2017-09-29,DoS
+CVE-2017-14939,CWE-125 - CWE definition,125,Binutils,2017-09-29,DoS
+CVE-2017-14938,CWE-770 - CWE definition,770,Binutils,2017-09-29,DoS
+CVE-2017-14934,CWE-131 - CWE definition,131,Binutils,2017-09-29,DoS
+CVE-2017-14933,CWE-835 - CWE definition,835,Binutils,2017-09-29,DoS
+CVE-2017-14932,CWE-835 - CWE definition,835,Binutils,2017-09-29,DoS
+CVE-2017-14930,CWE-772 - CWE definition,772,Binutils,2017-09-29,DoS
+CVE-2017-14745,CWE-190 - CWE definition,190,Binutils,2017-09-26,DoS Overflow
+CVE-2017-14729,CWE-119 - CWE definition,119,Binutils,2017-09-25,DoS Overflow
+CVE-2017-14529,CWE-125 - CWE definition,125,Binutils,2017-09-17,DoS
+CVE-2017-14333,CWE-190 - CWE definition,190,Binutils,2017-09-12,DoS Overflow
+CVE-2017-14130,CWE-125 - CWE definition,125,Binutils,2017-09-04,DoS
+CVE-2017-14129,CWE-125 - CWE definition,125,Binutils,2017-09-04,DoS
+CVE-2017-14128,CWE-125 - CWE definition,125,Binutils,2017-09-04,DoS
+CVE-2017-13757,CWE-125 - CWE definition,125,Binutils,2017-08-29,DoS
+CVE-2017-13716,CWE-770 - CWE definition,770,Binutils,2017-08-28,DoS
+CVE-2017-13710,CWE-476 - CWE definition,476,Binutils,2017-08-27,DoS
+CVE-2017-12967,CWE-125 - CWE definition,125,Binutils,2017-08-19,DoS
+CVE-2017-12799,CWE-119 - CWE definition,119,Binutils,2017-08-10,DoS Overflow
+CVE-2017-12459,CWE-787 - CWE definition,787,Binutils,2017-08-04,Exec Code
+CVE-2017-12458,CWE-125 - CWE definition,125,Binutils,2017-08-04,
+CVE-2017-12457,CWE-476 - CWE definition,476,Binutils,2017-08-04,
+CVE-2017-12456,CWE-125 - CWE definition,125,Binutils,2017-08-04,
+CVE-2017-12455,CWE-125 - CWE definition,125,Binutils,2017-08-04,
+CVE-2017-12454,CWE-125 - CWE definition,125,Binutils,2017-08-04,
+CVE-2017-12453,CWE-125 - CWE definition,125,Binutils,2017-08-04,
+CVE-2017-12452,CWE-125 - CWE definition,125,Binutils,2017-08-04,
+CVE-2017-12451,CWE-125 - CWE definition,125,Binutils,2017-08-04,
+CVE-2017-12450,CWE-787 - CWE definition,787,Binutils,2017-08-04,Exec Code
+CVE-2017-12449,CWE-125 - CWE definition,125,Binutils,2017-08-04,
+CVE-2017-12448,CWE-416 - CWE definition,416,Binutils,2017-08-04,Exec Code
+CVE-2017-9955,CWE-125 - CWE definition,125,Binutils,2017-06-26,DoS
+CVE-2017-9954,CWE-125 - CWE definition,125,Binutils,2017-06-26,DoS
+CVE-2017-9756,CWE-119 - CWE definition,119,Binutils,2017-06-19,DoS Exec Code Overflow
+CVE-2017-9755,CWE-119 - CWE definition,119,Binutils,2017-06-19,DoS Exec Code Overflow
+CVE-2017-9754,CWE-119 - CWE definition,119,Binutils,2017-06-19,DoS Overflow
+CVE-2017-9753,CWE-119 - CWE definition,119,Binutils,2017-06-19,DoS Overflow
+CVE-2017-9752,CWE-119 - CWE definition,119,Binutils,2017-06-19,DoS Overflow
+CVE-2017-9751,CWE-119 - CWE definition,119,Binutils,2017-06-19,DoS Exec Code Overflow
+CVE-2017-9750,CWE-119 - CWE definition,119,Binutils,2017-06-19,DoS Exec Code Overflow
+CVE-2017-9749,CWE-119 - CWE definition,119,Binutils,2017-06-19,DoS Exec Code Overflow
+CVE-2017-9748,CWE-119 - CWE definition,119,Binutils,2017-06-19,DoS Overflow
+CVE-2017-9747,CWE-119 - CWE definition,119,Binutils,2017-06-19,DoS Overflow
+CVE-2017-9746,CWE-119 - CWE definition,119,Binutils,2017-06-19,DoS Overflow
+CVE-2017-9745,CWE-119 - CWE definition,119,Binutils,2017-06-19,DoS Overflow
+CVE-2017-9744,CWE-119 - CWE definition,119,Binutils,2017-06-19,DoS Overflow
+CVE-2017-9743,CWE-119 - CWE definition,119,Binutils,2017-06-19,DoS Exec Code Overflow
+CVE-2017-9742,CWE-119 - CWE definition,119,Binutils,2017-06-19,DoS Exec Code Overflow
+CVE-2017-9044,CWE-125 - CWE definition,125,Binutils,2017-05-17,DoS
+CVE-2017-9043,CWE-20 - CWE definition,20,Binutils,2017-05-17,DoS
+CVE-2017-9042,CWE-704 - CWE definition,704,Binutils,2017-05-17,DoS
+CVE-2017-9041,CWE-125 - CWE definition,125,Binutils,2017-05-17,DoS
+CVE-2017-9040,CWE-476 - CWE definition,476,Binutils,2017-05-17,DoS
+CVE-2017-9039,CWE-770 - CWE definition,770,Binutils,2017-05-17,DoS
+CVE-2017-9038,CWE-125 - CWE definition,125,Binutils,2017-05-17,DoS
+CVE-2017-8421,CWE-772 - CWE definition,772,Binutils,2017-05-02,
+CVE-2017-8398,CWE-119 - CWE definition,119,Binutils,2017-05-01,Overflow
+CVE-2017-8397,CWE-119 - CWE definition,119,Binutils,2017-05-01,Overflow
+CVE-2017-8396,CWE-20 - CWE definition,20,Binutils,2017-05-01,
+CVE-2017-8395,CWE-476 - CWE definition,476,Binutils,2017-05-01,
+CVE-2017-8394,CWE-476 - CWE definition,476,Binutils,2017-05-01,
+CVE-2017-8393,CWE-125 - CWE definition,125,Binutils,2017-05-01,
+CVE-2017-8392,CWE-476 - CWE definition,476,Binutils,2017-05-01,
+CVE-2017-7614,CWE-476 - CWE definition,476,Binutils,2017-04-09,DoS
+CVE-2017-7304,CWE-125 - CWE definition,125,Binutils,2017-03-29,
+CVE-2017-7303,CWE-125 - CWE definition,125,Binutils,2017-03-29,
+CVE-2017-7302,CWE-125 - CWE definition,125,Binutils,2017-03-29,
+CVE-2017-7301,CWE-20 - CWE definition,20,Binutils,2017-03-29,
+CVE-2017-7300,CWE-125 - CWE definition,125,Binutils,2017-03-29,
+CVE-2017-7299,CWE-125 - CWE definition,125,Binutils,2017-03-29,
+CVE-2017-7227,CWE-119 - CWE definition,119,Binutils,2017-03-22,Overflow
+CVE-2017-7226,CWE-125 - CWE definition,125,Binutils,2017-03-22,
+CVE-2017-7225,CWE-476 - CWE definition,476,Binutils,2017-03-22,
+CVE-2017-7224,CWE-787 - CWE definition,787,Binutils,2017-03-22,
+CVE-2017-7223,CWE-119 - CWE definition,119,Binutils,2017-03-22,Overflow
+CVE-2017-7210,CWE-119 - CWE definition,119,Binutils,2017-03-21,Overflow
+CVE-2017-7209,CWE-476 - CWE definition,476,Binutils,2017-03-21,
+CVE-2017-6969,CWE-125 - CWE definition,125,Binutils,2017-03-17,+Info
+CVE-2017-6966,CWE-416 - CWE definition,416,Binutils,2017-03-17,
+CVE-2017-6965,CWE-119 - CWE definition,119,Binutils,2017-03-17,Overflow
+CVE-2014-9939,CWE-119 - CWE definition,119,Binutils,2017-03-21,Overflow
+CVE-2014-8738,CWE-119 - CWE definition,119,Binutils,2015-01-15,DoS Overflow
+CVE-2014-8737,CWE-22 - CWE definition,22,Binutils,2014-12-09,Dir. Trav.
+CVE-2014-8504,CWE-119 - CWE definition,119,Binutils,2014-12-09,DoS Overflow
+CVE-2014-8503,CWE-119 - CWE definition,119,Binutils,2014-12-09,DoS Overflow
+CVE-2014-8502,CWE-119 - CWE definition,119,Binutils,2014-12-09,DoS Overflow
+CVE-2014-8501,CWE-119 - CWE definition,119,Binutils,2014-12-09,DoS Overflow
+CVE-2014-8485,CWE-94 - CWE definition,94,Binutils,2014-12-09,DoS Exec Code
+CVE-2014-8484,CWE-119 - CWE definition,119,Binutils,2014-12-09,DoS Overflow
+CVE-2012-3509,CWE-189 - CWE definition,189,Binutils,2012-09-05,DoS Overflow
+CVE-2006-2362,,,Binutils,2006-05-15,DoS Exec Code Overflow
+CVE-2005-4808,,,Binutils,2005-12-31,Overflow
+CVE-2005-4807,CWE-119 - CWE definition,119,Binutils,2005-12-31,Exec Code Overflow

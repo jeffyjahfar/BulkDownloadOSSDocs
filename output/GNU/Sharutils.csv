@@ -1,0 +1,6 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2018-1000097,CWE-119 - CWE definition,119,Sharutils,2018-03-12,Exec Code Overflow
+CVE-2005-0990,,,Sharutils,2005-05-02,
+CVE-2004-1773,,,Sharutils,2004-12-31,Exec Code Overflow
+CVE-2004-1772,,,Sharutils,2004-12-31,Exec Code Overflow
+CVE-2002-0178,,,Sharutils,2002-05-29,Exec Code

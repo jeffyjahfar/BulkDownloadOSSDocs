@@ -1,0 +1,47 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2018-12438,CWE-320 - CWE definition,320,Network Security Services,2018-06-14,
+CVE-2018-12437,CWE-320 - CWE definition,320,Network Security Services,2018-06-14,
+CVE-2018-12433,CWE-320 - CWE definition,320,Network Security Services,2018-06-14,
+CVE-2018-12404,CWE-310 - CWE definition,310,Network Security Services,2019-05-02,
+CVE-2018-12384,CWE-254 - CWE definition,254,Network Security Services,2019-04-29,
+CVE-2017-11698,CWE-119 - CWE definition,119,Network Security Services,2017-12-27,Overflow
+CVE-2017-11697,CWE-119 - CWE definition,119,Network Security Services,2017-12-27,DoS Overflow
+CVE-2017-11696,CWE-119 - CWE definition,119,Network Security Services,2017-12-27,Overflow
+CVE-2017-11695,CWE-119 - CWE definition,119,Network Security Services,2017-12-27,Overflow
+CVE-2017-7502,CWE-476 - CWE definition,476,Network Security Services,2017-05-30,DoS
+CVE-2017-5462,CWE-682 - CWE definition,682,Network Security Services,2018-06-11,
+CVE-2017-5461,CWE-787 - CWE definition,787,Network Security Services,2017-05-10,DoS
+CVE-2016-9574,CWE-384 - CWE definition,384,Network Security Services,2018-07-19,DoS
+CVE-2016-8635,CWE-320 - CWE definition,320,Network Security Services,2018-08-01,
+CVE-2016-2834,,,Network Security Services,2016-06-13,DoS Mem. Corr.
+CVE-2016-1979,,,Network Security Services,2016-03-13,DoS
+CVE-2016-1978,,,Network Security Services,2016-03-13,DoS
+CVE-2016-1950,CWE-119 - CWE definition,119,Network Security Services,2016-03-13,Exec Code Overflow
+CVE-2015-7575,CWE-19 - CWE definition,19,Network Security Services,2016-01-08,
+CVE-2015-7183,CWE-119 - CWE definition,119,Network Security Services,2015-11-05,DoS Exec Code Overflow Mem. Corr.
+CVE-2015-7182,CWE-119 - CWE definition,119,Network Security Services,2015-11-05,DoS Exec Code Overflow
+CVE-2015-7181,CWE-119 - CWE definition,119,Network Security Services,2015-11-05,DoS Exec Code Overflow
+CVE-2015-4000,CWE-310 - CWE definition,310,Network Security Services,2015-05-20,
+CVE-2015-2730,CWE-310 - CWE definition,310,Network Security Services,2015-07-05,
+CVE-2015-2721,CWE-310 - CWE definition,310,Network Security Services,2015-07-05,
+CVE-2014-1569,,,Network Security Services,2014-12-15,
+CVE-2014-1568,CWE-310 - CWE definition,310,Network Security Services,2014-09-25,
+CVE-2014-1544,,,Network Security Services,2014-07-23,Exec Code
+CVE-2014-1492,CWE-20 - CWE definition,20,Network Security Services,2014-03-25,
+CVE-2014-1491,CWE-310 - CWE definition,310,Network Security Services,2014-02-06,Bypass
+CVE-2014-1490,CWE-399 - CWE definition,399,Network Security Services,2014-02-06,DoS
+CVE-2013-5606,CWE-264 - CWE definition,264,Network Security Services,2013-11-18,Bypass
+CVE-2013-5605,CWE-20 - CWE definition,20,Network Security Services,2013-11-18,DoS
+CVE-2013-1741,CWE-189 - CWE definition,189,Network Security Services,2013-11-18,DoS Overflow
+CVE-2013-1740,CWE-310 - CWE definition,310,Network Security Services,2014-01-18,
+CVE-2013-1739,,,Network Security Services,2013-10-22,DoS
+CVE-2013-1620,CWE-310 - CWE definition,310,Network Security Services,2013-02-08,
+CVE-2013-0791,CWE-119 - CWE definition,119,Network Security Services,2013-04-03,DoS Overflow Mem. Corr.
+CVE-2012-0441,CWE-119 - CWE definition,119,Network Security Services,2012-06-05,DoS Overflow
+CVE-2011-5094,,,Network Security Services,2012-06-16,DoS
+CVE-2009-2404,CWE-119 - CWE definition,119,Network Security Services,2009-08-03,DoS Exec Code Overflow
+CVE-2007-0009,CWE-119 - CWE definition,119,Network Security Services,2007-02-26,Exec Code Overflow
+CVE-2007-0008,CWE-189 - CWE definition,189,Network Security Services,2007-02-26,Exec Code Overflow
+CVE-2006-5462,,,Network Security Services,2006-11-08,
+CVE-2006-4340,CWE-20 - CWE definition,20,Network Security Services,2006-09-15,
+CVE-2004-0826,,,Network Security Services,2004-12-31,Exec Code Overflow

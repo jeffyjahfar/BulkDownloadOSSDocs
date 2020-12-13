@@ -1,0 +1,4 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2003-0854,,,Fileutils,2003-11-17,
+CVE-2003-0853,,,Fileutils,2003-11-17,DoS Exec Code Overflow
+CVE-2002-0435,,,Fileutils,2002-07-26,

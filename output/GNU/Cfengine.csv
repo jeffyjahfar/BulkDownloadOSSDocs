@@ -1,0 +1,7 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2005-3137,,,Cfengine,2005-10-05,
+CVE-2005-2960,,,Cfengine,2005-10-05,
+CVE-2004-1702,,,Cfengine,2004-08-09,DoS
+CVE-2004-1701,,,Cfengine,2004-08-09,Exec Code Overflow
+CVE-2003-0849,,,Cfengine,2003-11-17,Exec Code Overflow
+CVE-2000-0947,,,Cfengine,2000-12-19,Exec Code

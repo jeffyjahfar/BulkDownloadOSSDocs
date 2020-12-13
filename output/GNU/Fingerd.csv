@@ -1,0 +1,4 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-1999-1165,,,Fingerd,1999-07-21,+Priv
+CVE-1999-0612,,,Fingerd,1997-03-01,
+CVE-1999-0150,,,Fingerd,1997-07-01,Exec Code

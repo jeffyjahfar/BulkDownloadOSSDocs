@@ -1,0 +1,5 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2012-3236,CWE-119 - CWE definition,119,Gimp,2012-07-12,DoS Overflow
+CVE-2011-2896,CWE-119 - CWE definition,119,Gimp,2011-08-19,Exec Code Overflow
+CVE-2011-1178,CWE-189 - CWE definition,189,Gimp,2011-06-06,DoS Exec Code Overflow
+CVE-2007-3741,,,Gimp,2007-08-27,DoS

@@ -1,0 +1,151 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2019-1010025,CWE-200 - CWE definition,200,Glibc,2019-07-15,Bypass +Info
+CVE-2019-1010024,CWE-200 - CWE definition,200,Glibc,2019-07-15,Bypass +Info
+CVE-2019-1010023,CWE-264 - CWE definition,264,Glibc,2019-07-15,Exec Code
+CVE-2019-1010022,CWE-119 - CWE definition,119,Glibc,2019-07-15,Overflow Bypass
+CVE-2019-9169,CWE-125 - CWE definition,125,Glibc,2019-02-25,
+CVE-2018-1000001,CWE-787 - CWE definition,787,Glibc,2018-01-31,Exec Code
+CVE-2018-20796,CWE-674 - CWE definition,674,Glibc,2019-02-25,
+CVE-2018-19591,CWE-20 - CWE definition,20,Glibc,2018-12-04,
+CVE-2018-11237,CWE-119 - CWE definition,119,Glibc,2018-05-18,Overflow
+CVE-2018-11236,CWE-190 - CWE definition,190,Glibc,2018-05-18,Exec Code Overflow
+CVE-2018-6551,CWE-119 - CWE definition,119,Glibc,2018-02-02,Overflow
+CVE-2018-6485,CWE-190 - CWE definition,190,Glibc,2018-02-01,Overflow
+CVE-2017-1000409,CWE-119 - CWE definition,119,Glibc,2018-01-31,Overflow
+CVE-2017-1000408,CWE-772 - CWE definition,772,Glibc,2018-01-31,
+CVE-2017-1000366,CWE-119 - CWE definition,119,Glibc,2017-06-19,Exec Code Overflow
+CVE-2017-18269,CWE-119 - CWE definition,119,Glibc,2018-05-18,DoS Exec Code Overflow
+CVE-2017-17426,CWE-190 - CWE definition,190,Glibc,2017-12-05,Overflow
+CVE-2017-16997,CWE-426 - CWE definition,426,Glibc,2017-12-17,+Priv
+CVE-2017-15804,CWE-119 - CWE definition,119,Glibc,2017-10-22,Overflow
+CVE-2017-15671,CWE-772 - CWE definition,772,Glibc,2017-10-20,DoS
+CVE-2017-15670,CWE-119 - CWE definition,119,Glibc,2017-10-20,Overflow
+CVE-2017-12133,CWE-416 - CWE definition,416,Glibc,2017-09-07,
+CVE-2017-12132,CWE-770 - CWE definition,770,Glibc,2017-08-01,
+CVE-2017-8804,CWE-502 - CWE definition,502,Glibc,2017-05-07,DoS
+CVE-2016-10739,CWE-20 - CWE definition,20,Glibc,2019-01-21,
+CVE-2016-10228,CWE-20 - CWE definition,20,Glibc,2017-03-01,DoS
+CVE-2016-6323,CWE-284 - CWE definition,284,Glibc,2016-10-07,DoS
+CVE-2016-5417,CWE-399 - CWE definition,399,Glibc,2017-02-16,DoS
+CVE-2016-4429,CWE-20 - CWE definition,20,Glibc,2016-06-10,DoS Overflow
+CVE-2016-3706,CWE-20 - CWE definition,20,Glibc,2016-06-10,DoS Overflow
+CVE-2016-3075,CWE-119 - CWE definition,119,Glibc,2016-06-01,DoS Overflow
+CVE-2016-1234,CWE-119 - CWE definition,119,Glibc,2016-06-01,DoS Overflow
+CVE-2015-8985,CWE-19 - CWE definition,19,Glibc,2017-03-20,DoS
+CVE-2015-8984,CWE-125 - CWE definition,125,Glibc,2017-03-20,DoS
+CVE-2015-8983,CWE-190 - CWE definition,190,Glibc,2017-03-20,DoS Exec Code Overflow
+CVE-2015-8982,CWE-190 - CWE definition,190,Glibc,2017-03-15,DoS Exec Code Overflow
+CVE-2015-8779,CWE-119 - CWE definition,119,Glibc,2016-04-19,DoS Exec Code Overflow
+CVE-2015-8778,CWE-119 - CWE definition,119,Glibc,2016-04-19,DoS Exec Code Overflow
+CVE-2015-8777,CWE-254 - CWE definition,254,Glibc,2016-01-20,Bypass
+CVE-2015-8776,CWE-189 - CWE definition,189,Glibc,2016-04-19,DoS +Info
+CVE-2015-7547,CWE-119 - CWE definition,119,Glibc,2016-02-18,DoS Exec Code Overflow
+CVE-2015-5277,CWE-119 - CWE definition,119,Glibc,2015-12-17,DoS Overflow +Priv
+CVE-2015-5180,CWE-476 - CWE definition,476,Glibc,2017-06-27,DoS
+CVE-2015-1781,CWE-119 - CWE definition,119,Glibc,2015-09-28,DoS Exec Code Overflow
+CVE-2015-1473,CWE-119 - CWE definition,119,Glibc,2015-04-08,DoS Overflow
+CVE-2015-1472,CWE-119 - CWE definition,119,Glibc,2015-04-08,DoS Overflow
+CVE-2015-0235,CWE-119 - CWE definition,119,Glibc,2015-01-28,Exec Code Overflow
+CVE-2014-9984,CWE-119 - CWE definition,119,Glibc,2017-06-12,Exec Code Overflow
+CVE-2014-9761,CWE-119 - CWE definition,119,Glibc,2016-04-19,DoS Exec Code Overflow
+CVE-2014-9402,CWE-399 - CWE definition,399,Glibc,2015-02-24,DoS
+CVE-2019-1010025,CWE-200 - CWE definition,200,Glibc,2019-07-15,Bypass +Info
+CVE-2019-1010024,CWE-200 - CWE definition,200,Glibc,2019-07-15,Bypass +Info
+CVE-2019-1010023,CWE-264 - CWE definition,264,Glibc,2019-07-15,Exec Code
+CVE-2019-1010022,CWE-119 - CWE definition,119,Glibc,2019-07-15,Overflow Bypass
+CVE-2019-9169,CWE-125 - CWE definition,125,Glibc,2019-02-25,
+CVE-2018-1000001,CWE-787 - CWE definition,787,Glibc,2018-01-31,Exec Code
+CVE-2018-20796,CWE-674 - CWE definition,674,Glibc,2019-02-25,
+CVE-2018-19591,CWE-20 - CWE definition,20,Glibc,2018-12-04,
+CVE-2018-11237,CWE-119 - CWE definition,119,Glibc,2018-05-18,Overflow
+CVE-2018-11236,CWE-190 - CWE definition,190,Glibc,2018-05-18,Exec Code Overflow
+CVE-2018-6551,CWE-119 - CWE definition,119,Glibc,2018-02-02,Overflow
+CVE-2018-6485,CWE-190 - CWE definition,190,Glibc,2018-02-01,Overflow
+CVE-2017-1000409,CWE-119 - CWE definition,119,Glibc,2018-01-31,Overflow
+CVE-2017-1000408,CWE-772 - CWE definition,772,Glibc,2018-01-31,
+CVE-2017-1000366,CWE-119 - CWE definition,119,Glibc,2017-06-19,Exec Code Overflow
+CVE-2017-18269,CWE-119 - CWE definition,119,Glibc,2018-05-18,DoS Exec Code Overflow
+CVE-2017-17426,CWE-190 - CWE definition,190,Glibc,2017-12-05,Overflow
+CVE-2017-16997,CWE-426 - CWE definition,426,Glibc,2017-12-17,+Priv
+CVE-2017-15804,CWE-119 - CWE definition,119,Glibc,2017-10-22,Overflow
+CVE-2017-15671,CWE-772 - CWE definition,772,Glibc,2017-10-20,DoS
+CVE-2017-15670,CWE-119 - CWE definition,119,Glibc,2017-10-20,Overflow
+CVE-2017-12133,CWE-416 - CWE definition,416,Glibc,2017-09-07,
+CVE-2017-12132,CWE-770 - CWE definition,770,Glibc,2017-08-01,
+CVE-2017-8804,CWE-502 - CWE definition,502,Glibc,2017-05-07,DoS
+CVE-2016-10739,CWE-20 - CWE definition,20,Glibc,2019-01-21,
+CVE-2016-10228,CWE-20 - CWE definition,20,Glibc,2017-03-01,DoS
+CVE-2016-6323,CWE-284 - CWE definition,284,Glibc,2016-10-07,DoS
+CVE-2016-5417,CWE-399 - CWE definition,399,Glibc,2017-02-16,DoS
+CVE-2016-4429,CWE-20 - CWE definition,20,Glibc,2016-06-10,DoS Overflow
+CVE-2016-3706,CWE-20 - CWE definition,20,Glibc,2016-06-10,DoS Overflow
+CVE-2016-3075,CWE-119 - CWE definition,119,Glibc,2016-06-01,DoS Overflow
+CVE-2016-1234,CWE-119 - CWE definition,119,Glibc,2016-06-01,DoS Overflow
+CVE-2015-8985,CWE-19 - CWE definition,19,Glibc,2017-03-20,DoS
+CVE-2015-8984,CWE-125 - CWE definition,125,Glibc,2017-03-20,DoS
+CVE-2015-8983,CWE-190 - CWE definition,190,Glibc,2017-03-20,DoS Exec Code Overflow
+CVE-2015-8982,CWE-190 - CWE definition,190,Glibc,2017-03-15,DoS Exec Code Overflow
+CVE-2015-8779,CWE-119 - CWE definition,119,Glibc,2016-04-19,DoS Exec Code Overflow
+CVE-2015-8778,CWE-119 - CWE definition,119,Glibc,2016-04-19,DoS Exec Code Overflow
+CVE-2015-8777,CWE-254 - CWE definition,254,Glibc,2016-01-20,Bypass
+CVE-2015-8776,CWE-189 - CWE definition,189,Glibc,2016-04-19,DoS +Info
+CVE-2015-7547,CWE-119 - CWE definition,119,Glibc,2016-02-18,DoS Exec Code Overflow
+CVE-2015-5277,CWE-119 - CWE definition,119,Glibc,2015-12-17,DoS Overflow +Priv
+CVE-2015-5180,CWE-476 - CWE definition,476,Glibc,2017-06-27,DoS
+CVE-2015-1781,CWE-119 - CWE definition,119,Glibc,2015-09-28,DoS Exec Code Overflow
+CVE-2015-1473,CWE-119 - CWE definition,119,Glibc,2015-04-08,DoS Overflow
+CVE-2015-1472,CWE-119 - CWE definition,119,Glibc,2015-04-08,DoS Overflow
+CVE-2015-0235,CWE-119 - CWE definition,119,Glibc,2015-01-28,Exec Code Overflow
+CVE-2014-9984,CWE-119 - CWE definition,119,Glibc,2017-06-12,Exec Code Overflow
+CVE-2014-9761,CWE-119 - CWE definition,119,Glibc,2016-04-19,DoS Exec Code Overflow
+CVE-2014-9402,CWE-399 - CWE definition,399,Glibc,2015-02-24,DoS
+CVE-2019-1010025,CWE-200 - CWE definition,200,Glibc,2019-07-15,Bypass +Info
+CVE-2019-1010024,CWE-200 - CWE definition,200,Glibc,2019-07-15,Bypass +Info
+CVE-2019-1010023,CWE-264 - CWE definition,264,Glibc,2019-07-15,Exec Code
+CVE-2019-1010022,CWE-119 - CWE definition,119,Glibc,2019-07-15,Overflow Bypass
+CVE-2019-9169,CWE-125 - CWE definition,125,Glibc,2019-02-25,
+CVE-2018-1000001,CWE-787 - CWE definition,787,Glibc,2018-01-31,Exec Code
+CVE-2018-20796,CWE-674 - CWE definition,674,Glibc,2019-02-25,
+CVE-2018-19591,CWE-20 - CWE definition,20,Glibc,2018-12-04,
+CVE-2018-11237,CWE-119 - CWE definition,119,Glibc,2018-05-18,Overflow
+CVE-2018-11236,CWE-190 - CWE definition,190,Glibc,2018-05-18,Exec Code Overflow
+CVE-2018-6551,CWE-119 - CWE definition,119,Glibc,2018-02-02,Overflow
+CVE-2018-6485,CWE-190 - CWE definition,190,Glibc,2018-02-01,Overflow
+CVE-2017-1000409,CWE-119 - CWE definition,119,Glibc,2018-01-31,Overflow
+CVE-2017-1000408,CWE-772 - CWE definition,772,Glibc,2018-01-31,
+CVE-2017-1000366,CWE-119 - CWE definition,119,Glibc,2017-06-19,Exec Code Overflow
+CVE-2017-18269,CWE-119 - CWE definition,119,Glibc,2018-05-18,DoS Exec Code Overflow
+CVE-2017-17426,CWE-190 - CWE definition,190,Glibc,2017-12-05,Overflow
+CVE-2017-16997,CWE-426 - CWE definition,426,Glibc,2017-12-17,+Priv
+CVE-2017-15804,CWE-119 - CWE definition,119,Glibc,2017-10-22,Overflow
+CVE-2017-15671,CWE-772 - CWE definition,772,Glibc,2017-10-20,DoS
+CVE-2017-15670,CWE-119 - CWE definition,119,Glibc,2017-10-20,Overflow
+CVE-2017-12133,CWE-416 - CWE definition,416,Glibc,2017-09-07,
+CVE-2017-12132,CWE-770 - CWE definition,770,Glibc,2017-08-01,
+CVE-2017-8804,CWE-502 - CWE definition,502,Glibc,2017-05-07,DoS
+CVE-2016-10739,CWE-20 - CWE definition,20,Glibc,2019-01-21,
+CVE-2016-10228,CWE-20 - CWE definition,20,Glibc,2017-03-01,DoS
+CVE-2016-6323,CWE-284 - CWE definition,284,Glibc,2016-10-07,DoS
+CVE-2016-5417,CWE-399 - CWE definition,399,Glibc,2017-02-16,DoS
+CVE-2016-4429,CWE-20 - CWE definition,20,Glibc,2016-06-10,DoS Overflow
+CVE-2016-3706,CWE-20 - CWE definition,20,Glibc,2016-06-10,DoS Overflow
+CVE-2016-3075,CWE-119 - CWE definition,119,Glibc,2016-06-01,DoS Overflow
+CVE-2016-1234,CWE-119 - CWE definition,119,Glibc,2016-06-01,DoS Overflow
+CVE-2015-8985,CWE-19 - CWE definition,19,Glibc,2017-03-20,DoS
+CVE-2015-8984,CWE-125 - CWE definition,125,Glibc,2017-03-20,DoS
+CVE-2015-8983,CWE-190 - CWE definition,190,Glibc,2017-03-20,DoS Exec Code Overflow
+CVE-2015-8982,CWE-190 - CWE definition,190,Glibc,2017-03-15,DoS Exec Code Overflow
+CVE-2015-8779,CWE-119 - CWE definition,119,Glibc,2016-04-19,DoS Exec Code Overflow
+CVE-2015-8778,CWE-119 - CWE definition,119,Glibc,2016-04-19,DoS Exec Code Overflow
+CVE-2015-8777,CWE-254 - CWE definition,254,Glibc,2016-01-20,Bypass
+CVE-2015-8776,CWE-189 - CWE definition,189,Glibc,2016-04-19,DoS +Info
+CVE-2015-7547,CWE-119 - CWE definition,119,Glibc,2016-02-18,DoS Exec Code Overflow
+CVE-2015-5277,CWE-119 - CWE definition,119,Glibc,2015-12-17,DoS Overflow +Priv
+CVE-2015-5180,CWE-476 - CWE definition,476,Glibc,2017-06-27,DoS
+CVE-2015-1781,CWE-119 - CWE definition,119,Glibc,2015-09-28,DoS Exec Code Overflow
+CVE-2015-1473,CWE-119 - CWE definition,119,Glibc,2015-04-08,DoS Overflow
+CVE-2015-1472,CWE-119 - CWE definition,119,Glibc,2015-04-08,DoS Overflow
+CVE-2015-0235,CWE-119 - CWE definition,119,Glibc,2015-01-28,Exec Code Overflow
+CVE-2014-9984,CWE-119 - CWE definition,119,Glibc,2017-06-12,Exec Code Overflow
+CVE-2014-9761,CWE-119 - CWE definition,119,Glibc,2016-04-19,DoS Exec Code Overflow
+CVE-2014-9402,CWE-399 - CWE definition,399,Glibc,2015-02-24,DoS

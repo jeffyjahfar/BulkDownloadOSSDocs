@@ -1,0 +1,11 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2006-6235,,,Privacy Guard,2006-12-07,Exec Code
+CVE-2006-0455,,,Privacy Guard,2006-02-15,
+CVE-2006-0049,,,Privacy Guard,2006-03-13,
+CVE-2003-0978,,,Privacy Guard,2004-01-05,DoS Exec Code
+CVE-2003-0971,,,Privacy Guard,2003-12-15,
+CVE-2003-0255,,,Privacy Guard,2003-05-27,
+CVE-2001-0522,,,Privacy Guard,2001-08-14,+Priv
+CVE-2001-0072,,,Privacy Guard,2001-02-12,
+CVE-2001-0071,,,Privacy Guard,2001-02-12,
+CVE-2000-0974,,,Privacy Guard,2000-12-19,

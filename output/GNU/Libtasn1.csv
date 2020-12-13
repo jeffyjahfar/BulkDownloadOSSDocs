@@ -1,0 +1,11 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2018-1000654,,,Libtasn1,2018-08-20,
+CVE-2018-6003,CWE-674 - CWE definition,674,Libtasn1,2018-01-22,
+CVE-2017-10790,CWE-476 - CWE definition,476,Libtasn1,2017-07-01,DoS
+CVE-2016-4008,CWE-399 - CWE definition,399,Libtasn1,2016-05-05,DoS
+CVE-2015-3622,CWE-119 - CWE definition,119,Libtasn1,2015-05-12,DoS Overflow
+CVE-2015-2806,CWE-119 - CWE definition,119,Libtasn1,2015-04-10,Overflow
+CVE-2014-3469,,,Libtasn1,2014-06-05,DoS
+CVE-2014-3468,CWE-189 - CWE definition,189,Libtasn1,2014-06-05,
+CVE-2014-3467,,,Libtasn1,2014-06-05,DoS
+CVE-2012-1569,CWE-189 - CWE definition,189,Libtasn1,2012-03-26,DoS Mem. Corr.

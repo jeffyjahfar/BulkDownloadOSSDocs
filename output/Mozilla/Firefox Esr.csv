@@ -1,0 +1,701 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2019-11753,CWE-354 - CWE definition,354,Firefox Esr,2019-09-27,
+CVE-2019-11752,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11751,CWE-20 - CWE definition,20,Firefox Esr,2019-09-27,
+CVE-2019-11750,CWE-704 - CWE definition,704,Firefox Esr,2019-09-27,
+CVE-2019-11749,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11748,CWE-732 - CWE definition,732,Firefox Esr,2019-09-27,
+CVE-2019-11747,CWE-665 - CWE definition,665,Firefox Esr,2019-09-27,
+CVE-2019-11746,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11744,CWE-79 - CWE definition,79,Firefox Esr,2019-09-27,XSS
+CVE-2019-11743,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11742,CWE-829 - CWE definition,829,Firefox Esr,2019-09-27,
+CVE-2019-11740,CWE-119 - CWE definition,119,Firefox Esr,2019-09-27,Overflow Mem. Corr.
+CVE-2019-11738,CWE-276 - CWE definition,276,Firefox Esr,2019-09-27,Bypass
+CVE-2019-11736,CWE-362 - CWE definition,362,Firefox Esr,2019-09-27,+Priv
+CVE-2019-11735,CWE-120 - CWE definition,120,Firefox Esr,2019-09-27,Mem. Corr.
+CVE-2019-11733,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11730,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11729,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11719,CWE-125 - CWE definition,125,Firefox Esr,2019-07-23,
+CVE-2019-11717,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11715,CWE-79 - CWE definition,79,Firefox Esr,2019-07-23,XSS
+CVE-2019-11713,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11712,CWE-352 - CWE definition,352,Firefox Esr,2019-07-23,Bypass CSRF
+CVE-2019-11711,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11709,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-11708,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11707,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,
+CVE-2019-11698,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11694,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11693,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow
+CVE-2019-11692,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11691,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9820,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9819,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-9817,CWE-346 - CWE definition,346,Firefox Esr,2019-07-23,
+CVE-2019-9816,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,Bypass
+CVE-2019-9815,CWE-362 - CWE definition,362,Firefox Esr,2019-07-23,
+CVE-2019-9813,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9811,CWE-264 - CWE definition,264,Firefox Esr,2019-07-23,
+CVE-2019-9810,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9801,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9800,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-9796,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9795,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9794,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,Exec Code
+CVE-2019-9793,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9792,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-9791,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9790,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9788,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-11753,CWE-354 - CWE definition,354,Firefox Esr,2019-09-27,
+CVE-2019-11752,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11751,CWE-20 - CWE definition,20,Firefox Esr,2019-09-27,
+CVE-2019-11750,CWE-704 - CWE definition,704,Firefox Esr,2019-09-27,
+CVE-2019-11749,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11748,CWE-732 - CWE definition,732,Firefox Esr,2019-09-27,
+CVE-2019-11747,CWE-665 - CWE definition,665,Firefox Esr,2019-09-27,
+CVE-2019-11746,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11744,CWE-79 - CWE definition,79,Firefox Esr,2019-09-27,XSS
+CVE-2019-11743,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11742,CWE-829 - CWE definition,829,Firefox Esr,2019-09-27,
+CVE-2019-11740,CWE-119 - CWE definition,119,Firefox Esr,2019-09-27,Overflow Mem. Corr.
+CVE-2019-11738,CWE-276 - CWE definition,276,Firefox Esr,2019-09-27,Bypass
+CVE-2019-11736,CWE-362 - CWE definition,362,Firefox Esr,2019-09-27,+Priv
+CVE-2019-11735,CWE-120 - CWE definition,120,Firefox Esr,2019-09-27,Mem. Corr.
+CVE-2019-11733,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11730,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11729,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11719,CWE-125 - CWE definition,125,Firefox Esr,2019-07-23,
+CVE-2019-11717,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11715,CWE-79 - CWE definition,79,Firefox Esr,2019-07-23,XSS
+CVE-2019-11713,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11712,CWE-352 - CWE definition,352,Firefox Esr,2019-07-23,Bypass CSRF
+CVE-2019-11711,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11709,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-11708,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11707,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,
+CVE-2019-11698,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11694,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11693,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow
+CVE-2019-11692,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11691,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9820,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9819,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-9817,CWE-346 - CWE definition,346,Firefox Esr,2019-07-23,
+CVE-2019-9816,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,Bypass
+CVE-2019-9815,CWE-362 - CWE definition,362,Firefox Esr,2019-07-23,
+CVE-2019-9813,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9811,CWE-264 - CWE definition,264,Firefox Esr,2019-07-23,
+CVE-2019-9810,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9801,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9800,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-9796,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9795,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9794,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,Exec Code
+CVE-2019-9793,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9792,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-9791,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9790,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9788,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-11753,CWE-354 - CWE definition,354,Firefox Esr,2019-09-27,
+CVE-2019-11752,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11751,CWE-20 - CWE definition,20,Firefox Esr,2019-09-27,
+CVE-2019-11750,CWE-704 - CWE definition,704,Firefox Esr,2019-09-27,
+CVE-2019-11749,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11748,CWE-732 - CWE definition,732,Firefox Esr,2019-09-27,
+CVE-2019-11747,CWE-665 - CWE definition,665,Firefox Esr,2019-09-27,
+CVE-2019-11746,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11744,CWE-79 - CWE definition,79,Firefox Esr,2019-09-27,XSS
+CVE-2019-11743,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11742,CWE-829 - CWE definition,829,Firefox Esr,2019-09-27,
+CVE-2019-11740,CWE-119 - CWE definition,119,Firefox Esr,2019-09-27,Overflow Mem. Corr.
+CVE-2019-11738,CWE-276 - CWE definition,276,Firefox Esr,2019-09-27,Bypass
+CVE-2019-11736,CWE-362 - CWE definition,362,Firefox Esr,2019-09-27,+Priv
+CVE-2019-11735,CWE-120 - CWE definition,120,Firefox Esr,2019-09-27,Mem. Corr.
+CVE-2019-11733,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11730,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11729,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11719,CWE-125 - CWE definition,125,Firefox Esr,2019-07-23,
+CVE-2019-11717,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11715,CWE-79 - CWE definition,79,Firefox Esr,2019-07-23,XSS
+CVE-2019-11713,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11712,CWE-352 - CWE definition,352,Firefox Esr,2019-07-23,Bypass CSRF
+CVE-2019-11711,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11709,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-11708,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11707,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,
+CVE-2019-11698,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11694,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11693,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow
+CVE-2019-11692,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11691,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9820,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9819,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-9817,CWE-346 - CWE definition,346,Firefox Esr,2019-07-23,
+CVE-2019-9816,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,Bypass
+CVE-2019-9815,CWE-362 - CWE definition,362,Firefox Esr,2019-07-23,
+CVE-2019-9813,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9811,CWE-264 - CWE definition,264,Firefox Esr,2019-07-23,
+CVE-2019-9810,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9801,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9800,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-9796,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9795,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9794,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,Exec Code
+CVE-2019-9793,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9792,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-9791,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9790,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9788,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-11753,CWE-354 - CWE definition,354,Firefox Esr,2019-09-27,
+CVE-2019-11752,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11751,CWE-20 - CWE definition,20,Firefox Esr,2019-09-27,
+CVE-2019-11750,CWE-704 - CWE definition,704,Firefox Esr,2019-09-27,
+CVE-2019-11749,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11748,CWE-732 - CWE definition,732,Firefox Esr,2019-09-27,
+CVE-2019-11747,CWE-665 - CWE definition,665,Firefox Esr,2019-09-27,
+CVE-2019-11746,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11744,CWE-79 - CWE definition,79,Firefox Esr,2019-09-27,XSS
+CVE-2019-11743,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11742,CWE-829 - CWE definition,829,Firefox Esr,2019-09-27,
+CVE-2019-11740,CWE-119 - CWE definition,119,Firefox Esr,2019-09-27,Overflow Mem. Corr.
+CVE-2019-11738,CWE-276 - CWE definition,276,Firefox Esr,2019-09-27,Bypass
+CVE-2019-11736,CWE-362 - CWE definition,362,Firefox Esr,2019-09-27,+Priv
+CVE-2019-11735,CWE-120 - CWE definition,120,Firefox Esr,2019-09-27,Mem. Corr.
+CVE-2019-11733,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11730,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11729,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11719,CWE-125 - CWE definition,125,Firefox Esr,2019-07-23,
+CVE-2019-11717,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11715,CWE-79 - CWE definition,79,Firefox Esr,2019-07-23,XSS
+CVE-2019-11713,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11712,CWE-352 - CWE definition,352,Firefox Esr,2019-07-23,Bypass CSRF
+CVE-2019-11711,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11709,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-11708,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11707,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,
+CVE-2019-11698,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11694,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11693,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow
+CVE-2019-11692,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11691,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9820,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9819,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-9817,CWE-346 - CWE definition,346,Firefox Esr,2019-07-23,
+CVE-2019-9816,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,Bypass
+CVE-2019-9815,CWE-362 - CWE definition,362,Firefox Esr,2019-07-23,
+CVE-2019-9813,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9811,CWE-264 - CWE definition,264,Firefox Esr,2019-07-23,
+CVE-2019-9810,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9801,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9800,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-9796,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9795,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9794,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,Exec Code
+CVE-2019-9793,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9792,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-9791,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9790,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9788,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-11753,CWE-354 - CWE definition,354,Firefox Esr,2019-09-27,
+CVE-2019-11752,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11751,CWE-20 - CWE definition,20,Firefox Esr,2019-09-27,
+CVE-2019-11750,CWE-704 - CWE definition,704,Firefox Esr,2019-09-27,
+CVE-2019-11749,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11748,CWE-732 - CWE definition,732,Firefox Esr,2019-09-27,
+CVE-2019-11747,CWE-665 - CWE definition,665,Firefox Esr,2019-09-27,
+CVE-2019-11746,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11744,CWE-79 - CWE definition,79,Firefox Esr,2019-09-27,XSS
+CVE-2019-11743,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11742,CWE-829 - CWE definition,829,Firefox Esr,2019-09-27,
+CVE-2019-11740,CWE-119 - CWE definition,119,Firefox Esr,2019-09-27,Overflow Mem. Corr.
+CVE-2019-11738,CWE-276 - CWE definition,276,Firefox Esr,2019-09-27,Bypass
+CVE-2019-11736,CWE-362 - CWE definition,362,Firefox Esr,2019-09-27,+Priv
+CVE-2019-11735,CWE-120 - CWE definition,120,Firefox Esr,2019-09-27,Mem. Corr.
+CVE-2019-11733,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11730,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11729,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11719,CWE-125 - CWE definition,125,Firefox Esr,2019-07-23,
+CVE-2019-11717,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11715,CWE-79 - CWE definition,79,Firefox Esr,2019-07-23,XSS
+CVE-2019-11713,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11712,CWE-352 - CWE definition,352,Firefox Esr,2019-07-23,Bypass CSRF
+CVE-2019-11711,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11709,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-11708,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11707,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,
+CVE-2019-11698,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11694,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11693,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow
+CVE-2019-11692,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11691,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9820,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9819,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-9817,CWE-346 - CWE definition,346,Firefox Esr,2019-07-23,
+CVE-2019-9816,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,Bypass
+CVE-2019-9815,CWE-362 - CWE definition,362,Firefox Esr,2019-07-23,
+CVE-2019-9813,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9811,CWE-264 - CWE definition,264,Firefox Esr,2019-07-23,
+CVE-2019-9810,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9801,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9800,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-9796,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9795,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9794,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,Exec Code
+CVE-2019-9793,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9792,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-9791,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9790,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9788,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-11753,CWE-354 - CWE definition,354,Firefox Esr,2019-09-27,
+CVE-2019-11752,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11751,CWE-20 - CWE definition,20,Firefox Esr,2019-09-27,
+CVE-2019-11750,CWE-704 - CWE definition,704,Firefox Esr,2019-09-27,
+CVE-2019-11749,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11748,CWE-732 - CWE definition,732,Firefox Esr,2019-09-27,
+CVE-2019-11747,CWE-665 - CWE definition,665,Firefox Esr,2019-09-27,
+CVE-2019-11746,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11744,CWE-79 - CWE definition,79,Firefox Esr,2019-09-27,XSS
+CVE-2019-11743,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11742,CWE-829 - CWE definition,829,Firefox Esr,2019-09-27,
+CVE-2019-11740,CWE-119 - CWE definition,119,Firefox Esr,2019-09-27,Overflow Mem. Corr.
+CVE-2019-11738,CWE-276 - CWE definition,276,Firefox Esr,2019-09-27,Bypass
+CVE-2019-11736,CWE-362 - CWE definition,362,Firefox Esr,2019-09-27,+Priv
+CVE-2019-11735,CWE-120 - CWE definition,120,Firefox Esr,2019-09-27,Mem. Corr.
+CVE-2019-11733,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11730,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11729,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11719,CWE-125 - CWE definition,125,Firefox Esr,2019-07-23,
+CVE-2019-11717,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11715,CWE-79 - CWE definition,79,Firefox Esr,2019-07-23,XSS
+CVE-2019-11713,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11712,CWE-352 - CWE definition,352,Firefox Esr,2019-07-23,Bypass CSRF
+CVE-2019-11711,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11709,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-11708,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11707,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,
+CVE-2019-11698,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11694,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11693,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow
+CVE-2019-11692,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11691,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9820,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9819,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-9817,CWE-346 - CWE definition,346,Firefox Esr,2019-07-23,
+CVE-2019-9816,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,Bypass
+CVE-2019-9815,CWE-362 - CWE definition,362,Firefox Esr,2019-07-23,
+CVE-2019-9813,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9811,CWE-264 - CWE definition,264,Firefox Esr,2019-07-23,
+CVE-2019-9810,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9801,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9800,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-9796,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9795,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9794,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,Exec Code
+CVE-2019-9793,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9792,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-9791,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9790,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9788,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-11753,CWE-354 - CWE definition,354,Firefox Esr,2019-09-27,
+CVE-2019-11752,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11751,CWE-20 - CWE definition,20,Firefox Esr,2019-09-27,
+CVE-2019-11750,CWE-704 - CWE definition,704,Firefox Esr,2019-09-27,
+CVE-2019-11749,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11748,CWE-732 - CWE definition,732,Firefox Esr,2019-09-27,
+CVE-2019-11747,CWE-665 - CWE definition,665,Firefox Esr,2019-09-27,
+CVE-2019-11746,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11744,CWE-79 - CWE definition,79,Firefox Esr,2019-09-27,XSS
+CVE-2019-11743,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11742,CWE-829 - CWE definition,829,Firefox Esr,2019-09-27,
+CVE-2019-11740,CWE-119 - CWE definition,119,Firefox Esr,2019-09-27,Overflow Mem. Corr.
+CVE-2019-11738,CWE-276 - CWE definition,276,Firefox Esr,2019-09-27,Bypass
+CVE-2019-11736,CWE-362 - CWE definition,362,Firefox Esr,2019-09-27,+Priv
+CVE-2019-11735,CWE-120 - CWE definition,120,Firefox Esr,2019-09-27,Mem. Corr.
+CVE-2019-11733,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11730,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11729,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11719,CWE-125 - CWE definition,125,Firefox Esr,2019-07-23,
+CVE-2019-11717,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11715,CWE-79 - CWE definition,79,Firefox Esr,2019-07-23,XSS
+CVE-2019-11713,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11712,CWE-352 - CWE definition,352,Firefox Esr,2019-07-23,Bypass CSRF
+CVE-2019-11711,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11709,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-11708,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11707,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,
+CVE-2019-11698,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11694,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11693,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow
+CVE-2019-11692,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11691,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9820,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9819,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-9817,CWE-346 - CWE definition,346,Firefox Esr,2019-07-23,
+CVE-2019-9816,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,Bypass
+CVE-2019-9815,CWE-362 - CWE definition,362,Firefox Esr,2019-07-23,
+CVE-2019-9813,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9811,CWE-264 - CWE definition,264,Firefox Esr,2019-07-23,
+CVE-2019-9810,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9801,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9800,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-9796,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9795,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9794,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,Exec Code
+CVE-2019-9793,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9792,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-9791,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9790,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9788,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-11753,CWE-354 - CWE definition,354,Firefox Esr,2019-09-27,
+CVE-2019-11752,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11751,CWE-20 - CWE definition,20,Firefox Esr,2019-09-27,
+CVE-2019-11750,CWE-704 - CWE definition,704,Firefox Esr,2019-09-27,
+CVE-2019-11749,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11748,CWE-732 - CWE definition,732,Firefox Esr,2019-09-27,
+CVE-2019-11747,CWE-665 - CWE definition,665,Firefox Esr,2019-09-27,
+CVE-2019-11746,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11744,CWE-79 - CWE definition,79,Firefox Esr,2019-09-27,XSS
+CVE-2019-11743,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11742,CWE-829 - CWE definition,829,Firefox Esr,2019-09-27,
+CVE-2019-11740,CWE-119 - CWE definition,119,Firefox Esr,2019-09-27,Overflow Mem. Corr.
+CVE-2019-11738,CWE-276 - CWE definition,276,Firefox Esr,2019-09-27,Bypass
+CVE-2019-11736,CWE-362 - CWE definition,362,Firefox Esr,2019-09-27,+Priv
+CVE-2019-11735,CWE-120 - CWE definition,120,Firefox Esr,2019-09-27,Mem. Corr.
+CVE-2019-11733,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11730,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11729,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11719,CWE-125 - CWE definition,125,Firefox Esr,2019-07-23,
+CVE-2019-11717,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11715,CWE-79 - CWE definition,79,Firefox Esr,2019-07-23,XSS
+CVE-2019-11713,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11712,CWE-352 - CWE definition,352,Firefox Esr,2019-07-23,Bypass CSRF
+CVE-2019-11711,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11709,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-11708,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11707,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,
+CVE-2019-11698,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11694,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11693,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow
+CVE-2019-11692,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11691,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9820,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9819,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-9817,CWE-346 - CWE definition,346,Firefox Esr,2019-07-23,
+CVE-2019-9816,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,Bypass
+CVE-2019-9815,CWE-362 - CWE definition,362,Firefox Esr,2019-07-23,
+CVE-2019-9813,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9811,CWE-264 - CWE definition,264,Firefox Esr,2019-07-23,
+CVE-2019-9810,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9801,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9800,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-9796,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9795,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9794,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,Exec Code
+CVE-2019-9793,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9792,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-9791,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9790,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9788,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-11753,CWE-354 - CWE definition,354,Firefox Esr,2019-09-27,
+CVE-2019-11752,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11751,CWE-20 - CWE definition,20,Firefox Esr,2019-09-27,
+CVE-2019-11750,CWE-704 - CWE definition,704,Firefox Esr,2019-09-27,
+CVE-2019-11749,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11748,CWE-732 - CWE definition,732,Firefox Esr,2019-09-27,
+CVE-2019-11747,CWE-665 - CWE definition,665,Firefox Esr,2019-09-27,
+CVE-2019-11746,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11744,CWE-79 - CWE definition,79,Firefox Esr,2019-09-27,XSS
+CVE-2019-11743,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11742,CWE-829 - CWE definition,829,Firefox Esr,2019-09-27,
+CVE-2019-11740,CWE-119 - CWE definition,119,Firefox Esr,2019-09-27,Overflow Mem. Corr.
+CVE-2019-11738,CWE-276 - CWE definition,276,Firefox Esr,2019-09-27,Bypass
+CVE-2019-11736,CWE-362 - CWE definition,362,Firefox Esr,2019-09-27,+Priv
+CVE-2019-11735,CWE-120 - CWE definition,120,Firefox Esr,2019-09-27,Mem. Corr.
+CVE-2019-11733,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11730,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11729,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11719,CWE-125 - CWE definition,125,Firefox Esr,2019-07-23,
+CVE-2019-11717,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11715,CWE-79 - CWE definition,79,Firefox Esr,2019-07-23,XSS
+CVE-2019-11713,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11712,CWE-352 - CWE definition,352,Firefox Esr,2019-07-23,Bypass CSRF
+CVE-2019-11711,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11709,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-11708,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11707,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,
+CVE-2019-11698,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11694,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11693,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow
+CVE-2019-11692,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11691,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9820,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9819,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-9817,CWE-346 - CWE definition,346,Firefox Esr,2019-07-23,
+CVE-2019-9816,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,Bypass
+CVE-2019-9815,CWE-362 - CWE definition,362,Firefox Esr,2019-07-23,
+CVE-2019-9813,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9811,CWE-264 - CWE definition,264,Firefox Esr,2019-07-23,
+CVE-2019-9810,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9801,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9800,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-9796,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9795,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9794,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,Exec Code
+CVE-2019-9793,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9792,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-9791,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9790,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9788,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-11753,CWE-354 - CWE definition,354,Firefox Esr,2019-09-27,
+CVE-2019-11752,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11751,CWE-20 - CWE definition,20,Firefox Esr,2019-09-27,
+CVE-2019-11750,CWE-704 - CWE definition,704,Firefox Esr,2019-09-27,
+CVE-2019-11749,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11748,CWE-732 - CWE definition,732,Firefox Esr,2019-09-27,
+CVE-2019-11747,CWE-665 - CWE definition,665,Firefox Esr,2019-09-27,
+CVE-2019-11746,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11744,CWE-79 - CWE definition,79,Firefox Esr,2019-09-27,XSS
+CVE-2019-11743,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11742,CWE-829 - CWE definition,829,Firefox Esr,2019-09-27,
+CVE-2019-11740,CWE-119 - CWE definition,119,Firefox Esr,2019-09-27,Overflow Mem. Corr.
+CVE-2019-11738,CWE-276 - CWE definition,276,Firefox Esr,2019-09-27,Bypass
+CVE-2019-11736,CWE-362 - CWE definition,362,Firefox Esr,2019-09-27,+Priv
+CVE-2019-11735,CWE-120 - CWE definition,120,Firefox Esr,2019-09-27,Mem. Corr.
+CVE-2019-11733,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11730,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11729,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11719,CWE-125 - CWE definition,125,Firefox Esr,2019-07-23,
+CVE-2019-11717,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11715,CWE-79 - CWE definition,79,Firefox Esr,2019-07-23,XSS
+CVE-2019-11713,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11712,CWE-352 - CWE definition,352,Firefox Esr,2019-07-23,Bypass CSRF
+CVE-2019-11711,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11709,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-11708,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11707,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,
+CVE-2019-11698,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11694,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11693,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow
+CVE-2019-11692,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11691,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9820,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9819,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-9817,CWE-346 - CWE definition,346,Firefox Esr,2019-07-23,
+CVE-2019-9816,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,Bypass
+CVE-2019-9815,CWE-362 - CWE definition,362,Firefox Esr,2019-07-23,
+CVE-2019-9813,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9811,CWE-264 - CWE definition,264,Firefox Esr,2019-07-23,
+CVE-2019-9810,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9801,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9800,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-9796,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9795,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9794,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,Exec Code
+CVE-2019-9793,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9792,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-9791,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9790,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9788,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-11753,CWE-354 - CWE definition,354,Firefox Esr,2019-09-27,
+CVE-2019-11752,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11751,CWE-20 - CWE definition,20,Firefox Esr,2019-09-27,
+CVE-2019-11750,CWE-704 - CWE definition,704,Firefox Esr,2019-09-27,
+CVE-2019-11749,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11748,CWE-732 - CWE definition,732,Firefox Esr,2019-09-27,
+CVE-2019-11747,CWE-665 - CWE definition,665,Firefox Esr,2019-09-27,
+CVE-2019-11746,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11744,CWE-79 - CWE definition,79,Firefox Esr,2019-09-27,XSS
+CVE-2019-11743,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11742,CWE-829 - CWE definition,829,Firefox Esr,2019-09-27,
+CVE-2019-11740,CWE-119 - CWE definition,119,Firefox Esr,2019-09-27,Overflow Mem. Corr.
+CVE-2019-11738,CWE-276 - CWE definition,276,Firefox Esr,2019-09-27,Bypass
+CVE-2019-11736,CWE-362 - CWE definition,362,Firefox Esr,2019-09-27,+Priv
+CVE-2019-11735,CWE-120 - CWE definition,120,Firefox Esr,2019-09-27,Mem. Corr.
+CVE-2019-11733,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11730,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11729,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11719,CWE-125 - CWE definition,125,Firefox Esr,2019-07-23,
+CVE-2019-11717,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11715,CWE-79 - CWE definition,79,Firefox Esr,2019-07-23,XSS
+CVE-2019-11713,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11712,CWE-352 - CWE definition,352,Firefox Esr,2019-07-23,Bypass CSRF
+CVE-2019-11711,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11709,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-11708,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11707,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,
+CVE-2019-11698,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11694,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11693,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow
+CVE-2019-11692,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11691,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9820,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9819,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-9817,CWE-346 - CWE definition,346,Firefox Esr,2019-07-23,
+CVE-2019-9816,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,Bypass
+CVE-2019-9815,CWE-362 - CWE definition,362,Firefox Esr,2019-07-23,
+CVE-2019-9813,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9811,CWE-264 - CWE definition,264,Firefox Esr,2019-07-23,
+CVE-2019-9810,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9801,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9800,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-9796,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9795,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9794,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,Exec Code
+CVE-2019-9793,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9792,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-9791,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9790,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9788,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-11753,CWE-354 - CWE definition,354,Firefox Esr,2019-09-27,
+CVE-2019-11752,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11751,CWE-20 - CWE definition,20,Firefox Esr,2019-09-27,
+CVE-2019-11750,CWE-704 - CWE definition,704,Firefox Esr,2019-09-27,
+CVE-2019-11749,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11748,CWE-732 - CWE definition,732,Firefox Esr,2019-09-27,
+CVE-2019-11747,CWE-665 - CWE definition,665,Firefox Esr,2019-09-27,
+CVE-2019-11746,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11744,CWE-79 - CWE definition,79,Firefox Esr,2019-09-27,XSS
+CVE-2019-11743,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11742,CWE-829 - CWE definition,829,Firefox Esr,2019-09-27,
+CVE-2019-11740,CWE-119 - CWE definition,119,Firefox Esr,2019-09-27,Overflow Mem. Corr.
+CVE-2019-11738,CWE-276 - CWE definition,276,Firefox Esr,2019-09-27,Bypass
+CVE-2019-11736,CWE-362 - CWE definition,362,Firefox Esr,2019-09-27,+Priv
+CVE-2019-11735,CWE-120 - CWE definition,120,Firefox Esr,2019-09-27,Mem. Corr.
+CVE-2019-11733,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11730,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11729,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11719,CWE-125 - CWE definition,125,Firefox Esr,2019-07-23,
+CVE-2019-11717,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11715,CWE-79 - CWE definition,79,Firefox Esr,2019-07-23,XSS
+CVE-2019-11713,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11712,CWE-352 - CWE definition,352,Firefox Esr,2019-07-23,Bypass CSRF
+CVE-2019-11711,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11709,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-11708,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11707,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,
+CVE-2019-11698,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11694,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11693,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow
+CVE-2019-11692,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11691,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9820,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9819,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-9817,CWE-346 - CWE definition,346,Firefox Esr,2019-07-23,
+CVE-2019-9816,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,Bypass
+CVE-2019-9815,CWE-362 - CWE definition,362,Firefox Esr,2019-07-23,
+CVE-2019-9813,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9811,CWE-264 - CWE definition,264,Firefox Esr,2019-07-23,
+CVE-2019-9810,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9801,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9800,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-9796,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9795,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9794,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,Exec Code
+CVE-2019-9793,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9792,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-9791,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9790,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9788,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-11753,CWE-354 - CWE definition,354,Firefox Esr,2019-09-27,
+CVE-2019-11752,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11751,CWE-20 - CWE definition,20,Firefox Esr,2019-09-27,
+CVE-2019-11750,CWE-704 - CWE definition,704,Firefox Esr,2019-09-27,
+CVE-2019-11749,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11748,CWE-732 - CWE definition,732,Firefox Esr,2019-09-27,
+CVE-2019-11747,CWE-665 - CWE definition,665,Firefox Esr,2019-09-27,
+CVE-2019-11746,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11744,CWE-79 - CWE definition,79,Firefox Esr,2019-09-27,XSS
+CVE-2019-11743,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11742,CWE-829 - CWE definition,829,Firefox Esr,2019-09-27,
+CVE-2019-11740,CWE-119 - CWE definition,119,Firefox Esr,2019-09-27,Overflow Mem. Corr.
+CVE-2019-11738,CWE-276 - CWE definition,276,Firefox Esr,2019-09-27,Bypass
+CVE-2019-11736,CWE-362 - CWE definition,362,Firefox Esr,2019-09-27,+Priv
+CVE-2019-11735,CWE-120 - CWE definition,120,Firefox Esr,2019-09-27,Mem. Corr.
+CVE-2019-11733,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11730,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11729,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11719,CWE-125 - CWE definition,125,Firefox Esr,2019-07-23,
+CVE-2019-11717,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11715,CWE-79 - CWE definition,79,Firefox Esr,2019-07-23,XSS
+CVE-2019-11713,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11712,CWE-352 - CWE definition,352,Firefox Esr,2019-07-23,Bypass CSRF
+CVE-2019-11711,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11709,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-11708,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11707,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,
+CVE-2019-11698,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11694,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11693,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow
+CVE-2019-11692,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11691,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9820,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9819,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-9817,CWE-346 - CWE definition,346,Firefox Esr,2019-07-23,
+CVE-2019-9816,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,Bypass
+CVE-2019-9815,CWE-362 - CWE definition,362,Firefox Esr,2019-07-23,
+CVE-2019-9813,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9811,CWE-264 - CWE definition,264,Firefox Esr,2019-07-23,
+CVE-2019-9810,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9801,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9800,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-9796,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9795,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9794,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,Exec Code
+CVE-2019-9793,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9792,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-9791,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9790,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9788,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-11753,CWE-354 - CWE definition,354,Firefox Esr,2019-09-27,
+CVE-2019-11752,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11751,CWE-20 - CWE definition,20,Firefox Esr,2019-09-27,
+CVE-2019-11750,CWE-704 - CWE definition,704,Firefox Esr,2019-09-27,
+CVE-2019-11749,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11748,CWE-732 - CWE definition,732,Firefox Esr,2019-09-27,
+CVE-2019-11747,CWE-665 - CWE definition,665,Firefox Esr,2019-09-27,
+CVE-2019-11746,CWE-416 - CWE definition,416,Firefox Esr,2019-09-27,
+CVE-2019-11744,CWE-79 - CWE definition,79,Firefox Esr,2019-09-27,XSS
+CVE-2019-11743,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11742,CWE-829 - CWE definition,829,Firefox Esr,2019-09-27,
+CVE-2019-11740,CWE-119 - CWE definition,119,Firefox Esr,2019-09-27,Overflow Mem. Corr.
+CVE-2019-11738,CWE-276 - CWE definition,276,Firefox Esr,2019-09-27,Bypass
+CVE-2019-11736,CWE-362 - CWE definition,362,Firefox Esr,2019-09-27,+Priv
+CVE-2019-11735,CWE-120 - CWE definition,120,Firefox Esr,2019-09-27,Mem. Corr.
+CVE-2019-11733,CWE-200 - CWE definition,200,Firefox Esr,2019-09-27,+Info
+CVE-2019-11730,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11729,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11719,CWE-125 - CWE definition,125,Firefox Esr,2019-07-23,
+CVE-2019-11717,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11715,CWE-79 - CWE definition,79,Firefox Esr,2019-07-23,XSS
+CVE-2019-11713,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11712,CWE-352 - CWE definition,352,Firefox Esr,2019-07-23,Bypass CSRF
+CVE-2019-11711,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11709,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-11708,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11707,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,
+CVE-2019-11698,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-11694,CWE-200 - CWE definition,200,Firefox Esr,2019-07-23,+Info
+CVE-2019-11693,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow
+CVE-2019-11692,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-11691,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9820,CWE-416 - CWE definition,416,Firefox Esr,2019-07-23,
+CVE-2019-9819,CWE-20 - CWE definition,20,Firefox Esr,2019-07-23,
+CVE-2019-9817,CWE-346 - CWE definition,346,Firefox Esr,2019-07-23,
+CVE-2019-9816,CWE-704 - CWE definition,704,Firefox Esr,2019-07-23,Bypass
+CVE-2019-9815,CWE-362 - CWE definition,362,Firefox Esr,2019-07-23,
+CVE-2019-9813,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9811,CWE-264 - CWE definition,264,Firefox Esr,2019-07-23,
+CVE-2019-9810,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9801,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9800,CWE-119 - CWE definition,119,Firefox Esr,2019-07-23,Overflow Mem. Corr.
+CVE-2019-9796,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9795,CWE-704 - CWE definition,704,Firefox Esr,2019-04-26,
+CVE-2019-9794,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,Exec Code
+CVE-2019-9793,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow
+CVE-2019-9792,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.
+CVE-2019-9791,CWE-20 - CWE definition,20,Firefox Esr,2019-04-26,
+CVE-2019-9790,CWE-416 - CWE definition,416,Firefox Esr,2019-04-26,
+CVE-2019-9788,CWE-119 - CWE definition,119,Firefox Esr,2019-04-26,Overflow Mem. Corr.

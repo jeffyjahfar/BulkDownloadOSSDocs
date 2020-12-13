@@ -1,0 +1,3 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2007-2452,,,Findutils,2007-06-04,Exec Code Overflow
+CVE-2001-1036,,,Findutils,2001-08-31,+Priv

@@ -1,0 +1,2 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2002-2099,,,Data Display Debugger,2002-12-31,Exec Code Overflow +Priv
