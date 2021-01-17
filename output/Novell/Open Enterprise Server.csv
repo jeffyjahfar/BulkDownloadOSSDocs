@@ -1,0 +1,16 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2017-5182,CWE-22 - CWE definition,22,Open Enterprise Server,2017-01-23,Dir. Trav.
+CVE-2014-0609,,,Open Enterprise Server,2014-08-17,
+CVE-2014-0599,CWE-79 - CWE definition,79,Open Enterprise Server,2014-06-18,XSS
+CVE-2014-0598,CWE-22 - CWE definition,22,Open Enterprise Server,2014-06-18,Dir. Trav.
+CVE-2014-0595,CWE-119 - CWE definition,119,Open Enterprise Server,2014-05-08,Overflow
+CVE-2013-3707,CWE-20 - CWE definition,20,Open Enterprise Server,2013-12-01,DoS
+CVE-2011-4194,CWE-119 - CWE definition,119,Open Enterprise Server,2012-02-01,Exec Code Overflow
+CVE-2009-0611,CWE-79 - CWE definition,79,Open Enterprise Server,2009-02-17,XSS
+CVE-2006-0999,,,Open Enterprise Server,2006-03-23,
+CVE-2006-0998,,,Open Enterprise Server,2006-03-23,
+CVE-2006-0997,,,Open Enterprise Server,2006-03-23,
+CVE-2006-0736,,,Open Enterprise Server,2006-02-27,Exec Code Overflow
+CVE-2005-3655,,,Open Enterprise Server,2005-12-31,Exec Code Overflow
+CVE-2005-1767,,,Open Enterprise Server,2005-08-05,DoS
+CVE-2005-1761,CWE-20 - CWE definition,20,Open Enterprise Server,2005-08-05,DoS

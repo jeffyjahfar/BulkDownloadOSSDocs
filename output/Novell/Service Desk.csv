@@ -1,0 +1,5 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2016-1596,CWE-79 - CWE definition,79,Service Desk,2016-04-22,XSS
+CVE-2016-1595,CWE-200 - CWE definition,200,Service Desk,2016-04-22,+Info
+CVE-2016-1594,CWE-200 - CWE definition,200,Service Desk,2016-04-22,+Info
+CVE-2016-1593,CWE-22 - CWE definition,22,Service Desk,2016-04-22,Dir. Trav.

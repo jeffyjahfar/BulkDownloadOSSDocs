@@ -1,0 +1,2 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2011-3173,CWE-119 - CWE definition,119,Iprint Open Enterprise Server 2,2011-11-29,Exec Code Overflow

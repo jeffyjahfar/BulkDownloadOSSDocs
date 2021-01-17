@@ -1,0 +1,7 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2007-1119,,,Zenworks,2007-02-26,
+CVE-2006-3430,CWE-89 - CWE definition,89,Zenworks,2006-07-06,Exec Code Sql
+CVE-2006-3426,,,Zenworks,2006-07-06,Dir. Trav.
+CVE-2006-3425,,,Zenworks,2006-07-06,
+CVE-2005-3786,,,Zenworks,2005-11-23,Bypass
+CVE-2005-1543,,,Zenworks,2005-05-25,Exec Code Overflow

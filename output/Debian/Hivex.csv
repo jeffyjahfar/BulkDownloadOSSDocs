@@ -1,0 +1,2 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2014-9273,CWE-119 - CWE definition,119,Hivex,2014-12-08,Exec Code Overflow +Priv

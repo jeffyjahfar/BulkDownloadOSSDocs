@@ -1,0 +1,6 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2010-4321,CWE-119 - CWE definition,119,Iprint Client,2010-12-30,Exec Code Overflow
+CVE-2009-1568,CWE-119 - CWE definition,119,Iprint Client,2009-12-08,Exec Code Overflow
+CVE-2008-2908,CWE-119 - CWE definition,119,Iprint Client,2008-06-30,Exec Code Overflow
+CVE-2008-2436,CWE-94 - CWE definition,94,Iprint Client,2008-09-05,Exec Code Overflow
+CVE-2008-0935,CWE-119 - CWE definition,119,Iprint Client,2008-02-25,Exec Code Overflow

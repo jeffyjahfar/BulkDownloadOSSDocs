@@ -1,0 +1,4 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2006-1844,,,Shadow-utils,2006-04-19,+Priv
+CVE-2006-1174,CWE-264 - CWE definition,264,Shadow-utils,2006-05-28,
+CVE-2004-1001,,,Shadow-utils,2005-03-01,

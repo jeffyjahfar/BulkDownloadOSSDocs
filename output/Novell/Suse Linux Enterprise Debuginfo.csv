@@ -1,0 +1,30 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2016-4957,CWE-20 - CWE definition,20,Suse Linux Enterprise Debuginfo,2016-07-04,DoS
+CVE-2016-4956,CWE-19 - CWE definition,19,Suse Linux Enterprise Debuginfo,2016-07-04,DoS
+CVE-2016-4955,CWE-362 - CWE definition,362,Suse Linux Enterprise Debuginfo,2016-07-04,DoS
+CVE-2016-4913,CWE-200 - CWE definition,200,Suse Linux Enterprise Debuginfo,2016-05-23,+Info
+CVE-2016-4578,CWE-200 - CWE definition,200,Suse Linux Enterprise Debuginfo,2016-05-23,+Info
+CVE-2016-4569,CWE-200 - CWE definition,200,Suse Linux Enterprise Debuginfo,2016-05-23,+Info
+CVE-2016-4486,CWE-200 - CWE definition,200,Suse Linux Enterprise Debuginfo,2016-05-23,+Info
+CVE-2016-4485,CWE-200 - CWE definition,200,Suse Linux Enterprise Debuginfo,2016-05-23,+Info
+CVE-2016-4482,CWE-200 - CWE definition,200,Suse Linux Enterprise Debuginfo,2016-05-23,+Info
+CVE-2016-3156,CWE-399 - CWE definition,399,Suse Linux Enterprise Debuginfo,2016-04-27,DoS
+CVE-2016-3140,,,Suse Linux Enterprise Debuginfo,2016-05-02,DoS
+CVE-2016-3139,,,Suse Linux Enterprise Debuginfo,2016-04-27,DoS
+CVE-2016-3138,,,Suse Linux Enterprise Debuginfo,2016-05-02,DoS
+CVE-2016-3137,,,Suse Linux Enterprise Debuginfo,2016-05-02,DoS
+CVE-2016-3134,CWE-119 - CWE definition,119,Suse Linux Enterprise Debuginfo,2016-04-27,DoS Overflow +Priv Mem. Corr.
+CVE-2016-2847,CWE-399 - CWE definition,399,Suse Linux Enterprise Debuginfo,2016-04-27,DoS
+CVE-2016-2782,,,Suse Linux Enterprise Debuginfo,2016-04-27,DoS
+CVE-2016-2188,,,Suse Linux Enterprise Debuginfo,2016-05-02,DoS
+CVE-2016-2187,,,Suse Linux Enterprise Debuginfo,2016-05-02,DoS
+CVE-2016-2186,,,Suse Linux Enterprise Debuginfo,2016-05-02,DoS
+CVE-2016-2185,,,Suse Linux Enterprise Debuginfo,2016-05-02,DoS
+CVE-2016-2184,,,Suse Linux Enterprise Debuginfo,2016-04-27,DoS
+CVE-2016-1583,CWE-119 - CWE definition,119,Suse Linux Enterprise Debuginfo,2016-06-27,DoS Overflow +Priv
+CVE-2015-8816,,,Suse Linux Enterprise Debuginfo,2016-04-27,DoS
+CVE-2015-8552,CWE-20 - CWE definition,20,Suse Linux Enterprise Debuginfo,2016-04-13,DoS
+CVE-2015-8551,,,Suse Linux Enterprise Debuginfo,2016-04-13,DoS
+CVE-2015-7566,,,Suse Linux Enterprise Debuginfo,2016-02-07,DoS
+CVE-2015-1339,CWE-399 - CWE definition,399,Suse Linux Enterprise Debuginfo,2016-04-27,DoS
+CVE-2013-4589,,,Suse Linux Enterprise Debuginfo,2013-11-23,DoS

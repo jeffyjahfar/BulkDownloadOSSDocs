@@ -1,0 +1,14 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2007-5767,CWE-119 - CWE definition,119,Bordermanager,2007-11-02,Exec Code Overflow
+CVE-2006-7155,,,Bordermanager,2007-03-07,DoS
+CVE-2006-5286,,,Bordermanager,2006-10-13,DoS
+CVE-2006-1218,,,Bordermanager,2006-03-13,DoS
+CVE-2004-1457,,,Bordermanager,2004-12-31,DoS
+CVE-2002-0782,,,Bordermanager,2002-08-12,DoS
+CVE-2002-0781,,,Bordermanager,2002-08-12,DoS
+CVE-2002-0780,,,Bordermanager,2002-08-12,DoS
+CVE-2002-0779,,,Bordermanager,2002-08-12,DoS
+CVE-2001-0486,,,Bordermanager,2001-07-02,DoS
+CVE-2000-0651,,,Bordermanager,2000-07-07,
+CVE-2000-0591,,,Bordermanager,2000-07-05,Bypass
+CVE-2000-0152,,,Bordermanager,2000-03-30,DoS

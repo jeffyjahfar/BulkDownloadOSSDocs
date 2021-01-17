@@ -1,0 +1,2 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2011-2220,CWE-119 - CWE definition,119,File Reporter Engine,2011-07-14,Exec Code Overflow

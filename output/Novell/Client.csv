@@ -1,0 +1,17 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2013-3956,CWE-264 - CWE definition,264,Client,2013-07-31,+Priv
+CVE-2013-3705,CWE-20 - CWE definition,20,Client,2013-12-22,DoS
+CVE-2013-3697,CWE-189 - CWE definition,189,Client,2013-07-31,Overflow +Priv
+CVE-2008-2145,CWE-119 - CWE definition,119,Client,2008-05-12,DoS Exec Code Overflow
+CVE-2008-0639,CWE-119 - CWE definition,119,Client,2008-02-13,Exec Code Overflow
+CVE-2007-6701,CWE-119 - CWE definition,119,Client,2008-02-13,Exec Code Overflow
+CVE-2007-5667,CWE-20 - CWE definition,20,Client,2007-11-13,+Priv Bypass
+CVE-2007-3207,,,Client,2007-06-18,DoS Overflow
+CVE-2007-2954,CWE-119 - CWE definition,119,Client,2007-08-31,Exec Code Overflow
+CVE-2007-0108,,,Client,2007-01-08,
+CVE-2006-6443,,,Client,2006-12-10,Overflow
+CVE-2006-6307,,,Client,2006-12-05,DoS
+CVE-2006-6306,,,Client,2006-12-05,
+CVE-2006-2612,,,Client,2006-05-25,
+CVE-2006-2304,,,Client,2006-05-11,Exec Code Overflow
+CVE-2000-0793,,,Client,2000-10-20,

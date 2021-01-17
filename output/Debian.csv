@@ -1,0 +1,98 @@
+Product,URL,Num_Vulnerabilities
+Adequate,/vulnerability-list/vendor_id-23/product_id-26535/Debian-Adequate.html,1,26535,23
+Advanced Package Tool,/vulnerability-list/vendor_id-23/product_id-52062/Debian-Advanced-Package-Tool.html,1,52062,23
+Amaya,/vulnerability-list/vendor_id-23/product_id-6792/Debian-Amaya.html,1,6792,23
+Apache,/vulnerability-list/vendor_id-23/product_id-9807/Debian-Apache.html,1,9807,23
+Apache2,/vulnerability-list/vendor_id-23/product_id-22264/Debian-Apache2.html,2,22264,23
+APT,/vulnerability-list/vendor_id-23/product_id-17236/Debian-APT.html,17,17236,23
+Apt-cacher,/vulnerability-list/vendor_id-23/product_id-5660/Debian-Apt-cacher.html,2,5660,23
+Apt-listchanges,/vulnerability-list/vendor_id-23/product_id-13023/Debian-Apt-listchanges.html,1,13023,23
+Apt-setup,/vulnerability-list/vendor_id-23/product_id-5570/Debian-Apt-setup.html,1,5570,23
+Aptlinex,/vulnerability-list/vendor_id-23/product_id-13866/Debian-Aptlinex.html,2,13866,23
+Axiom,/vulnerability-list/vendor_id-23/product_id-27004/Debian-Axiom.html,1,27004,23
+Backupninja,/vulnerability-list/vendor_id-23/product_id-5896/Debian-Backupninja.html,1,5896,23
+Base-config,/vulnerability-list/vendor_id-23/product_id-7550/Debian-Base-config.html,1,7550,23
+Bsdmainutils,/vulnerability-list/vendor_id-23/product_id-23813/Debian-Bsdmainutils.html,1,23813,23
+Bsmtpd,/vulnerability-list/vendor_id-23/product_id-4777/Debian-Bsmtpd.html,1,4777,23
+Cfingerd,/vulnerability-list/vendor_id-23/product_id-24752/Debian-Cfingerd.html,1,24752,23
+Cifs-utils,/vulnerability-list/vendor_id-23/product_id-22991/Debian-Cifs-utils.html,2,22991,23
+Citadel Server,/vulnerability-list/vendor_id-23/product_id-14877/Debian-Citadel-Server.html,1,14877,23
+Crossroads,/vulnerability-list/vendor_id-23/product_id-60894/Debian-Crossroads.html,1,60894,23
+Dbd-firebird,/vulnerability-list/vendor_id-23/product_id-31500/Debian-Dbd-firebird.html,1,31500,23
+Debian Linux,/vulnerability-list/vendor_id-23/product_id-36/Debian-Debian-Linux.html,3067,36,23
+Debian-goodies,/vulnerability-list/vendor_id-23/product_id-12063/Debian-Debian-goodies.html,1,12063,23
+Debmake,/vulnerability-list/vendor_id-23/product_id-4061/Debian-Debmake.html,1,4061,23
+Devotee,/vulnerability-list/vendor_id-23/product_id-22861/Debian-Devotee.html,1,22861,23
+Devscript,/vulnerability-list/vendor_id-23/product_id-48176/Debian-Devscript.html,0,48176,23
+Devscripts,/vulnerability-list/vendor_id-23/product_id-57972/Debian-Devscripts.html,1,57972,23
+Dpkg,/vulnerability-list/vendor_id-23/product_id-18928/Debian-Dpkg.html,11,18928,23
+Dpkg-cross,/vulnerability-list/vendor_id-23/product_id-15381/Debian-Dpkg-cross.html,1,15381,23
+Dpkg-dev,/vulnerability-list/vendor_id-23/product_id-27774/Debian-Dpkg-dev.html,2,27774,23
+Elvis Tiny,/vulnerability-list/vendor_id-23/product_id-1093/Debian-Elvis-Tiny.html,1,1093,23
+Exuberant Ctags,/vulnerability-list/vendor_id-23/product_id-29206/Debian-Exuberant-Ctags.html,1,29206,23
+Feta,/vulnerability-list/vendor_id-23/product_id-15077/Debian-Feta.html,1,15077,23
+FSP,/vulnerability-list/vendor_id-23/product_id-3405/Debian-FSP.html,2,3405,23
+Ftpsync,/vulnerability-list/vendor_id-23/product_id-41207/Debian-Ftpsync.html,1,41207,23
+Fuse,/vulnerability-list/vendor_id-23/product_id-33091/Debian-Fuse.html,1,33091,23
+Gfax,/vulnerability-list/vendor_id-23/product_id-11581/Debian-Gfax.html,1,11581,23
+Guilt,/vulnerability-list/vendor_id-23/product_id-12240/Debian-Guilt.html,1,12240,23
+Hivex,/vulnerability-list/vendor_id-23/product_id-30503/Debian-Hivex.html,1,30503,23
+Honeyd Common,/vulnerability-list/vendor_id-23/product_id-14876/Debian-Honeyd-Common.html,1,14876,23
+Horde,/vulnerability-list/vendor_id-23/product_id-14610/Debian-Horde.html,3,14610,23
+Horde Groupware,/vulnerability-list/vendor_id-23/product_id-17014/Debian-Horde-Groupware.html,2,17014,23
+Horde Imp,/vulnerability-list/vendor_id-23/product_id-17013/Debian-Horde-Imp.html,1,17013,23
+Initramfs-tools,/vulnerability-list/vendor_id-23/product_id-15425/Debian-Initramfs-tools.html,1,15425,23
+Internet Message,/vulnerability-list/vendor_id-23/product_id-2741/Debian-Internet-Message.html,1,2741,23
+Kde4libs,/vulnerability-list/vendor_id-23/product_id-28338/Debian-Kde4libs.html,1,28338,23
+Kernel-patch-vserver,/vulnerability-list/vendor_id-23/product_id-6849/Debian-Kernel-patch-vserver.html,1,6849,23
+Latd,/vulnerability-list/vendor_id-23/product_id-24761/Debian-Latd.html,1,24761,23
+Libdbd-pg-perl,/vulnerability-list/vendor_id-23/product_id-17298/Debian-Libdbd-pg-perl.html,1,17298,23
+Libmail-audit-perl,/vulnerability-list/vendor_id-23/product_id-6847/Debian-Libmail-audit-perl.html,1,6847,23
+Lintian,/vulnerability-list/vendor_id-23/product_id-3442/Debian-Lintian.html,5,3442,23
+Linux,/vulnerability-list/vendor_id-23/product_id-14948/Debian-Linux.html,0,14948,23
+Linux,/vulnerability-list/vendor_id-23/product_id-15173/Debian-Linux.html,0,15173,23
+Localepurge,/vulnerability-list/vendor_id-23/product_id-27002/Debian-Localepurge.html,1,27002,23
+Logol,/vulnerability-list/vendor_id-23/product_id-22780/Debian-Logol.html,1,22780,23
+LTP,/vulnerability-list/vendor_id-23/product_id-15504/Debian-LTP.html,1,15504,23
+Mailscanner,/vulnerability-list/vendor_id-23/product_id-15499/Debian-Mailscanner.html,1,15499,23
+Mime-support,/vulnerability-list/vendor_id-23/product_id-2899/Debian-Mime-support.html,2,2899,23
+Mono-debugger,/vulnerability-list/vendor_id-23/product_id-20115/Debian-Mono-debugger.html,1,20115,23
+Myspell,/vulnerability-list/vendor_id-23/product_id-15400/Debian-Myspell.html,1,15400,23
+Netkit,/vulnerability-list/vendor_id-23/product_id-117/Debian-Netkit.html,2,117,23
+Netstd,/vulnerability-list/vendor_id-23/product_id-2178/Debian-Netstd.html,1,2178,23
+Newsgate,/vulnerability-list/vendor_id-23/product_id-15402/Debian-Newsgate.html,1,15402,23
+Nss-ldap,/vulnerability-list/vendor_id-23/product_id-17182/Debian-Nss-ldap.html,1,17182,23
+Os-prober,/vulnerability-list/vendor_id-23/product_id-15494/Debian-Os-prober.html,1,15494,23
+Php5-common,/vulnerability-list/vendor_id-23/product_id-22770/Debian-Php5-common.html,1,22770,23
+Phpbb3,/vulnerability-list/vendor_id-23/product_id-26122/Debian-Phpbb3.html,1,26122,23
+Postgresql-common,/vulnerability-list/vendor_id-23/product_id-42068/Debian-Postgresql-common.html,1,42068,23
+Ppthtml,/vulnerability-list/vendor_id-23/product_id-27518/Debian-Ppthtml.html,1,27518,23
+Ppxp,/vulnerability-list/vendor_id-23/product_id-5301/Debian-Ppxp.html,1,5301,23
+Projectl,/vulnerability-list/vendor_id-23/product_id-14558/Debian-Projectl.html,1,14558,23
+Python-dns,/vulnerability-list/vendor_id-23/product_id-14950/Debian-Python-dns.html,2,14950,23
+Python-imaging,/vulnerability-list/vendor_id-23/product_id-28378/Debian-Python-imaging.html,1,28378,23
+Qpopper,/vulnerability-list/vendor_id-23/product_id-5338/Debian-Qpopper.html,2,5338,23
+Reportbug,/vulnerability-list/vendor_id-23/product_id-4782/Debian-Reportbug.html,3,4782,23
+Reprepro,/vulnerability-list/vendor_id-23/product_id-12049/Debian-Reprepro.html,1,12049,23
+Sgml-tools,/vulnerability-list/vendor_id-23/product_id-1355/Debian-Sgml-tools.html,1,1355,23
+Shadow,/vulnerability-list/vendor_id-23/product_id-15622/Debian-Shadow.html,2,15622,23
+Shadow-utils,/vulnerability-list/vendor_id-23/product_id-4706/Debian-Shadow-utils.html,3,4706,23
+Strongswan,/vulnerability-list/vendor_id-23/product_id-27613/Debian-Strongswan.html,1,27613,23
+Sympa,/vulnerability-list/vendor_id-23/product_id-4950/Debian-Sympa.html,1,4950,23
+Syncevolution,/vulnerability-list/vendor_id-23/product_id-27003/Debian-Syncevolution.html,1,27003,23
+Tetex-bin,/vulnerability-list/vendor_id-23/product_id-4042/Debian-Tetex-bin.html,1,4042,23
+Tex-common,/vulnerability-list/vendor_id-23/product_id-20619/Debian-Tex-common.html,1,20619,23
+Texlive-extra-utils,/vulnerability-list/vendor_id-23/product_id-22327/Debian-Texlive-extra-utils.html,1,22327,23
+TIN,/vulnerability-list/vendor_id-23/product_id-42165/Debian-TIN.html,1,42165,23
+Tmpreaper,/vulnerability-list/vendor_id-23/product_id-57270/Debian-Tmpreaper.html,1,57270,23
+Toolchain-source,/vulnerability-list/vendor_id-23/product_id-4912/Debian-Toolchain-source.html,1,4912,23
+TOR,/vulnerability-list/vendor_id-23/product_id-39020/Debian-TOR.html,1,39020,23
+Trousers,/vulnerability-list/vendor_id-23/product_id-23628/Debian-Trousers.html,1,23628,23
+TSS,/vulnerability-list/vendor_id-23/product_id-13859/Debian-TSS.html,1,13859,23
+Turba,/vulnerability-list/vendor_id-23/product_id-14611/Debian-Turba.html,1,14611,23
+Txt2man,/vulnerability-list/vendor_id-23/product_id-26170/Debian-Txt2man.html,1,26170,23
+Unattended-upgrades,/vulnerability-list/vendor_id-23/product_id-32009/Debian-Unattended-upgrades.html,1,32009,23
+UNP,/vulnerability-list/vendor_id-23/product_id-12830/Debian-UNP.html,1,12830,23
+Xbindkeys-config,/vulnerability-list/vendor_id-23/product_id-40029/Debian-Xbindkeys-config.html,1,40029,23
+Xbuffy,/vulnerability-list/vendor_id-23/product_id-27766/Debian-Xbuffy.html,1,27766,23
+Xsabre,/vulnerability-list/vendor_id-23/product_id-15066/Debian-Xsabre.html,2,15066,23

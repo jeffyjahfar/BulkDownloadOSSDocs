@@ -1,0 +1,3926 @@
+GNU remotecontrol
+1 Overview
+2 Scope
+  2.1 Information Technology
+  2.2 Energy Management
+  2.3 End User
+  2.4 Financial Management
+3 Key Principles
+  3.1 Present Capabilities
+  3.2 HVAC Thermostat
+  3.3 Thinking by Talking
+  3.4 Choosing Decision Makers
+    3.4.1 HVAC
+    3.4.2 Information Technology
+    3.4.3 Conclusion
+  3.5 Security Considerations
+    3.5.1 Supervisory Control And Data Acquisition
+    3.5.2 Industrial Control System
+    3.5.3 System Administration-Audit-Network Security
+  3.6 Frequently Asked Questions
+    3.6.1 Why do we call it GNU remotecontrol?
+    3.6.2 Why do I need GNU remotecontrol?
+    3.6.3 How do I know who changed what?
+    3.6.4 What will GNU remotecontrol do for me?
+    3.6.5 Can I figure my energy usage for my HVAC units?
+    3.6.6 How do I use GNU remotecontrol?
+    3.6.7 Can I use GNU remotecontrol and Remote Monitoring Server together?
+    3.6.8 What about the weather, can I tie weather related data into GNU remotecontrol and Remote Monitoring Server?
+    3.6.9 Mobile access for GNU remotecontrol?
+    3.6.10 Do I need to install anything to my computer?
+    3.6.11 How many different users will be able to use GNU remotecontrol?
+    3.6.12 Encryption.....is GNU remotecontrol safe to use with my network?
+    3.6.13 Is GNU remotecontrol compatible with BACnet?
+    3.6.14 Can I use GNU remotecontrol to help Test and Balance my HVAC system?
+  3.7 Future Capabilities
+4 GNU remotecontrol and BACnet
+  4.1 Introduction
+  4.2 Associated Specifications
+  4.3 Going Forward
+5 Tax Benefit
+6 System Architecture and Concepts
+  6.1 Web Server
+    6.1.1 Security Model
+    6.1.2 Requirements
+    6.1.3 Options
+    6.1.4 Configuration
+  6.2 Database Server
+    6.2.1 Security Model
+    6.2.2 Requirements
+    6.2.3 Configuration
+  6.3 Remote Monitoring Server
+    6.3.1 Security Model
+    6.3.2 Requirements
+    6.3.3 Options
+    6.3.4 Configuration
+  6.4 Nagios Plugins
+    6.4.1 Proliphix Alarms
+    6.4.2 Thermostat Plugin - check_ubicom
+      6.4.2.1 Syntax Example - IMPERIAL
+      6.4.2.2 Result Example - IMPERIAL
+      6.4.2.3 Syntax Example - METRIC
+      6.4.2.4 Result Example - METRIC
+      6.4.2.5 Syntax Example - Macro
+    6.4.3 Weather Plugin - check_weather
+      6.4.3.1 Syntax Example - IMPERIAL
+      6.4.3.2 Result Example - IMPERIAL
+      6.4.3.3 Syntax Example - METRIC
+      6.4.3.4 Result Example - METRIC
+      6.4.3.5 Syntax Example - Macro
+    6.4.4 Forecast Plugin - check_forecast
+      6.4.4.1 Syntax Example - IMPERIAL
+      6.4.4.2 Result Example - IMPERIAL
+      6.4.4.3 Syntax Example - METRIC
+      6.4.4.4 Result Example - METRIC
+      6.4.4.5 Syntax Example - Macro
+  6.5 Email Server
+    6.5.1 Security Model
+    6.5.2 Requirements
+    6.5.3 Options
+    6.5.4 Configuration
+  6.6 Frequently Asked Questions
+    6.6.1 What is RMS?
+    6.6.2 What is Remote Monitoring Server?
+    6.6.3 Why do I need RMS?
+    6.6.4 What will RMS do for me?
+    6.6.5 How do I use RMS?
+    6.6.6 Does a Remote Monitoring Server do graphing?
+    6.6.7 Mobile access for RMS?
+    6.6.8 Is it difficult to use RMS?
+    6.6.9 How many emails or SMS messages will I get?
+    6.6.10 How many different email addresses will you send me notifications to?
+    6.6.11 Can I use RMS to help Test and Balance my HVAC system?
+    6.6.12 Do I need RMS?
+    6.6.13 Really, how do I know that I need RMS?
+7 Usage Instructions
+  7.1 Browser Selection
+  7.2 Time
+  7.3 Menu Structure
+    7.3.1 Main Menu
+    7.3.2 Language Admin Menu
+    7.3.3 Admin Menu
+    7.3.4 User Types
+  7.4 home.php
+    7.4.1 Purpose
+    7.4.2 Fields
+    7.4.3 All Available Fields
+    7.4.4 Usage
+      7.4.4.1 Object Parameters
+  7.5 history.php
+    7.5.1 Purpose
+    7.5.2 Fields
+    7.5.3 All Available Fields
+    7.5.4 Usage
+  7.6 user-settings.php
+    7.6.1 Purpose
+    7.6.2 Fields
+    7.6.3 Usage
+  7.7 intl-home.php
+    7.7.1 Purpose
+    7.7.2 Usage
+  7.8 intl-language-list.php
+    7.8.1 Purpose
+    7.8.2 All Available Fields
+    7.8.3 Usage
+  7.9 intl-language-add.php
+    7.9.1 Purpose
+    7.9.2 Usage
+  7.10 intl-message-list.php
+    7.10.1 Purpose
+    7.10.2 All Available Fields
+    7.10.3 Usage
+  7.11 intl-context-list.php
+    7.11.1 Purpose
+    7.11.2 All Available Fields
+    7.11.3 Usage
+  7.12 intl-help.php
+    7.12.1 Purpose
+    7.12.2 Usage
+  7.13 admin-home.php
+    7.13.1 Purpose
+    7.13.2 Fields
+    7.13.3 Usage
+  7.14 admin-location.php
+    7.14.1 Purpose
+    7.14.2 Fields
+    7.14.3 All Available Fields
+    7.14.4 Usage
+  7.15 admin-group.php
+    7.15.1 Purpose
+    7.15.2 Fields
+    7.15.3 All Available Fields
+    7.15.4 Usage
+  7.16 admin-user.php
+    7.16.1 Purpose
+    7.16.2 Fields
+    7.16.3 All Available Fields
+    7.16.4 Usage
+  7.17 admin-exception-list.php
+    7.17.1 Purpose
+    7.17.2 Fields
+    7.17.3 All Available Fields
+    7.17.4 Usage
+  7.18 admin-thermostat.php
+    7.18.1 Purpose
+    7.18.2 Fields
+    7.18.3 Usage
+  7.19 admin-undelete.php
+    7.19.1 Purpose
+    7.19.2 Fields
+    7.19.3 All Available Fields
+    7.19.4 Usage
+  7.20 admin-time.php
+    7.20.1 Purpose
+    7.20.2 Usage
+  7.21 admin-config.php
+    7.21.1 Purpose
+    7.21.2 Fields
+    7.21.3 Usage
+  7.22 Troubleshooting
+8 Usage Recommendations
+  8.1 Start Small
+  8.2 Strongly Encouraged
+  8.3 Food for Thought
+9 Use Case Scenarios
+  9.1 Scenario 1 - Building Maintenance
+  9.2 Scenario 2 - Office Worker
+  9.3 Scenario 3 - Property Manager
+  9.4 Scenario 4 - Restaurant Operations
+  9.5 Scenario 5 - Certified Energy Manager
+  9.6 Scenario 6 - Industrial Manufacturing Facility
+  9.7 Scenario 7 - Facility Manager
+  9.8 Scenario 8 - External Information
+  9.9 Scenario 9 - Financial Manager
+  9.10 Scenario 10 - Automated Meter Reading
+  9.11 Scenario 11 - Smart Metering
+  9.12 Scenario 12 - Utility Providers
+  9.13 Summary
+10 Implementation Cost
+11 Roadmap
+  11.1 Interoperability
+  11.2 HVAC Original Equipment Manufacturer - Feature Addition
+  11.3 HVAC Aftermarket Equipment Manufacturer - Feature Addition
+  11.4 Cost Benefit Analysis
+12 REFERENCE
+  12.1 Cabling 101
+    12.1.1 Introduction
+    12.1.2 Cable
+    12.1.3 Grounding
+    12.1.4 Installation
+    12.1.5 Termination
+    12.1.6 Testing
+    12.1.7 Usage Notes
+    12.1.8 Cautionary
+  12.2 Power over Ethernet (PoE) 101
+    12.2.1 Introduction
+    12.2.2 Power Sourcing Equipment (PSE)
+    12.2.3 Powered Device (PD)
+    12.2.4 Midspan
+    12.2.5 Endspan
+    12.2.6 Usage Notes
+    12.2.7 Cautionary
+13 Contributors
+Appendix A GNU Free Documentation License
+GNU remotecontrol
+*****************
+
+This manual is for GNU remotecontrol (version 2.0, 22 April 2016).
+
+1 Overview
+**********
+
+GNU remotecontrol is a web application serving as a management tool for
+multiple IP enabled HVAC thermostat devices and other Building
+Automation devices.  The purpose of GNU remotecontrol is to read from
+and write to multiple IP enabled thermostat devices all at one time.
+
+   The GNU remotecontrol framework is designed to work with any IP
+enabled HVAC thermostat, but can be easily developed to operate any
+number of networked devices.  This framework is built with cURL
+(http://en.wikipedia.org/wiki/CURL), PHP
+(http://en.wikipedia.org/wiki/PHP), and MySQL
+(http://en.wikipedia.org/wiki/MySQL).  This system architecture is
+enabled on a server-client principle, where users can login to the
+server using a web browser to manage multiple remote devices from a
+single web interface.  The GNU remotecontrol framework was developed to
+work in combination with a Remote Monitoring Server, which monitors
+configurable device parameters and can generate automatic system
+responses and alerts.  GNU remotecontrol is both scalable and
+distributable over multiple computers serving different roles in the
+HVAC or remote device management framework.  The Proliphix
+(http://www.proliphix.com/) thermostat (currently the only true IP
+enabled HVAC thermostat on the market) was used to develop the GNU
+remotecontrol web application.  The Application Programming Interface
+(http://en.wikipedia.org/wiki/Application_programming_interface) (API)
+*Proliphix IP Devices HTTP API, Revision 1.8* is used to read from and
+write to the Object Identification (OID) numbers defined in the
+Proliphix API for the Proliphix HVAC thermostat device.
+
+   We identify anytime we do not adhere to the Proliphix API
+instructions with the text...*THIS IS A DEVIATION TO THE PROLIPHIX
+API*...in GNU remotecontrol user manual.  The only time we deviate from
+the Proliphix API is when there is a critical thermostat device firmware
+deficiency.  Otherwise, the Proliphix API instructions are strictly
+followed by GNU remotecontrol.
+
+   GNU remotecontrol is now designed and built using the
+Model-View-Controller
+(http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+(MVC) software architectural pattern.  The benefit is to provide easier
+code reusability and pave the way for *U*nattended *S*erver *S*ide
+*A*utomation (*USSA* or *U-S-S-A*). The automation is intended to
+replace repetitive actions in your day-to-day usage of GNU
+remotecontrol.  Examples of such repetition are setting the time on all
+thermostat devices, or interfacing with an external system such as
+another Energy Management System.  The benefit is to free you of most,
+if not all, human interaction necessary to operate your GNU
+remotecontrol implementation.
+
+   GNU remotecontrol is now designed and built using a standard
+Data-Access Layer (http://en.wikipedia.org/wiki/Data_access_layer) (DAL)
+interface via the PHP Data Objects
+(http://php.net/manual/en/intro.pdo.php) (PDO). This construct supports
+the GNU remotecontrol MySQL database using the PDO data access
+components.  The DAL can easily mature to support other types of
+databases or data access components.
+
+   There are two significant enhancements to the setup of GNU
+remotecontrol.  First, there is scripting to setup the GNU remotecontrol
+database.  Second, there is a single configuration file to connect your
+PHP to your MySQL for using GNU remotecontrol along with other settings
+necessary for GNU remotecontrol.  These two enhancements greatly ease
+GNU remotecontrol configuration and operation.
+
+   The intended structure of this documentation is to help you achieve
+an understanding of *why* you need or want to use GNU remotecontrol and
+instruction for *how* to use GNU remotecontrol.  Our research during the
+development of GNU remotecontrol found users operated best when they
+were given the opportunity to gain a high-level understanding of all the
+technologies associated with GNU remotecontrol.  This documentation is
+written as a combined reference manual and technical manual for GNU
+remotecontrol.  The *Scope* section contains a listing of the minimum
+recommended chapter reading, per user role.  Each section in *System
+Architecture and Concepts* contains instructions for *Security Model*,
+any *Options* recommended, *Requirements* to run the technology, and
+*Configuration* of the technology.
+
+   We recognize this documentation contains a lot of material.  The
+documentation is segmented for you to select what you need to read to
+quickly and easily learn about and start using GNU remotecontrol.  It is
+our hope you find this documentation contains all of the information you
+need to successfully and effortlessly use GNU remotecontrol.  We now
+gladly give you the latest version of GNU remotecontrol.
+
+2 Scope
+*******
+
+The scope of this documentation is to address the three roles
+(functional disciplines) who interact daily in the usage of GNU
+remotecontrol; *Information Technology*, *Energy Management*, and *End
+User*.  A fourth role, *Financial Management*, is a role which operates
+in the Cost Benefit Analysis
+(http://en.wikipedia.org/wiki/Cost%E2%80%93benefit_analysis) and in
+reviews to evaluate facility improvement opportunities.  The
+documentation contains information pertinent to each role.  The intended
+end result is to help equip each role with the necessary definitions and
+reference information to further high-level communication among the
+roles.
+
+   The following list is the minimum recommended chapter reading, per
+role.
+
+2.1 Information Technology
+==========================
+
+   * *Note Key Principles::.
+   * *Note System Architecture and Concepts::.
+   * *Note Usage Instructions::.
+   * *Note Usage Recommendations::.
+
+2.2 Energy Management
+=====================
+
+   * *Note Key Principles::.
+   * *Note GNU remotecontrol and BACnet::.
+   * *Note Tax Benefit::.
+   * *Note System Architecture and Concepts::.
+   * *Note Usage Instructions::.
+   * *Note Usage Recommendations::.
+   * *Note Use Case Scenarios::.
+   * *Note Implementation Cost::.
+   * *Note Roadmap::.
+   * *Note REFERENCE::.
+
+2.3 End User
+============
+
+   * *Note Key Principles::.
+   * *Note Usage Instructions::.
+   * *Note Usage Recommendations::.
+   * *Note Use Case Scenarios::.
+
+2.4 Financial Management
+========================
+
+   * *Note Key Principles::.
+   * *Note GNU remotecontrol and BACnet::.
+   * *Note Tax Benefit::.
+   * *Note System Architecture and Concepts::.
+   * *Note Usage Instructions::.
+   * *Note Usage Recommendations::.
+   * *Note Use Case Scenarios::.
+   * *Note Implementation Cost::.
+   * *Note Roadmap::.
+   * *Note REFERENCE::.
+
+3 Key Principles
+****************
+
+3.1 Present Capabilities
+========================
+
+GNU remotecontrol is designed to substantially reduce the time and
+effort necessary to remotely manage multiple thermostat devices, while
+significantly increasing your productivity through its many useful and
+time saving features.  The User Interface is no more difficult than
+using any other web application involving simple check boxes and
+pull-down menus.  GNU remotecontrol, combined with the Remote Monitoring
+Server, work together as a complete HVAC Energy Management system.  GNU
+remotecontrol more than pays for itself by saving time and effort in
+manual labor for managing all resources individually.....and then some.
+
+3.2 HVAC Thermostat
+===================
+
+It is necessary to understand the design and usage intent of the HVAC
+thermostat to fully grasp the design and usage intent of GNU
+remotecontrol.
+
+   The HVAC thermostat (http://en.wikipedia.org/wiki/Thermostat) device
+is often a combination of either a relay
+(http://en.wikipedia.org/wiki/Relay) or a semiconductor device
+(http://en.wikipedia.org/wiki/Semiconductor_device) to have circuits
+either opened or closed, to switch the device either off or on.
+Examples of this functionality include heating, cooling, or a fan.  The
+addition of a scheduling option to turn any of these items off or on at
+a certain time does make it more practical of a device in terms of
+managing day-to-day operation of any HVAC system.  Adding in the ability
+to track run time duration for heating, cooling, or a fan help energy
+efficiency measurements.  The final addition of remote access, through
+the traditional IP enabled data network, takes the HVAC thermostat to an
+interconnected device capable of multiple read and write operating
+functions.  The cable from the thermostat to the HVAC equipment is solid
+core 18-AWG (http://en.wikipedia.org/wiki/American_wire_gauge), either 4
+or 8 separately jacketed wires, depending on system capability, all
+contained within a protective jacket.
+
+3.3 Thinking by Talking
+=======================
+
+GNU remotecontrol is here to help you make your Energy Management
+(http://en.wikipedia.org/wiki/Energy_management) strategy easier and
+more productive.  GNU remotecontrol is here to help simplify your life,
+not make it more complicated.  Contact
+(https://savannah.gnu.org/mail/?group=remotecontrol) the mailing list if
+you are stuck or cannot figure out the best option for your GNU
+remotecontrol framework.  The chances are the answer you need is
+something we have already worked through.  We would be happy to help you
+by discussing your situation with you.
+
+3.4 Choosing Decision Makers
+============================
+
+You will most likely need to work with others who have a different skill
+set than you do to develop and implement an effective Energy Management
+strategy.  It is necessary to carefully plan for your selection of the
+decision makers you choose to work with on your team.  Choosing decision
+makers capable to run your HVAC and IT systems is paramount to the
+success of your system performance.
+
+3.4.1 HVAC
+----------
+
+Being a licensed Professional Engineer
+(http://en.wikipedia.org/wiki/Professional_engineer) does not make the
+person a Certified Energy Manager (http://www.aeecenter.org/cem/) (CEM).
+They are separate qualifications, each with their own requirements.  The
+titles associated with Energy Engineering
+(http://en.wikipedia.org/wiki/Energy_engineering) are broad.  Go with a
+Certified Energy Manager to help you determine if you qualify for any
+tax benefit for commercial building being rated as energy efficient.
+Even if you don't qualify for a tax benefit, it is highly likely you
+will find a beneficial set of methods to increase your Energy Management
+strategies which makes paying the Certified Energy Manager well worth
+the expense.
+
+3.4.2 Information Technology
+----------------------------
+
+Serving in an IT role does not necessarily make one qualified do an
+end-to-end design of an IT system.  Relevant certifications help to know
+if one is capable to do what they say they can do.  Experience is
+probably the strongest credential one can have for being capable to run
+an IT system.  Simply put, operation does not equal design.  They are
+separate qualifications, each with their own requirements.
+
+3.4.3 Conclusion
+----------------
+
+Look to your *Cost Benefit Analysis* for decision making on how you need
+to design and operate your Energy Management strategy.
+
+3.5 Security Considerations
+===========================
+
+The following is a list of links to information which will greatly help
+you plan for the network implementation and configuration of your Energy
+Management strategy.
+
+3.5.1 Supervisory Control And Data Acquisition
+----------------------------------------------
+
+SCADA (http://en.wikipedia.org/wiki/SCADA) speaks to the industrial side
+of HVAC automation.
+
+3.5.2 Industrial Control System
+-------------------------------
+
+ICS (http://en.wikipedia.org/wiki/Industrial_Control_Systems) speaks to
+industrial production facilities.
+
+3.5.3 System Administration-Audit-Network Security
+--------------------------------------------------
+
+SANS (http://www.sans.org/) specializes in Internet Security training.
+
+3.6 Frequently Asked Questions
+==============================
+
+3.6.1 Why do we call it GNU remotecontrol?
+------------------------------------------
+
+This code was originally called *JUT*....."*J*ust *U*se *T*his" to
+represent the intention of this software automation to take the
+complicated and make it very, very simple, from a user perspective.  The
+name changed to GNU remotecontrol, when code was released under the GNU
+license.
+
+3.6.2 Why do I need GNU remotecontrol?
+--------------------------------------
+
+If you have thermostat devices, you know it takes time and effort to
+keep your energy usage down and control your climate for your comfort.
+This time and effort is increased with each remote device or HVAC unit
+you want to administrate.  GNU remotecontrol helps you spend less time
+and effort administrating your thermostat devices, provides automated
+record keeping of what changed, who changed it, and when it was changed.
+GNU remotecontrol deployment helps keep your energy usage as low as
+possible.
+
+3.6.3 How do I know who changed what?
+-------------------------------------
+
+Review the access logs you have enabled for your Web Server, your
+Operating System, and all of the other technologies which achieve user
+validation of a web application.  Technologies time tested, tried and
+true, which you can count on.  No need to reinvent the wheel, use what
+works well when possible.
+
+3.6.4 What will GNU remotecontrol do for me?
+--------------------------------------------
+
+Free up your time and effort for starters.  Also, enable you to know who
+did what to your thermostat devices when GNU remotecontrol was used to
+change your thermostat devices.  Finally, your GNU remotecontrol
+application can help you minimize your energy costs.
+
+3.6.5 Can I figure my energy usage for my HVAC units?
+-----------------------------------------------------
+
+The IP enabled thermostat will greatly help with this measurement.
+
+3.6.6 How do I use GNU remotecontrol?
+-------------------------------------
+
+Pretty easy, actually.  Select the thermostat devices you want to change
+the settings of.....make the change.....and that's it.  You can easily
+see the time and effort you save changing the air conditioning from 75oF
+to 73oF for several thermostat devices, all at once!  Then, imagine
+changing your setback schedule somehow on top of that, for say thirty
+different thermostat devices, all at once!
+
+3.6.7 Can I use GNU remotecontrol and Remote Monitoring Server together?
+------------------------------------------------------------------------
+
+Oh, yes.  Think of GNU remotecontrol as writing to your thermostat
+devices while a Remote Monitoring Server reading information about your
+thermostat devices.  The two go hand in hand.  They are intended to work
+together.
+
+3.6.8 What about the weather, can I tie weather related data into GNU remotecontrol and Remote Monitoring Server?
+-----------------------------------------------------------------------------------------------------------------
+
+Yes.  Use your Remote Monitoring Server to collect information about the
+weather from International Weather Services for the location of your
+thermostat device.  This approach will tell you a great deal about the
+quality of your Energy Management strategy.
+
+3.6.9 Mobile access for GNU remotecontrol?
+------------------------------------------
+
+Yes, you can access GNU remotecontrol using your cell phone Internet
+browser.
+
+3.6.10 Do I need to install anything to my computer?
+----------------------------------------------------
+
+No.  GNU remotecontrol is a WC3 (http://www.w3.org/standards/) compliant
+web application.  More times than not, your network is ready to go
+as-is.
+
+3.6.11 How many different users will be able to use GNU remotecontrol?
+----------------------------------------------------------------------
+
+You can set up different user accounts, but the nature of a thermostat
+device means the people touching it be extremely clear with each other
+as to how they want to set the thermostat device.
+
+3.6.12 Encryption.....is GNU remotecontrol safe to use with my network?
+-----------------------------------------------------------------------
+
+We recommend you use a High Grade (AES-256 bit) encryption to secure the
+connection from your computer to your GNU remotecontrol server and
+verify the identity of your server with your own signed SSL Certificate.
+The connection from your computer to your thermostat device is not
+changed from your normal connection to your Proliphix thermostat device.
+
+3.6.13 Is GNU remotecontrol compatible with BACnet?
+---------------------------------------------------
+
+Yes.  *Note GNU remotecontrol and BACnet::.
+
+3.6.14 Can I use GNU remotecontrol to help Test and Balance my HVAC system?
+---------------------------------------------------------------------------
+
+Yes.  Remote Monitoring Server and GNU remotecontrol work together to
+help you do just this.  Recorded data of your HVAC system's usage and
+outdoor weather information is priceless for testing and balancing.  The
+review of recorded data offers considerable cost savings, in both time
+and effort, when optimizing your system setup.  Additionally, you can
+reduce the number of people necessary to do the testing and balancing
+down to one person.
+
+3.7 Future Capabilities
+=======================
+
+The next logical step is to expand GNU remotecontrol and become
+certified with industrial HVAC, lighting control, access control, and
+fire detection technologies.  The BACnet communication protocol is an
+excellent candidate for connection to the GNU remotecontrol framework.
+*Note GNU remotecontrol and BACnet::.  The MODBUS
+(http://en.wikipedia.org/wiki/Modbus) communication protocol may also be
+implemented at a future date, but demand for this capability enhancement
+is not clearly understood.
+
+4 GNU remotecontrol and BACnet
+******************************
+
+4.1 Introduction
+================
+
+The BACnet (http://www.bacnet.org/) data communication protocol, for
+Building Automation and Control Networks, was developed by ASHRAE
+(http://www.ashrae.org/), the building technology society.  The
+intention is to enable interoperability between automation and control
+systems by different vendors used in the building industry.
+
+4.2 Associated Specifications
+=============================
+
+BACnet conformance requires a *P*rotocol *I*mplementation *C*onformance
+*S*tatement (PICS) (http://www.bacnet.org/DL-Docs/), which GNU
+remotecontrol does not currently have.  This is because we have no user
+requests to develop GNU remotecontrol in this direction.  However, the
+PHP code can be adapted to utilize the XML language to effect
+communication with BACnet systems and compliant devices.  GNU
+remotecontrol is capable of processing packets comprising the BACnet
+model and its Object types, by utilizing PHP code to parse the data and
+handle inputs and outputs and network communications as BACnet requires.
+
+4.3 Going Forward
+=================
+
+The roadmap of GNU remotecontrol is a commitment to International
+standards and protocols for Information Technology to provide
+availability, relevance, transparency, and maintenance of the GNU
+remotecontrol framework.  (*Note Roadmap::.)  The BACnet XML Working
+Group (http://www.bacnet.org/WG/XML/index.html) is an excellent example
+of these attributes.
+
+5 Tax Benefit
+*************
+
+Internal Revenue Bulletin: 2006-26
+(http://www.irs.gov/irb/2006-26_IRB/ar11.html), *Notice 2006-52*,
+_Deduction for Energy Efficient Commercial Buildings_ defines the tax
+deduction allowed for the hardware and software required for GNU
+remotecontrol to operate in commercial buildings in the United States.
+The costs for GNU remotecontrol are 100% tax deductible.....if you meet
+these requirements.  The tax deduction, combined with spending less
+money for energy due to an improved Energy Management strategies, means
+GNU remotecontrol more than pays for itself.
+
+6 System Architecture and Concepts
+**********************************
+
+The following pieces of the GNU remotecontrol architecture are
+*necessary*:
+   * Web Server
+   * Database Server
+
+   The following pieces of the GNU remotecontrol architecture are
+*optional*:
+   * Remote Monitoring Server
+   * Email Server
+
+   The following versions for the GNU remotecontrol architecture are
+*required*:
+   * PHP 5.3.10
+   * php5-curl 5.3.10
+   * php5-mysql 5.3.10
+   * MySQL-server 5.5.46
+   * mysql_tzinfo_to_sql
+     (http://dev.mysql.com/doc/refman/5.5/en/mysql-tzinfo-to-sql.html) -
+     The mysql_tzinfo_to_sql command is installed along with mysql.  It
+     is necessary to run this command to use GNU remotecontrol, even if
+     your mysql database schema already has the time zone tables.
+
+   An abbreviated set of installation instructions for GNU remotecontrol
+as a whole is available in the *INSTALL.md* file, located in the
+'/PATH-TO-YOUR-SVN/remotecontrol/doc/' directory.
+
+6.1 Web Server
+==============
+
+Please make certain you have the *required* software versions, as listed
+in the beginning of this section.
+
+6.1.1 Security Model
+--------------------
+
+GNU remotecontrol is configured with the minimum level of security
+necessary for a Web Server (http://en.wikipedia.org/wiki/Web_server).
+You are responsible for setting up your security on your Web Server.
+
+6.1.2 Requirements
+------------------
+
+GNU remotecontrol can operate on any platform capable of running PHP
+with cURL and MySQL. GNU remotecontrol works with either Basic
+(http://en.wikipedia.org/wiki/Basic_access_authentication) or Digest
+(http://en.wikipedia.org/wiki/Digest_access_authentication)
+authentication.  GNU remotecontrol works with either Apache mod_PHP
+(http://en.wikipedia.org/wiki/List_of_Apache_modules) or FastCGI Process
+Manager (http://en.wikipedia.org/wiki/PHP#PHPFPM).  Follow the
+requirements stated by the Web Server you so choose to use.
+
+6.1.3 Options
+-------------
+
+GNU remotecontrol runs without any known problems on Apache
+(http://en.wikipedia.org/wiki/Apache_HTTP_Server), Nginx
+(http://en.wikipedia.org/wiki/Nginx), and IIS
+(http://en.wikipedia.org/wiki/Internet_Information_Services).  Running
+GNU remotecontrol on a lightweight
+(http://en.wikipedia.org/wiki/Comparison_of_lightweight_web_servers) Web
+Server versus a complete
+(http://en.wikipedia.org/wiki/Comparison_of_web_servers) Web Server is
+possible, but not recommended.  This is due to the security benefits of
+a complete Web Server.  Again, you are responsible for setting up your
+security on your Web Server.
+
+6.1.4 Configuration
+-------------------
+
+GNU remotecontrol is configured within the *config.example.php* file.
+This file is located in the '/PATH-TO-YOUR-SVN/remotecontrol/'
+directory.  Copy *config.example.php* to *config.php*.  This file
+contains all necessary parameters to connect your Web Server to your
+Database Server, after you have initially installed and configured each
+server.
+
+   GNU remotecontrol will not work with anonymous users.  This is
+because of how GNU remotecontrol is designed and for security purposes.
+You must add at least a single user in your GNU remotecontrol database,
+which is checked against an identically named user account configured in
+your website.  GNU remotecontrol authentication is aligned with Web
+Server authentication, by keeping user names between the two identical.
+Follow the requirements stated by the Web Server you so choose to use.
+
+   Here is what you need to run GNU remotecontrol on Apache, *after* you
+setup your security on your Web Server.
+
+   * *Apache sites-configuration:*
+
+     	DocumentRoot /var/www/remotecontrol
+     	<Directory /var/www/remotecontrol>
+     		Options FollowSymLinks -Indexes
+     		AllowOverride None
+     		Order allow,deny
+     		allow from all
+     	</Directory>
+
+     	<Location />
+     		AuthType Basic
+     		AuthName "GNU remotecontrol v2.0 - USER AUTHENTICATION REQUIRED"
+     		AuthUserFile /etc/apache2/.remotecontrol_passwd
+     		Require user tstat_admin tstat_test_user_1 tstat_test_user_2
+     	</Location>
+
+   * *Settings necessary in your PHP configuration (php.ini):*
+     	register_globals = Off
+
+     	auto_globals_jit = On
+
+
+6.2 Database Server
+===================
+
+Please make certain you have the *required* software versions, as listed
+in the beginning of this section.
+
+6.2.1 Security Model
+--------------------
+
+GNU remotecontrol is configured with the minimum level of security
+necessary for a Database System
+(http://en.wikipedia.org/wiki/Database_system).  You are responsible for
+setting up your security on your Database Server.
+
+6.2.2 Requirements
+------------------
+
+GNU remotecontrol runs without any known problems on MySQL. Running GNU
+remotecontrol on a lightweight
+(http://en.wikipedia.org/wiki/Back-end_database#Small_Database_Systems)
+Database Server versus a complete
+(http://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems)
+Database Server is possible, but not recommended.  This is due to the
+security benefits of a complete Database Server.  Again, you are
+responsible for setting up your security on your Database Server.
+Follow the requirements stated by the Database System you so choose to
+use.
+
+6.2.3 Configuration
+-------------------
+
+There are both complete and partial automation options available to
+setup your GNU remotecontrol database.  The files for these options are
+located in the '/PATH-TO-YOUR-SVN/remotecontrol/dbscripts/' directory.
+The complete automation option is an all-inclusive interactive script
+called *make-db.sh*.  The partial automation option is the same
+all-inclusive script broken into individual *SQL* scripts.  Follow the
+requirements stated by the Database System you so choose to use.
+
+   Command-line arguments for the *make-db.sh* file are sequential:
+
+  1. The database name.
+  2. The database user.
+  3. The database user password.
+  4. The option to load the test data?  'y' for yes, 'n' for no
+  5. The password for the root account of your MySQL installation.
+
+   Execute the individual SQL scripts in the following order:
+
+  1. *gnurc-db.sql*, to create a default database called *gnurc*.
+  2. *gnurc-schema.sql*, to create the database schema.
+  3. *gnurc-data.sql*, to load global/default data.
+  4. *gnurc-test.sql*, to load test data.
+
+   The *README.md* file in this same directory contains abbreviated
+instructions to setup your GNU remotecontrol database.  Again, an
+abbreviated set of installation instructions for GNU remotecontrol as a
+whole is available in the *INSTALL.md* file, located in the
+'/PATH-TO-YOUR-SVN/remotecontrol/doc/' directory.
+
+6.3 Remote Monitoring Server
+============================
+
+Please make certain you have the *required* software versions, as listed
+in the beginning of this section.
+
+6.3.1 Security Model
+--------------------
+
+GNU remotecontrol is configured with the minimum level of security
+necessary for a Remote Monitoring
+(http://en.wikipedia.org/wiki/Remote_monitoring) application.  You are
+responsible for setting up your security on your Remote Monitoring
+Server.
+
+6.3.2 Requirements
+------------------
+
+Follow the requirements stated by the Remote Monitoring application you
+so choose to use.
+
+6.3.3 Options
+-------------
+
+The question must be answered.....*why would you not monitor your
+systems*?  This is not a judgemental question, simply framing the
+context of this section.  This section has a list of *Frequently Asked
+Questions*, at the end.  If your answer brings you peace of mind to not
+have a Remote Monitoring Server, so be it.  Perhaps you trust the
+decisions and work of others enough to not bother with setting up a
+Remote Monitoring Server.  That is often a poor choice.
+
+   Running a Remote Monitoring Server is the easy part of having a
+Remote Monitoring Server.  The biggest decision you have to make
+is.....*are you going to run it, or is someone else*?  Then, and only
+then, choose the technology combination you want to have for your Remote
+Monitoring Server.  Do not let your skill set alone decide what is best
+for meeting your needs.  Determine what you needs are, count the cost,
+and then choose your technology.
+
+   *Popular Options*
+
+   * Nagios (http://www.nagios.org/)
+   * Solar Winds (http://www.solarwinds.com/)
+   * M/Monit (http://www.mmonit.com/)
+
+     Note: There are many, many other options to choose.
+
+   We have developed plugins for Nagios to round out the Energy
+Management strategy.  Check out the *Nagios Plugins*.
+
+6.3.4 Configuration
+-------------------
+
+Follow the requirements stated by the Remote Monitoring application you
+so choose to use.
+
+6.4 Nagios Plugins
+==================
+
+We developed a complementary set of plugins
+(http://en.wikipedia.org/wiki/Plug-in_%28computing%29) to round out the
+GNU remotecontrol Architecture.  The plugins can be implemented either
+individually or collectively.  We developed our plugins in accordance
+with the Nagios Plugin Development Guidelines
+(https://nagios-plugins.org/doc/guidelines.html).  The function of these
+plugins is to capture and process numerical characters from data
+obtained from your IP enabled thermostat device and RSS
+(http://en.wikipedia.org/wiki/RSS) or JSON
+(http://en.wikipedia.org/wiki/JSON) feeds for weather information out of
+doors.  The measurements of Temperature
+(http://en.wikipedia.org/wiki/Temperature), Humidity
+(http://en.wikipedia.org/wiki/Humidity), Wind-Speed
+(http://en.wikipedia.org/wiki/Wind_speed), Wind-Chill
+(http://en.wikipedia.org/wiki/Wind_chill), and Atmospheric (Barometric)
+Pressure (http://en.wikipedia.org/wiki/Barometric_pressure) help to
+analyze your entire HVAC system and determine if your Energy Management
+strategy is working for you.  Other measurements can be added in as
+preferred, as shared below.
+
+6.4.1 Proliphix Alarms
+----------------------
+
+The need for the *Thermostat Plugin - check_ubicom* is better understood
+when the limitations of the native Proliphix alarms are examined.  The
+Proliphix thermostat device has four alarms.
+   * Low Temperature
+   * High Temperature
+   * High Humidity
+   * Filter Change
+
+   Alarms in the thermostat device were considered for displaying in GNU
+remotecontrol *home.php* or another web page not yet developed (perhaps
+something like a GNU remotecontrol alarms.php web page).  Feedback from
+users during development of GNU remotecontrol showed their preference is
+to be informed of alarms from a Remote Monitoring Server notification.
+This approach also provides logging of all monitored information, a
+feature not available in the thermostat device itself.
+
+   The Temperature and Humidity alarms are already provided for in the
+Nagios checks we have developed.  The Filter Change alarm has various
+pre-determined options to select; 10, 30, 60, 90, 120, 240, 365 Runtime
+Days.  This does not account for dust accumulating on a filter, should
+the power be turned off to the thermostat device.  This logic
+combination is determined as insufficient to use for monitoring when to
+change the filter of any HVAC system.  Reasoning for this determination
+includes:
+   * Various pollutants enter filters at different times in different
+     ways.
+   * Allergens are more prevalent in the Spring compared to the other
+     seasons of the year.
+   * Dust is more common if a manufacturing facility has dust as a
+     by-product of manufacturing.
+   * Dust is generated from Wood Stoves and Fire Places.  Heating needs
+     often change throughout the year.
+   * Dust Storms (http://en.wikipedia.org/wiki/Dust_storm) are common in
+     arid and semi-arid regions.  Dust Storms require additional filter
+     inspections to make sure equipment will not be damaged from
+     improper ventilation.
+   * An end-user is the best person to determine when to change a filter
+     based upon the environmental conditions which may or may not
+     change.
+
+   The Proliphix API only supports reading these alarms, not setting an
+alarm threshold or resetting an alarm event.  The user must go to the
+web page within the Proliphix thermostat device for setting an alarm
+threshold or resetting an alarm event.  Also, there is only a single
+alarm issued per alarm type until the alarm type event is reset in the
+thermostat device.  This logic combination means a threshold may be
+exceeded, return to an acceptable level for the user, and then be
+exceeded again.  This example is an excellent illustration of the value
+gained by having a Remote Motoring Server, with its fully configurable
+and flexible alarm functionality, watching your network, your devices,
+and anything else you can monitor.
+
+   Finally, since the thermostat device has a threshold of how many read
+events the unit can support per minute, we did not want to overwhelm the
+device with multiple read events.  An example of this overwhelming of
+the device is:
+  1. Having a separate web page, somewhere, for viewing these alarms,
+     after they are read from the thermostat device.
+  2. Then, returning to the GNU remotecontrol *home.php* web page, to
+     see those alarms.....again.
+  3. Then, going into the thermostat device web page, to clear the alarm
+     or adjust thresholds.
+  4. Then, going back to the GNU remotecontrol *home.php* web page, to
+     see what an alarm reads.
+  5. Then, going back into the separate web page, somewhere, to see what
+     an alarm reads.
+
+   The Proliphix API is quite distinct about this cautioning of too many
+read events per minute through the Proliphix API. The combination of the
+web server of the thermostat device and GNU remotecontrol *home.php* is
+a proper approach to use and not overwhelm the thermostat device.  This
+approach caches the data and avoids repeated Proliphix API calls to the
+Proliphix HVAC thermostat device.
+
+6.4.2 Thermostat Plugin - check_ubicom
+--------------------------------------
+
+Please review the documentation provided with the plugin source code for
+detailed usage instructions.  The following is an outline of the
+detailed instruction.
+
+   This plugin will attempt to read temperature and humidity from a
+thermostat device.  Successful reads initially set the response to
+'STATE_OK'.  If the temperature or humidity falls outside the range set
+by the 'warn-temperature' or the 'warn-humidity' arguments, then the
+response is upgraded to 'STATE_WARNING'.  If the temperature or humidity
+falls outside the range set by the 'critical-temperature' or the
+'critical-humidity' arguments, then the response is further upgraded to
+'STATE_CRITICAL'.  Failure to read both values, due to either a timeout
+or parsing failure, results in a 'STATE_UNKNOWN' response.
+
+6.4.2.1 Syntax Example - IMPERIAL
+.................................
+
+'check_ubicom! -wt :70 -ct :90 -wh 10: -ch 5: -t 60 -I
+example.remote-mon.com -u /status.shtml'
+
+   * [-H <HOSTNAME|HOSTNAME:PORT>] =
+     [-hostname=<HOSTNAME|HOSTNAME:PORT>] = Hostname for virtual-hosting
+     or shared hosting servers.  Append the port number to include it in
+     the header (e.g.: example.remote-mon.com:80).
+   * [-I <IP ADDRESS|HOSTNAME>] = [-IP-address=<IP ADDRESS|HOSTNAME>] =
+     IP address or hostname to use for TCP socket connection.
+   * [-S] = [-ssl] = Connect via SSL. The port defaults to 443.
+   * [-p <PORT>] = [-port=<PORT>] = Numeric port number to use for TCP
+     socket connection.
+   * [-u <PATH>] = [-url=<PATH>] = URL to GET (/status.shtml)
+   * [-a <USER:PASS>] = [-authorization=<USER:PASS>] = username and
+     password pair for sites with basic authentication.
+   * [-A <STRING>] = [-useragent=<STRING>] = User-Agent header string.
+     ("check_ubicom/v1")
+   * [-t <SECONDS>] = [-timeout <SECONDS>] = Maximum connect time in
+     seconds.  The default is 10.
+   * [-m] = [-metric] = Use metric (Celsius) units for temperature
+     ranges.
+   * [-wt <min>:<max>] = [-warn-temperature=<min>:<max>] = Normal
+     temperature range in decimal degrees.
+   * [-ct <min>:<max>] = [-critical-temperature=<min>:<max>] =
+     Acceptable temperature range in decimal degrees.
+   * [-wh <min>:<max>] = [-warn-humidity=<min>:<max>] = Normal humidity
+     range in decimal percentage points.
+   * [-ch <min>:<max>] = [-critical-humidity=<min>:<max>] = Acceptable
+     humidity range in decimal percentage points.
+
+6.4.2.2 Result Example - IMPERIAL
+.................................
+
+   * Returns WARNING if temperature is above 70F or humidity is below
+     10%.
+   * Returns CRITICAL if temperature is above 90F or humidity is below
+     5%.
+   * Returns OK if temperature is 70F or below.
+   * Returns UNKNOWN if no response received within 60 seconds.
+
+6.4.2.3 Syntax Example - METRIC
+...............................
+
+'check_ubicom! -m -wt 0:30 --critical-temperature=-10:50 -I
+example.remote-mon.com -u /status.shtml'
+
+6.4.2.4 Result Example - METRIC
+...............................
+
+   * Returns WARNING if temperature is below 0C or above 30C.
+   * Returns CRITICAL if temperature is below -10C or above 50C.
+   * Returns OK if temperature is from 0C to 30C.
+   * Returns UNKNOWN if no response received within 10 seconds.
+
+6.4.2.5 Syntax Example - Macro
+..............................
+
+define command{
+		command_name check_ubicom
+
+		command_line $USER1$/check_ubicom -I 10.10.10.22 -p 8264
+		}
+
+6.4.3 Weather Plugin - check_weather
+------------------------------------
+
+Please review the documentation provided with the plugin source code for
+detailed usage instructions.  The following is an outline of the
+detailed instruction.
+
+   The check_weather plugin checks the wind-chill, wind-speed, humidity,
+pressure, and temperature received from Yahoo!  Weather RSS Feed
+(http://developer.yahoo.com/weather/) for a single location.  The return
+value is always either OK or UNKNOWN, as the weather feed either is or
+is not accessible.
+
+   You are certainly free to use any other feed you prefer.  Examples of
+a feed include The Weather Channel (http://www.weather.com/) and Weather
+Underground (http://www.wunderground.com/weather/api/).  All of these
+feeds have free and paid options.  Please carefully read their
+provisions if you select to use their feed.
+
+   The performance values returned by the check_weather plugin, *in
+order*, are:
+  1. wind-chill (apparent temperature) in degrees F or degrees C
+  2. wind-speed in m.p.h.  or km.p.h.
+  3. relative humidity in percent
+  4. barometric pressure in in.Hg or mm.Hg
+  5. current temperature in degrees F or degrees C
+
+6.4.3.1 Syntax Example - IMPERIAL
+.................................
+
+'check_weather! -d 23424748 -m F -w 0 -c 0'
+
+   * -d = woeid of the location
+   * -m F = imperial unit
+   * -w 0 = warning limit
+   * -c 0 = critical limit
+
+6.4.3.2 Result Example - IMPERIAL
+.................................
+
+'OK|52 8 88 29.68 52'
+
+  1. 52 degrees Fahrenheit wind-chill
+  2. 8 mph wind-speed
+  3. 88% relative humidity
+  4. 29.7 in.Hg barometric pressure
+  5. 52 degrees Fahrenheit actual temperature
+
+6.4.3.3 Syntax Example - METRIC
+...............................
+
+'check_weather! -d 23424748 -m C -w 0 -c 0'
+
+   * -d = woeid of the location
+   * -m C = metric unit
+   * -w 0 = warning limit
+   * -c 0 = critical limit
+
+6.4.3.4 Result Example - METRIC
+...............................
+
+'OK|35 12.8748 88 753.872 35'
+
+  1. 35 degrees Celsius wind-chill temperature
+  2. 12.8 km/h wind-speed
+  3. 88% relative humidity
+  4. 758.8 mm.Hg barometric pressure
+  5. 35 degrees Celsius actual temperature
+
+6.4.3.5 Syntax Example - Macro
+..............................
+
+define command{
+		command_name check_weather
+
+		command_line $USER1$/check_weather -d 23424748 -m F -w 0 -c 0
+		}
+
+
+6.4.4 Forecast Plugin - check_forecast
+--------------------------------------
+
+Please review the documentation provided with the plugin source code for
+detailed usage instructions.  The following is an outline of the
+detailed instruction.
+
+   The check_forecast plugin checks the wind-chill, wind-speed,
+humidity, pressure, and temperature received from Open Weather Map
+(http://openweathermap.org/forecast5) for a single location.  The return
+value is always either OK or UNKNOWN, as the forecast feed either is or
+is not accessible.
+
+   You are certainly free to use any other feed you prefer.  Examples of
+a feed include The Weather Channel (http://www.weather.com/) and Weather
+Underground (http://www.wunderground.com/weather/api/).  All of these
+feeds have free and paid options.  Please carefully read their
+provisions if you select to use their feed.
+
+   The performance values returned by the check_forecast plugin, *in
+order*, are:
+
+  1. wind-chill (apparent temperature) in degrees F or degrees C
+  2. wind-speed in m.p.h.  or km.p.h.
+  3. relative humidity in percent
+  4. barometric pressure in in.Hg or mm.Hg
+  5. current temperature in degrees F or degrees C
+
+6.4.4.1 Syntax Example - IMPERIAL
+.................................
+
+'check_forecast! -t -24.91 -n 133.4 -m F -w 0 -c 0 -a [INSERT YOUR API
+KEY HERE]'
+
+   * -t = latitude
+   * -n = longitude
+   * -m F = imperial unit
+   * -w 0 = warning limit
+   * -c 0 = critical limit
+   * -a = Your API key from http://openweathermap.org/api
+     (http://openweathermap.org/api)
+
+6.4.4.2 Result Example - IMPERIAL
+.................................
+
+'OK|52 8 88 29.68 52'
+
+  1. 52 degrees Fahrenheit wind-chill
+  2. 8 mph wind-speed
+  3. 88% relative humidity
+  4. 29.7 in.Hg barometric pressure
+  5. 52 degrees Fahrenheit actual temperature
+
+6.4.4.3 Syntax Example - METRIC
+...............................
+
+'check_forecast! -t -24.91 -n 133.4 -m C -w 0 -c 0 -a [INSERT YOUR API
+KEY HERE]'
+
+   * -t = latitude
+   * -n = longitude
+   * -m C = metric unit
+   * -w 0 = warning limit
+   * -c 0 = critical limit
+   * -a = Your API key from http://openweathermap.org/api
+     (http://openweathermap.org/api)
+
+6.4.4.4 Result Example - METRIC
+...............................
+
+'OK|35 12.8748 88 753.872 35'
+
+  1. 35 degrees Celsius wind-chill temperature
+  2. 12.8 km/h wind-speed
+  3. 88% relative humidity
+  4. 758.8 mm.Hg barometric pressure
+  5. 35 degrees Celsius actual temperature
+
+6.4.4.5 Syntax Example - Macro
+..............................
+
+define command{
+		command_name check_forecast
+
+		command_line $USER1$/check_forecast! -t -24.91 -n 133.4 -m F -w 0 -c 0 -a [INSERT YOUR API KEY HERE]
+		}
+
+
+   These plugins are developed under the Nagios License
+(http://www.nagios.com/legal/).
+
+6.5 Email Server
+================
+
+6.5.1 Security Model
+--------------------
+
+GNU remotecontrol is configured with the minimum level of security
+necessary for an Email Server
+(http://en.wikipedia.org/wiki/Email_server).  You are responsible for
+setting up your security on your Email Server.
+
+6.5.2 Requirements
+------------------
+
+The email send function used in the GNU remotecontrol Architecture is
+for sending email from your Remote Monitoring Server to you, using SMTP
+(http://en.wikipedia.org/wiki/SMTP).  The mail send function will use
+the server's Mail Transfer Agent (MTA
+(http://en.wikipedia.org/wiki/Mail_transfer_agent)).  Requirements for
+High Availability of mail sending necessitate the configuration of a
+secondary MTA to provide service redundancy.  You will need to have your
+own registered Domain Name with its MX record
+(http://en.wikipedia.org/wiki/MX_record), to be able to send email
+messages directly to recipients and not be blocked by various Internet
+Service Providers (ISPs), for fear of spam.  Follow the requirements
+stated by the Email Server application you so choose to use with your
+Remote Monitoring Server.
+
+6.5.3 Options
+-------------
+
+Many ISPs block outgoing packets through port 25.  This occurs as a
+matter of course to minimize spam.  If you ISP is blocking port 25, then
+you have the option.....and is *STRONGLY RECOMMENDED* for security
+purposes.....to configure your MTA to use SSL/TLS encryption when
+sending messages to remote mail servers (SMTPS
+(http://en.wikipedia.org/wiki/Smtps)).  This configuration would
+normally use a different port than port 25 for outgoing messages,
+overcoming the problem of blocked port 25.  If your server is not
+operating under a registered Domain Name, then you have no option but to
+use a third party SMTP service offered by different ISPs (e.g.  DynDNS
+Email, Gmail, et cetera) to relay messages from your Remote Monitoring
+Server server to the intended recipients, via your email account on the
+third party server.
+
+   Do yourself a *big* favor and become clear on these three items:
+   * Mail Delivery Agent
+     (http://en.wikipedia.org/wiki/Mail_Delivery_Agent)
+   * Mail Transfer Agent
+     (http://en.wikipedia.org/wiki/Mail_transfer_agent) (Mail Relay)
+   * Mail User Agent (http://en.wikipedia.org/wiki/Mail_user_agent)
+
+   Then, do yourself a *huge* favor and become familiar with these four
+items:
+   * Email Authentication
+     (http://en.wikipedia.org/wiki/E-mail_authentication)
+   * S/MIME (http://en.wikipedia.org/wiki/S/MIME)
+   * SMTP Authentication
+     (http://en.wikipedia.org/wiki/SMTP_Authentication)
+   * Transport Layer Security
+     (http://en.wikipedia.org/wiki/Transport_Layer_Security)
+
+   Now, having a familiarity understanding of these items will equip you
+to have a successful talk with your Email Administrator, or your
+Internet Service Provider, or a Mail Relay Provider.  They will ask you
+several questions about how you want email handled for your GNU
+remotecontrol.  Prepare beforehand for this discussion.  The discussion
+will go much better if you are familiar with and understand these items.
+
+6.5.4 Configuration
+-------------------
+
+The Remote Monitoring Server can be configured to send notifications to
+any number of different recipients.  It is advisable you configure the
+access control list of your Email Server to only allow messages to be
+sent from the user under which your Remote Monitoring Server is running,
+as an added security precaution.  Follow the requirements stated by the
+MTA application you so choose to use and the settings provided by any
+third party SMTP service.
+
+   The email you probably want to receive is that which will notify you
+of a condition occurring.  You are notified by email messages sent to
+you by your Remote Monitoring Server.  You do not have to keep these
+email notifications after you are notified, nor do you need to set any
+reports to be sent to you in more emails.  All of the information you
+would ever need about notifications, alerts and their history, is being
+stored on your Remote Monitoring Server, either in log files or in a
+database.  The benefit of receiving an email alert is to be notified in
+real time, when you need to look into an exception event to mitigate its
+impact.  The benefit of this awareness is priceless.
+
+     Note: Don't use an SMS
+     (http://en.wikipedia.org/wiki/Short_Message_Service) address when
+     sending email to cell phones.  Use the cell phone's email address
+     via the Free Email To SMS Gateways
+     (http://www.makeuseof.com/tag/email-to-sms/).  Major United States
+     Carriers offer this to both email or SMS users.  Look for the same
+     options from cell phone providers where you live.  You will be much
+     happier using the cell phone's email address, as you can easily
+     track if the message went out or not, versus wondering about the
+     SMS system.....in which knowing is often a mystery.  Finally, it is
+     one less system to use.
+
+6.6 Frequently Asked Questions
+==============================
+
+6.6.1 What is RMS?
+------------------
+
+RMS is the acronym of Remote Monitoring Server.
+
+6.6.2 What is Remote Monitoring Server?
+---------------------------------------
+
+A Remote Monitoring Server regularly keeps track of your chosen
+networked device (computers, email servers, web servers, routers,
+thermostat devices, et cetera) and notifies you with alerts of any
+problems when they occur.
+
+6.6.3 Why do I need RMS?
+------------------------
+
+If you want to know the status of any IP addressable device, you need to
+monitor it.  If you do not have the time or effort available to stand
+there and watch the device yourself, you need something to automatically
+monitor it and record the results for you to review at your leisure.
+Ideally, the Remote Monitoring Server will promptly notify you of
+anything occurring you have defined as a problem.  An automated
+technology which remotely monitors your equipment, commonly referred to
+as....._stuff_.....and alerts you when there is a problem.  This is RMS.
+
+6.6.4 What will RMS do for me?
+------------------------------
+
+Watch your "stuff" and tell you when your "stuff" has a problem.  It
+logs the results of the monitoring of your "stuff" for you to review in
+a web page based format.  This approach will help you quickly figure out
+if something is wrong and what is wrong with your "stuff".
+
+6.6.5 How do I use RMS?
+-----------------------
+
+Pretty easy, actually.  Setup your Remote Monitoring Server and decide
+what network and devices you want monitored.  From there, you receive an
+email or SMS message to your cell phone when there is a problem.
+
+6.6.6 Does a Remote Monitoring Server do graphing?
+--------------------------------------------------
+
+Yes, it produces graphs providing a visual indication of the
+measurements taken, in configurable scale and units of measurement.
+
+6.6.7 Mobile access for RMS?
+----------------------------
+
+Yes, you can access your RMS server using your cell phone Internet
+browser.
+
+6.6.8 Is it difficult to use RMS?
+---------------------------------
+
+No more difficult than receiving an email or SMS message when an alert
+occurs.  Reports of historical events are available on the RMS served
+website, which includes a summary dashboard and detailed log tables and
+graphs.
+
+6.6.9 How many emails or SMS messages will I get?
+-------------------------------------------------
+
+More than enough for you to know if and when there is a problem.  A
+notification system is almost limitless in how it can be configured for
+you.  A good example is not receiving all SMS message in the middle of
+the night, but only the SMS messages you conclude you must have 'round
+the clock.  When you receive a notification, how many times you receive
+a subsequent notification for the same failure, and who receives those
+notifications.....all set up as you want.
+
+6.6.10 How many different email addresses will you send me notifications to?
+----------------------------------------------------------------------------
+
+Often, there is a primary and a secondary person in a monitoring
+notification.  Each person has an email address and an SMS address,
+receiving email or SMS notifications to each address.....as you prefer.
+Or, it is sent to a Distribution List.  The combination of options are
+plentiful to send email, rest assured.
+
+6.6.11 Can I use RMS to help Test and Balance my HVAC system?
+-------------------------------------------------------------
+
+Yes.  RMS and GNU remotecontrol work together to help you do just this.
+Having recorded data for your system usage and outdoors weather
+information is priceless for testing and balancing.  It offers
+considerable cost savings, in both time and effort, to review recorded
+data to optimize your system setup.  Additionally, you can reduce the
+number of people necessary to do the testing and balancing down to one
+person.
+
+6.6.12 Do I need RMS?
+---------------------
+
+Not to sound silly, but RMS prevents a mess.  It is impossible to
+consciously improve anything without first measuring it.  You may
+stumble upon a way to improve it, but is that a pro-active approach to
+managing anything?  Of course not.  To help improve things, RMS helps by
+monitoring the status your resources.  The unknown things of life can
+crop in and cause problems.  The faster you know about a problem, the
+faster you can stop any damage the problem may cause.  RMS helps you
+take advantage of the opportunity to improve how you manage things, so
+the chance of a problem returning becomes less likely.
+
+6.6.13 Really, how do I know that I need RMS?
+---------------------------------------------
+
+If you worry about your "stuff", and your "stuff" has an IP address, you
+need RMS.
+
+7 Usage Instructions
+********************
+
+It is our hope the preceding chapters have provided you the opportunity
+to gain a high-level understanding of all the technologies associated
+with GNU remotecontrol.  We now need to talk about the browser you
+select to use with GNU remotecontrol and emphasize the concepts of time.
+Then, you are ready to learn how to use GNU remotecontrol.
+
+7.1 Browser Selection
+=====================
+
+GNU remotecontrol works with the following browsers:
+
+   * Firefox (http://en.wikipedia.org/wiki/Firefox)
+   * Iceweasel
+     (http://en.wikipedia.org/wiki/Mozilla_software_rebranded_by_Debian#Iceweasel)
+   * Chrome (http://en.wikipedia.org/wiki/Google_Chrome)
+   * Chromium (http://en.wikipedia.org/wiki/Chromium_%28web_browser%29)
+   * Opera (http://en.wikipedia.org/wiki/Opera_browser)
+   * Internet Explorer (http://en.wikipedia.org/wiki/Internet_Explorer)
+
+   Internet Explorer, though one of the worlds earlier graphical
+(http://en.wikipedia.org/wiki/History_of_the_web_browser) options for a
+web browser (http://en.wikipedia.org/wiki/Web_browser) and is credited
+with helping to grow the Internet past text browsing
+(http://en.wikipedia.org/wiki/Timeline_of_web_browsers), simply changes
+too much and too often to deal with all of the inconsistencies of the
+browser not being compliant with International Standards
+(http://www.w3.org/standards/agents/browsers) of the World Wide Web.
+GNU remotecontrol does work with Internet Explorer.  However, Internet
+Explorer is not the recommendation for selection of a browser to use
+with GNU remotecontrol.
+
+7.2 Time
+========
+
+This section is quite important, perhaps the most important of all.  The
+absence of all devices being set to the same time often results in many
+problems, problems which are often catastrophic in nature.  We have
+written this section to try to eliminate Clock Synchronization
+(http://en.wikipedia.org/wiki/Clock_synchronization) errors from
+hindering the efficiency of your Energy Management strategy.
+
+   The definition of Time can mean many things to many people.  We
+define Time (http://en.wikipedia.org/wiki/Time) as _a dimension in which
+events can be ordered from the past through the present into the future,
+and the measure of durations of events and the intervals between them_.
+Date is a collection of time.  Daylight Savings Time
+(http://en.wikipedia.org/wiki/Daylight_saving_time) is the most common
+occurrence of Time Change (http://en.wikipedia.org/wiki/Time_change).
+Time Dilation (http://en.wikipedia.org/wiki/Time_dilation) is not a
+problem with HVAC operation, nor is the Hafele Keating Effect
+(http://en.wikipedia.org/wiki/Hafele%E2%80%93Keating_experiment), as the
+facility is not traveling.
+
+   Examples of how time differences can cause damage and harm people are
+in a manufacturing facility
+(http://en.wikipedia.org/wiki/Daylight_saving_time#Complexity) and while
+using medical equipment.  Awareness during the Daylight Savings Time
+change is the easiest way to avert any unforeseen problems.  Remember,
+even if you don't live in a location which observes Daylight Savings
+Time, there is still a time correction which occurs to resolve Delta T
+(http://en.wikipedia.org/wiki/%CE%94T).  Finally, you may have newly
+installed equipment incorrectly configured during installation and
+erroneously activates the hourly time change when Daylight Savings Time
+occurs.
+
+   All times within the database are stored using the UTC
+(http://en.wikipedia.org/wiki/Coordinated_Universal_Time) time standard
+and converted to the user's time zone (based on their location) for
+display purposes.  All HVAC devices have time specified in the device's
+time zone (based on its location).  The time you choose on an HVAC
+device setting is relative to the device's time zone.
+
+   Use the Time Administration setting to update all active thermostat
+devices to make sure all thermostat devices are set with the correct
+time for their time zone and Daylight Savings Time setting.  A time
+update must be applied to all thermostat devices whenever the Daylight
+Savings Time change for the device's location.
+
+   *Reference Information*
+
+   * Simple Network Time Protocol (SNTP)
+     (http://en.wikipedia.org/wiki/SNTP)
+   * Network Time Protocol (NTP)
+     (http://en.wikipedia.org/wiki/Network_Time_Protocol)
+   * NTP Server Misuse and Abuse
+     (http://en.wikipedia.org/wiki/NTP_server_misuse_and_abuse)
+   * NIST Authenticated NTP Service
+     (http://www.nist.gov/pml/div688/grp40/auth-ntp.cfm)
+
+7.3 Menu Structure
+==================
+
+The menu contains web pages by access permissions.  The menu is
+segmented by *Main Menu*, *Language Admin Menu*, and *Admin Menu*.  The
+menu segmentation represents a GNU remotecontrol administrative account
+able to access all web pages and a non-administrative account only able
+to access the web pages listed under *Main Menu*.
+
+7.3.1 Main Menu
+---------------
+
+   * Home Page
+   * Historical Reporting
+   * User Settings
+
+7.3.2 Language Admin Menu
+-------------------------
+
+   * Language Administration Dashboard
+   * Browse Languages
+   * Add a Language
+   * Browse Messages
+   * Browse Message Context
+   * Help
+
+7.3.3 Admin Menu
+----------------
+
+   * Administration Dashboard
+   * Location Administration
+   * Group Administration
+   * User Administration
+   * Exception List
+   * New Thermostat
+   * Undelete Thermostat
+   * Time Administration
+   * System Configuration
+
+7.3.4 User Types
+----------------
+
+There are three types of users: *General*, *Translator*, and
+*Administrator*.  All users are *General* users.  The *Translator* and
+*Administrator* users are nominated in the *User Administration*
+section.  Access to each web page is limited by user type.
+
+   *Administrator*
+
+   * admin-config.php
+   * admin-exception-list.php
+   * admin-exception.php
+   * admin-group.php
+   * admin-home.php
+   * admin-location.php
+   * admin-thermostat.php
+   * admin-time.php
+   * admin-undelete.php
+   * admin-user.php
+   * intl-context-list.php
+   * intl-invalid-list.php
+   * intl-language-add.php
+   * intl-language-edit.php
+   * intl-language-list.php
+   * intl-message-list.php
+   * intl-missing-list.php
+   * intl-translation-add.php
+
+   *General*
+
+   * history.php
+   * home.php
+   * intl-help.php
+   * intl-home.php
+   * intl-translation-list.php
+   * user-settings.php
+
+   *Translator*
+
+   * intl-message-list.php
+   * intl-translation-add.php
+
+   The web pages containing a table can either list or hide each column,
+adjust the display order of each column, and sort each column.  These
+settings are listed in the web page URL. This ability provides for your
+browser bookmark to record these user preferences.
+
+7.4 home.php
+============
+
+7.4.1 Purpose
+-------------
+
+The name of this web page is *Home Page*.  It is generated by the
+*home.php* file.  This web page provides bulk management of thermostat
+devices in the GNU remotecontrol application.
+
+7.4.2 Fields
+------------
+
+   * *Check Box* - This field is a web form control to select the
+     thermostat device for writing to the thermostat device with GNU
+     remotecontrol.
+   * *ID* - This field is the GNU remotecontrol thermostat device
+     identifier defined in the GNU remotecontrol database, from the *New
+     Thermostat* web page, generated by the *admin-thermostat.php* file.
+   * *Device Name* - This field is the Device Name, on the General
+     Settings web page, of the thermostat device.
+   * *Site Name* - This field is the Site Name, on the General Settings
+     web page, of the thermostat device.
+   * *Model #* - This field is the Model # of the thermostat device,
+     resident as read-only in the thermostat device firmware.
+   * *Location* - This field is the GNU remotecontrol location defined
+     in the GNU remotecontrol database, from the *Location
+     Administration* web page, generated by the *admin-location.php*
+     file.
+   * *Group* - This field is the GNU remotecontrol group name defined in
+     the GNU remotecontrol database, from the *Group Administration* web
+     page, generated by the *admin-group.php* file.
+   * *Custom Name* - This field is unique to GNU remotecontrol and not
+     on the thermostat device.  We added this field to supplement the
+     *Device Name* and *Site Name* fields on the thermostat device.  The
+     intent of this field is to increase capability when you use your
+     Database Management to separate out thermostat devices for
+     management purposes currently unforeseen.  It is always nice to
+     have more capability than necessary.  An example of how to use this
+     field is to enter GPS (http://en.wikipedia.org/wiki/Gps)
+     coordinates of where your thermostat device is located or further
+     define the *Site Name* field.
+   * *Description* - This field is unique to GNU remotecontrol and not
+     on the thermostat device.  We added this field to supplement the
+     *Device Name* and *Site Name* fields on the thermostat device.  The
+     intent of this field is to increase capability when you use your
+     Database Management to separate out thermostat devices for
+     management purposes currently unforeseen.  It is always nice to
+     have more capability than necessary.  An example of how to use this
+     field is to enter GPS (http://en.wikipedia.org/wiki/Gps)
+     coordinates of where your thermostat device is located or further
+     define the *Site Name* field.
+   * *Address* - This field is the network address of your thermostat
+     device.
+   * *Username* - This field is the GNU remotecontrol user account
+     defined in the GNU remotecontrol database, from the *User
+     Administration* web page, generated by the *admin-user.php* file.
+   * *Action* - Apply the changes you prescribe to this record in the
+     GNU remotecontrol database to either *Load* the existing thermostat
+     device settings stored on the thermostat device into *home.php*,
+     *Edit* an existing record, *Delete* an existing record, or *Admin*
+     to load the thermostat device web server pages into your browser.
+
+7.4.3 All Available Fields
+--------------------------
+
+   * Check Box
+   * ID
+   * Device Name
+   * Site Name
+   * Model #
+   * Location ID
+   * Location
+   * Group ID
+   * Group
+   * Custom Name
+   * Description
+   * Address
+   * Port
+   * Auth User
+   * Username
+   * Action
+
+7.4.4 Usage
+-----------
+
+This web page displays all of your active thermostat devices.  View your
+inactive thermostat devices on the *Undelete Thermostats* web page,
+generated by the *admin-undelete.php* file.  Activate an inactive
+thermostat device to display the thermostat device in *home.php*.
+
+   Any user account visiting *home.php* without first establishing
+locations is redirected to *admin-location.php*.  Any user account
+visiting *home.php* without first establishing groups is redirected to
+*admin-group.php*.  Establishing both groups and locations is a task of
+the GNU remotecontrol administrator user account.  The first user
+account to login to GNU remotecontrol is set to *Is Admin* status.  This
+status selection is regulated by visiting the *admin-user.php* file.
+
+   This web page provides for viewing existing thermostat device
+settings stored in the thermostat device and writing new settings to the
+thermostat devices.  Loading *home.php* causes each attribute of each
+thermostat device to be read.  You only view the settings of a single
+thermostat device, one at a time.  The data from a thermostat device is
+not loaded if the thermostat device cannot be reached or if the
+thermostat device is unresponsive.  Click the *Load* option in the
+*Action* field to view the settings of a single thermostat device.  This
+action will read the said thermostat device and load the thermostat
+device settings into this web page.  Then, alter the thermostat settings
+as you prefer.  Then, click the check box on the row of the thermostat
+device you want to apply these settings.  You can apply settings to one,
+multiple, or all active thermostat devices.
+
+   Selecting a collection of thermostat devices is easily accomplished
+by selecting them with their *Group* field entry.  Click the hyperlink
+in the *Group* field to activate the check box field of the thermostat
+device record in the GNU remotecontrol database.
+
+   Click the *Submit* button.  GNU remotecontrol goes to each device,
+makes the changes you prescribe, and populates *Historical Reporting*
+and *Exception List* in the GNU remotecontrol database, as appropriate.
+A successful write event to the thermostat devices renders the message
+*Settings applied successfully* in the color of green.  An unsuccessful
+write event to the thermostat device renders the message *Error* in the
+color of red.  The exact message from each thermostat device for each
+failed write event is captured.  This capability enables you to then use
+*history.php* or *admin-exception-list.php* or Database Management for
+thermostat device diagnostics to identify if any thermostat device is
+changing settings, identifying if you need to investigate who is doing
+this changing, or if the device is problematic.
+
+   There are *five* different fields available to easily manage your
+thermostat devices.  You have *two* on the thermostat device; *Device
+Name* and *Site Name*.  You have *three* in the GNU remotecontrol
+database; *Group*, *Custom Name*, and *Description*.  You also have
+*Model #*, *Address*, and *Username* available in the GNU remotecontrol
+database, though they may not be considered an easy way to identify your
+thermostat devices.  Plan out how you want to populate these fields,
+making your life much easier for managing your thermostat devices on a
+daily basis.
+
+   You need to know the settings on the different IP enabled thermostat
+devices you are charged with managing.  Using GNU remotecontrol will
+help you see if anyone or anything has changed the settings on a
+thermostat device, thereby altering or defeating your Energy Management
+strategy.  Combining into the equation a Remote Monitoring Server with
+Email Server notification and you are on top of the game for Energy
+Management.
+
+   Reload *home.php* at any time you prefer to poll each thermostat
+device and read the current parameters of the attributes for all
+thermostat devices.
+
+   All user types can access this web page.
+
+7.4.4.1 Object Parameters
+.........................
+
+The list of objects and parameters available on the thermostat device is
+listed below.
+
+   *-HVAC Settings-*
+
+   *HVAC Mode:*
+   * Off
+   * Heat
+   * Cool
+   * Auto
+
+   *Fan Mode:*
+   * Auto
+   * On
+   * Schedule
+
+   *Setback Status:*
+   * Normal
+   * Hold
+   * Override
+
+   *Setback Heat:*
+   * Degree Setting
+
+   *Setback Cool:*
+
+   * Degree Setting
+
+   *-Setback Scheduling-*
+
+   *Period*
+   * Morning
+   * Day
+   * Evening
+   * Night
+
+   *Time*
+   * Hour
+   * Minute
+
+   *Day Class Schedules*
+   * Occupied
+   * Unoccupied
+   * Other
+
+   *Heat*
+   * Degree Setting
+
+   *Cool*
+   * Degree Setting
+
+   *Fan*
+   * Off
+   * On
+   * 15, 30, 45 minutes
+
+   *Default Weekly Schedule - Days*
+   * Sunday
+   * Monday
+   * Tuesday
+   * Wednesday
+   * Thursday
+   * Friday
+   * Saturday
+
+   *Default Weekly Schedule - Setback Scheduling*
+   * Occupied
+   * Unoccupied
+   * Other
+
+   *-Sensor Settings-*
+
+   *Local Sensor - State*
+   * Disabled
+   * Enabled
+
+   *Local Sensor - Averaging*
+   * Disabled
+   * Enabled
+
+   *Local Sensor - Correction*
+   * Degree Setting Correction
+
+   *Remote Sensor 1 - State*
+   * Disabled
+   * Enabled
+
+   *Remote Sensor 1 - Averaging*
+   * Disabled
+   * Enabled
+
+   *Remote Sensor 1 - Correction*
+   * Degree Setting Correction
+
+   *Remote Sensor 2 - State*
+   * Disabled
+   * Enabled
+
+   *Remote Sensor 2 - Averaging*
+   * Disabled
+   * Enabled
+
+   *Remote Sensor 2 - Correction*
+   * Degree Setting Correction
+
+7.5 history.php
+===============
+
+7.5.1 Purpose
+-------------
+
+The name of this web page is *Historical Reporting*.  It is generated by
+the *history.php* file.  This web page provides access to a read-only
+view of successful write transactions to your thermostat devices.
+
+7.5.2 Fields
+------------
+
+   * *Timestamp* - This field is the time recorded from the GNU
+     remotecontrol server of when the change occurred.
+   * *Thermostat* - This field is the GNU remotecontrol thermostat
+     defined in the GNU remotecontrol database, from the *New
+     Thermostat* web page, generated by the *admin-thermostat.php* file.
+   * *Location* - This field is the GNU remotecontrol location defined
+     in the GNU remotecontrol database, from the *Location
+     Administration* web page, generated by the *admin-location.php*
+     file.
+   * *Username* - This field is the GNU remotecontrol user account
+     defined in the GNU remotecontrol database, from the *User
+     Administration* web page, generated by the *admin-user.php* file.
+   * *Group* - This field is the GNU remotecontrol group name defined in
+     the GNU remotecontrol database, from the *Group Administration* web
+     page, generated by the *admin-group.php* file.
+   * *Field* - This field is the device attribute changed.
+   * *Previous Value* - This field is the previous value of the device
+     attribute changed.
+   * *Current Value* - This field is the present value of the device
+     attribute changed.
+
+7.5.3 All Available Fields
+--------------------------
+
+   * ID
+   * Timestamp
+   * Thermostat ID
+   * Thermostat
+   * Description
+   * Location
+   * Username
+   * Group
+   * Field
+   * Previous Value
+   * Current Value
+
+7.5.4 Usage
+-----------
+
+This web page separates the list successful write transactions to your
+thermostat devices from the unsuccessful write transactions.  The
+unsuccessful write transactions are listed on the *Exception List* web
+page, generated by the *admin-exception-list.php* file.
+
+   This web page provides easy review of changes to the settings on your
+thermostat devices.  Use the filter fields at the top of the table to
+quickly find similar fields in multiple rows.  This search functionality
+helps to identify patterns in your change activities.
+
+   Security to access this web page is handled by the *User
+Administration* web page, generated by the *admin-user.php* file.
+
+7.6 user-settings.php
+=====================
+
+7.6.1 Purpose
+-------------
+
+The name of this web page is *User Settings*.  It is generated by the
+*user-settings.php* file.  This web page provides access to individual
+configuration of the settings available for the GNU remotecontrol user
+account in use.
+
+7.6.2 Fields
+------------
+
+   * *Username* - This field is the GNU remotecontrol user account
+     defined in the GNU remotecontrol database, from the *User
+     Administration* web page, generated by the *admin-user.php* file.
+   * *User ID* - This field is the unique identifier of a user account
+     within the GNU remotecontrol database.
+   * *Used Thermostats* - This field is the total number of thermostat
+     devices the user account can activate, from the *Thermostat Limit*
+     field on the *admin-user.php* file, along with how many thermostat
+     devices have been activated by the user account.
+   * *Location* - This field is the GNU remotecontrol location defined
+     in the GNU remotecontrol database, from the *Location
+     Administration* web page, generated by the *admin-location.php*
+     file.
+   * *Language* - This field is for future functionality.  Subsequent
+     GNU remotecontrol releases will have additional display languages
+     available for the user interface.  The only language available now
+     is English.
+
+7.6.3 Usage
+-----------
+
+This web page provides editing ability for user preferences of the user
+account.  The user *Location* is used to provide dates and times in the
+correct time zone with Daylight Savings Time adjustments.  A user type
+of administrator has user *Location* as the *default* location for new
+thermostats.  The *Language* setting nominates the user's preferred user
+interface localization.
+
+   Click the *Submit* to apply your changes.
+
+   Security to access this web page is handled by the *User
+Administration* web page, generated by the *admin-user.php* file.
+
+7.7 intl-home.php
+=================
+
+7.7.1 Purpose
+-------------
+
+The name of this web page is *Language Administration Dashboard*.  It is
+generated by the *intl-home.php* file.  This web page provides a review
+of your Language Administration in your GNU remotecontrol
+
+7.7.2 Usage
+-----------
+
+Instruction for using this web page is listed on the *Language
+Administration Help* web page, generated by the *intl-help.php* file.
+This web page provides detailed instruction on using the GNU
+remotecontrol Language Administration System.
+
+7.8 intl-language-list.php
+==========================
+
+7.8.1 Purpose
+-------------
+
+The name of this web page is *Language List*.  It is generated by the
+*intl-language-list.php* file.  This web page provides the detailed list
+of languages you have established within your GNU remotecontrol.
+
+7.8.2 All Available Fields
+--------------------------
+
+   * Langtag
+   * Fallback
+   * Language
+   * English Name
+   * Local Name
+   * Active
+   * Operations
+
+7.8.3 Usage
+-----------
+
+Instruction for using this web page is listed on the *Language
+Administration Help* web page, generated by the *intl-help.php* file.
+This web page provides detailed instruction on using the GNU
+remotecontrol Language Administration System.
+
+7.9 intl-language-add.php
+=========================
+
+7.9.1 Purpose
+-------------
+
+The name of this web page is *Add Language*.  It is generated by the
+*intl-language-add.php* file.  This web page provides the ability to add
+a new language to your GNU remotecontrol.
+
+7.9.2 Usage
+-----------
+
+Instruction for using this web page is listed on the *Language
+Administration Help* web page, generated by the *intl-help.php* file.
+This web page provides detailed instruction on using the GNU
+remotecontrol Language Administration System.
+
+7.10 intl-message-list.php
+==========================
+
+7.10.1 Purpose
+--------------
+
+The name of this web page is *Message List*.  It is generated by the
+*intl-message-list.php* file.  This web page provides the ability to
+review messages.  Messages are English language content available for
+translation.  Each message in the system can be associated with one or
+more contexts and one or more content types.
+
+7.10.2 All Available Fields
+---------------------------
+
+   * Content
+   * Types
+   * Context Codes
+   * Contexts
+   * Hash
+   * Sequence
+   * Words
+   * Translations
+   * Index
+
+7.10.3 Usage
+------------
+
+Instruction for using this web page is listed on the *Language
+Administration Help* web page, generated by the *intl-help.php* file.
+This web page provides detailed instruction on using the GNU
+remotecontrol Language Administration System.
+
+7.11 intl-context-list.php
+==========================
+
+7.11.1 Purpose
+--------------
+
+The name of this web page is *Message Context List*.  It is generated by
+the *intl-context-list.php* file.  This web page provides to review
+message context.  Message contexts are a label that indicates the
+context of a message.  The message context exists to provide support for
+message content which may vary according to context.
+
+7.11.2 All Available Fields
+---------------------------
+
+   * Code
+   * Context
+   * Message Count
+   * Type
+   * Words
+
+7.11.3 Usage
+------------
+
+Instruction for using this web page is listed on the *Language
+Administration Help* web page, generated by the *intl-help.php* file.
+This web page provides detailed instruction on using the GNU
+remotecontrol Language Administration System.
+
+7.12 intl-help.php
+==================
+
+7.12.1 Purpose
+--------------
+
+The name of this web page is *Language Administration Help*.  It is
+generated by the *intl-help.php* file.  This web page provides detailed
+instruction on using the GNU remotecontrol Language Administration
+System.
+
+7.12.2 Usage
+------------
+
+This is a read-only web page providing all help available on the GNU
+remotecontrol Language Administration System.
+
+7.13 admin-home.php
+===================
+
+7.13.1 Purpose
+--------------
+
+The name of this web page is *Administration Dashboard*.  It is
+generated by the *admin-home.php* file.  This web page provides a
+listing of all web pages in the GNU remotecontrol application having
+administrative privileges.
+
+7.13.2 Fields
+-------------
+
+This web page has no fields.
+
+7.13.3 Usage
+------------
+
+Click on the *hyperlink* of the web page you wish to view.
+
+   Security to access this web page is handled by the *User
+Administration* web page, generated by the *admin-user.php* file.
+
+7.14 admin-location.php
+=======================
+
+7.14.1 Purpose
+--------------
+
+The name of this web page is *Location Administration*.  It is generated
+by the *admin-location.php* file.  This web page provides access to
+configure your GNU remotecontrol thermostat locations.
+
+7.14.2 Fields
+-------------
+
+   * *Location Name* - This field is the GNU remotecontrol location you
+     define in the GNU remotecontrol database, from the *Location
+     Administration* web page, generated by the *admin-location.php*
+     file.
+   * *Time Zone* - Search for the continent, country, state, or city for
+     an appropriate time zone accounting for with Daylight Savings Time
+     adjustments for this location.
+   * *UTC Offset* - This field value is determined from the entry listed
+     in the corresponding Time Zone field by calculating the UTC offset
+     with respect to the current date accounting for Daylight Savings
+     Time calculations.
+   * *Action* - Apply the changes you prescribe to this record in the
+     GNU remotecontrol database to either *Add* a record, *Edit* an
+     existing record, or *Delete* an existing record.
+
+7.14.3 All Available Fields
+---------------------------
+
+   * Location ID
+   * Location Name
+   * Time Zone
+   * UTC Offset
+   * Action
+
+7.14.4 Usage
+------------
+
+This web page provides the ability to find a geographic location and
+correctly identify the time zone of the location.  Each thermostat
+device is resident in a single location.  This functionality is used
+when reading time events in GNU remotecontrol and writing the date and
+time to the thermostat device.  Additionally, use this web page to
+identify your location to configure your GNU remotecontrol installation.
+This configuration can be viewed on the *System Configuration* web page,
+generated by the *admin-config.php* file.
+
+   Security to access this web page is handled by the *User
+Administration* web page, generated by the *admin-user.php* file.
+
+7.15 admin-group.php
+====================
+
+7.15.1 Purpose
+--------------
+
+The name of this web page is *Group Administration*.  It is generated by
+the *admin-group.php* file.  This web page provides access to configure
+your GNU remotecontrol groups.
+
+7.15.2 Fields
+-------------
+
+   * *Group Name* - This field is the GNU remotecontrol group name you
+     define in the GNU remotecontrol database, from the *Group
+     Administration* web page, generated by the *admin-group.php* file.
+   * *Description* - This field is the GNU remotecontrol group
+     description you define for this record in the GNU remotecontrol
+     database.
+   * *Action* - Apply the changes you prescribe to this record in the
+     GNU remotecontrol database to either *Add* a record, *Edit* an
+     existing record, or *Delete* an existing record.
+
+7.15.3 All Available Fields
+---------------------------
+
+   * Group ID
+   * Group Name
+   * Description
+   * Action
+
+7.15.4 Usage
+------------
+
+This web page provides the ability to define groups within GNU
+remotecontrol.  Each thermostat device is a member of a single group.
+This functionality is used to ease management of writing to multiple
+thermostat devices at one time.
+
+   Security to access this web page is handled by the *User
+Administration* web page, generated by the *admin-user.php* file.
+
+7.16 admin-user.php
+===================
+
+7.16.1 Purpose
+--------------
+
+The name of this web page is *User Administration*.  It is generated by
+the *admin-user.php* file.  This web page provides access to configure
+your GNU remotecontrol user accounts.
+
+7.16.2 Fields
+-------------
+
+   * *Username* - This field is the GNU remotecontrol user account you
+     define in the GNU remotecontrol database, from the *User
+     Administration* web page, generated by the *admin-user.php* file.
+   * *Is Admin?*  - This field determines if a user account can access
+     the administrative web pages in GNU remotecontrol.  GNU
+     remotecontrol administrative web pages are php files containing the
+     construct *admin-* in the file name.
+   * *Is Translator?*  - This field is for future functionality.
+     Subsequent GNU remotecontrol releases will have additional display
+     languages available for the user interface.  The only language
+     available now is English.
+   * *Location* - This field is the GNU remotecontrol location defined
+     in the GNU remotecontrol database, from the *Location
+     Administration* web page, generated by the *admin-location.php*
+     file.
+   * *Thermostat Limit* - This field determines the maximum number of
+     thermostat devices you allow for the GNU remotecontrol user
+     account.
+   * *Language* - This field is for future functionality.  Subsequent
+     GNU remotecontrol releases will have additional display languages
+     available for the user interface.  The only language available now
+     is English.
+   * *Action* - Apply the changes you prescribe to this record in the
+     GNU remotecontrol database to either *Add* a record, *Edit* an
+     existing record, or *Delete* an existing record.
+
+7.16.3 All Available Fields
+---------------------------
+
+   * User ID
+   * Username
+   * Is Admin?
+   * Is Translator?
+   * Location
+   * Thermostat Limit
+   * Language
+   * Action
+
+7.16.4 Usage
+------------
+
+This web page provides the ability to define users within GNU
+remotecontrol.  The first user account to login is set to admin status
+via the *Is Admin?*  field.  All other GNU remotecontrol user accounts
+must be established through this web page in combination with a Web
+Server user account.  Add GNU remotecontrol user accounts with the
+*exact same name* you setup the user accounts in your Web Server.
+
+   The *Is Translator?*  field is present for future functionality.  The
+ability to alter the display language and wording of GNU remotecontrol
+will arrive through a future GNU remotecontrol version release.
+
+   We added a means of user control to this web page, per a request
+received during our design of GNU remotecontrol.  The demand for this
+feature is the desire to increase awareness of the need to also setup
+Remote Monitoring for a newly added thermostat device.  The intent of
+this feature is to provide a check and balance for all roles using GNU
+remotecontrol.  Imagine adding a thermostat device to your facility and
+forgetting to setup monitoring of the thermostat device, only to find
+out after a month or so has passed you have no information collected for
+this newly added thermostat device.  This feature helps to remind you to
+setup monitoring of the thermostat device when you add more thermostat
+devices to your facility.  You set the total number of thermostat
+devices each user account is allowed to whatever you prefer.  This
+collectively provides for a separation of duties between the GNU
+remotecontrol administrator and the GNU remotecontrol user.  This
+separation of duties greatly helps to structure change management in
+your environment between the different people in your organization.
+
+   Security to access this web page is handled by the *Is Admin?*
+field.
+
+7.17 admin-exception-list.php
+=============================
+
+7.17.1 Purpose
+--------------
+
+The name of this web page is *Exception List*.  It is generated by the
+*admin-exception-list.php* file.  This web page provides a read-only
+view of unsuccessful write transactions to your thermostat devices.
+
+7.17.2 Fields
+-------------
+
+   * *ID* - This field is the unique identifier of the error report
+     entry in the GNU remotecontrol exception list.
+   * *Timestamp* - This field is the date and time the error occurred
+     within GNU remotecontrol.
+   * *User* - This field is the GNU remotecontrol user account involved
+     with the error.
+   * *Type* - This field is the type of error generated by GNU
+     remotecontrol.
+   * *Message* - This field is the message from the error generated by
+     GNU remotecontrol.
+   * *Code* - This field is the error code from the error generated by
+     GNU remotecontrol.
+   * *File* - This field is the file involved with the error generated
+     by GNU remotecontrol.
+   * *Line* - This field is the line of the file involved with the error
+     generated by GNU remotecontrol.
+
+7.17.3 All Available Fields
+---------------------------
+
+   * ID
+   * Timestamp
+   * User
+   * Type
+   * Previous
+   * Message
+   * Code
+   * File
+   * Line
+   * Message Stack
+   * Trace
+
+7.17.4 Usage
+------------
+
+This web page displays all unsuccessful write activity within GNU
+remotecontrol.  The *Timestamp* field has hyperlink functionality,
+leading to the *Exception Details* web page generated by the
+*admin-exception.php* file.  There are two additional fields here not
+found in the *Exception List* table, *Previous* and *Trace*.  Previous
+has any related error messages and Trace has the lineage of the error
+event.
+
+   Security to access this web page is handled by the *User
+Administration* web page, generated by the *admin-user.php* file.
+
+7.18 admin-thermostat.php
+=========================
+
+7.18.1 Purpose
+--------------
+
+The name of this web page is *New Thermostat*.  It is generated by the
+*admin-thermostat.php* file.  This web page provides the ability to
+enter your thermostat device information in the GNU remotecontrol
+application.
+
+7.18.2 Fields
+-------------
+
+*Connection Options*
+   * *Thermostat ID* - This field is always set to *New*, as you are
+     adding a new thermostat.
+   * *Address* - This field is the network address of your thermostat
+     device.  The connection is via http, so you do not need to enter
+     http:// into this field.  You can enter either a fully qualified
+     domain name address or IP address, depending upon how you have
+     setup network access between your GNU remotecontrol to the
+     thermostat device.
+   * *Port* - This field is the port of the network address of your
+     thermostat device.
+   * *Username* - This field is always set to the *admin* user account
+     of the thermostat device.
+   * *Password* - This field is the password for the *admin* user
+     account of the thermostat device.
+
+   *Database Settings* - This information is resident within the GNU
+remotecontrol database.
+   * *User* - This field is the GNU remotecontrol user account you
+     define in the GNU remotecontrol database, from the *User
+     Administration* web page, generated by the *admin-user.php* file.
+     The *edit* hyperlink leads to the *User Administration* web page,
+     generated by the *admin-user.php* file.
+   * *Custom Name* - This field is unique to GNU remotecontrol and not
+     on the thermostat device.  We added this field to supplement the
+     *Device Name* and *Site Name* fields on the thermostat device.  The
+     intent of this field is to increase capability when you use your
+     Database Management to separate out thermostat devices for
+     management purposes currently unforeseen.  It is always nice to
+     have more capability than necessary.  An example of how to use this
+     field is to enter GPS (http://en.wikipedia.org/wiki/Gps)
+     coordinates of where your thermostat device is located or further
+     define the *Site Name* field.
+   * *Description* - This field is unique to GNU remotecontrol and not
+     on the thermostat device.  We added this field to supplement the
+     *Device Name* and *Site Name* fields on the thermostat device.  The
+     intent of this field is to increase capability when you use your
+     Database Management to separate out thermostat devices for
+     management purposes currently unforeseen.  It is always nice to
+     have more capability than necessary.  An example of how to use this
+     field is to enter GPS (http://en.wikipedia.org/wiki/Gps)
+     coordinates of where your thermostat device is located or further
+     define the *Site Name* field.
+   * *Location* - This field is the GNU remotecontrol location defined
+     in the GNU remotecontrol database, from the *Location
+     Administration* web page, generated by the *admin-location.php*
+     file.  The *edit* hyperlink leads to the *Location Administration*
+     web page, generated by the *admin-location.php* file.
+   * *Group* - This field is the GNU remotecontrol group name defined in
+     the GNU remotecontrol database, from the *Group Administration* web
+     page, generated by the *admin-group.php* file.  The *edit*
+     hyperlink leads to the *Group Administration* web page, generated
+     by the *admin-group.php* file.
+
+   *Device Settings* - This information is resident within the
+thermostat device internal memory.
+   * *Device Name* - This field is the Device Name, on the General
+     Settings web page, of the thermostat device.
+   * *Site Name* - This field is the Site Name, on the General Settings
+     web page, of the thermostat device.
+   * *Model #* - This field is the Model # of the thermostat device,
+     resident as read-only in the thermostat device firmware.
+   * *Time* - This field is the thermostat device date and time, on the
+     General Settings web page, of the thermostat device.
+
+   *Sensor Settings*
+   * *Scale* - This field is the Temperature Scale setting, on the
+     General Settings web page, of the thermostat device.
+   * *Local Sensor* - This field is the Local Sensor configuration
+     setting, on the Sensor Settings web page, of the thermostat device.
+     This feature is device specific, per manufacturer model design.
+   * *Remote Sensor 1* - This field is the Remote Sensor 1 configuration
+     setting, on the Sensor Settings web page, of the thermostat device.
+     This feature is device specific, per manufacturer model design.
+   * *Remote Sensor 2* - This field is the Remote Sensor 2 configuration
+     setting, on the Sensor Settings web page, of the thermostat device.
+     This feature is device specific, per manufacturer model design.
+
+   *Form Submission*
+   * *Next* - Select the option of *Add New Thermostat*, *Edit
+     Thermostat*, or *Go to Homepage*.
+   * *Submit* - Click the *Submit* button to apply your action choice to
+     the GNU remotecontrol database.
+
+7.18.3 Usage
+------------
+
+This web page provides the ability to define thermostat devices within
+GNU remotecontrol.  This is the only place to configure your sensor
+settings.  The sensor settings are unique to each thermostat device.
+
+   Enter the *Connection Options* field values, then tab out of the
+*Password* field.  The thermostat device is read.  The Device Settings
+and Sensor Settings are populated in the web page.  Select *Add New
+Thermostat* to add this record to the GNU remotecontrol database.
+Select *Edit Thermostat* to add the record and validate the entries are
+as preferred.  Select *Go to Homepage* to view the thermostat device
+listed in *home.php*.
+
+   You must have the password to the *admin* user account for each
+thermostat device for GNU remotecontrol to either read from or write to
+the thermostat device.  This approach is to know with certainty the GNU
+remotecontrol user has administrative authority to the thermostat
+device.  You having complete authority of a thermostat device in your
+facility is a critical step in you achieving success with your Energy
+Management strategy.
+
+   Security to access this web page is handled by the *User
+Administration* web page, generated by the *admin-user.php* file.
+
+7.19 admin-undelete.php
+=======================
+
+7.19.1 Purpose
+--------------
+
+The name of this web page is *Undelete Thermostats*.  It is generated by
+the *admin-undelete.php* file.  This web page provides access to restore
+display of thermostat devices deleted from the GNU remotecontrol
+application.  Undeleted thermostat devices are displayed on the *Home
+Page* web page, generated by the *home.php file*.  This functionality
+provides for maintaining historical records even though a thermostat
+device may be listed as deleted in GNU remotecontrol.
+
+7.19.2 Fields
+-------------
+
+   * *ID* - This field is the GNU remotecontrol thermostat device
+     identification number in the GNU remotecontrol database, from the
+     *Edit Thermostat* web page, generated by the *admin-thermostat.php
+     file*.  This field value is automatically assigned.
+   * *Location* - This field is the GNU remotecontrol location defined
+     in the GNU remotecontrol database, from the *Location
+     Administration* web page, generated by the *admin-location.php*
+     file.
+   * *Group* - This field is the GNU remotecontrol group name you define
+     in the GNU remotecontrol database, from the *Group Administration*
+     web page, generated by the *admin-group.php* file.
+   * *Custom Name* - This field is the GNU remotecontrol thermostat
+     device custom name you define in the GNU remotecontrol database,
+     from the *Edit Thermostat* web page, generated by the
+     *admin-thermostat.php* file.
+   * *Description* - This field is the GNU remotecontrol thermostat
+     device description you define in the GNU remotecontrol database,
+     from the *Edit Thermostat* web page, generated by the
+     *admin-thermostat.php* file.
+   * *Action* - This field provides the ability to restore a thermostat.
+     A restored thermostat is removed from the table of deleted
+     thermostats and is available on the *Home Page*.
+
+7.19.3 All Available Fields
+---------------------------
+
+   * ID
+   * Location ID
+   * Location
+   * Group ID
+   * Group
+   * Custom Name
+   * Description
+   * Address
+   * Port
+   * Auth User
+   * Action
+
+7.19.4 Usage
+------------
+
+Click *Restore* in the *Action* column to restore a deleted thermostat.
+
+   Security to access this web page is handled by the *User
+Administration* web page, generated by the *admin-user.php* file.
+
+7.20 admin-time.php
+===================
+
+7.20.1 Purpose
+--------------
+
+The name of this web page is *Time Administration*.  It is generated by
+the *admin-time.php* file.  This web page provides to set the time on
+all active thermostat devices for the GNU remotecontrol user account.
+
+7.20.2 Usage
+------------
+
+Click the button *Update Time*.  Each active thermostat device is
+updated with GNU remotecontrol time for thermostat device timezones and
+Daylight Savings Time based on the location of each device.  Your GNU
+remotecontrol time is the time setting of the computer hosting GNU
+remotecontrol.  A *success* message is rendered in *green* and a
+*failure* message is rendered in *red*.  Review the *Historical
+Reporting* and *Exception List* web pages to learn *success* or
+*failure* outcomes to the time setting action.  Please review the
+section above called *Time* for more information as to why this
+functionality has been designed.
+
+7.21 admin-config.php
+=====================
+
+7.21.1 Purpose
+--------------
+
+The name of this web page is *System Configuration*.  It is generated by
+the *admin-config.php* file.  This web page provides display of the
+system configuration settings.  They are configured by editing the
+*config.php* file in the web root of the GNU remotecontrol application.
+
+7.21.2 Fields
+-------------
+
+*Debug Settings*
+   * *DEBUG* - Whether debugging is supported or not.
+
+   *Database Settings*
+   * *DB_HOST* - IP address or fully qualified domain name of MySQL
+     server.
+   * *DB_USER* - Username of MySQL server user.
+   * *DB_PASS* - Password of MySQL server user.
+   * *DB_NAME* - Name of MySQL database.
+   * *DB_TZ_NAME* - MySQL named time zone support.
+
+   *Web Settings*
+   * *WEB_ROOT* - URL prefix.
+
+   *HTML Settings*
+   * *HTML_VERSION* - 4: HTML 4; X: XHTML; 5: HTML 5.
+   * *HTML_PRETTY* - true: pretty print HTML; false: compress HTML
+
+   *Temperature Settings*
+   * *DEFAULT_SCALE* - 1: Fahrenheit, 2: Celsius
+
+   *Date/Time Settings*
+   * *DEFAULT_TIMEZONE* - This is the timezone where your GNU
+     remotecontrol resides.  Your GNU remotecontrol uses your system
+     date and time to begin all GNU remotecontrol time based activities.
+
+   *Network Settings*
+   * *WRITE_ATTEMPTS* - Number of times to retry device writes.
+   * *READ_ATTEMPTS* - Number of times to retry device reads.
+   * *NET_TIMEOUT* - Number of seconds to wait for device operation to
+     succeed.
+   * *RECOVER_FROM_FACTORY_RESET* - Whether to auto-recover from factory
+     reset or not.  This is a PHP function to apply the thermostat
+     device password stored in the GNU remotecontrol database to the
+     said thermostat device.  *THIS IS A DEVIATION TO THE PROLIPHIX
+     API*.
+
+7.21.3 Usage
+------------
+
+This web page provides the ability to review the settings of your GNU
+remotecontrol configuration.  This ability helps to resolve any
+performance problems caused by configuration or if you need to change a
+setting such as *DEBUG*, *HTML_PRETTY*, or any of the *Network
+Settings*.
+
+   Security to access this web page is handled by the *User
+Administration* web page, generated by the *admin-user.php* file.
+
+7.22 Troubleshooting
+====================
+
+   * Review the *Exception List* web page to read the information
+     transmitted by the thermostat device to learn why the thermostat
+     device failed to properly respond.
+   * Review the error log files for your Web Server, Database Server, or
+     PHP any time you find a problem where you are not receiving an
+     error directly from GNU remotecontrol.  Remember, each error log
+     has various logging levels.
+
+8 Usage Recommendations
+***********************
+
+8.1 Start Small
+===============
+
+GNU remotecontrol can operate on a laptop, a desktop, even a hand-held
+computer.....if you can achieve setting up your Web Server and Database
+Server.
+
+   It will probably be much easier on you to setup a GNU remotecontrol
+system while using your existing Energy Management Control System.  This
+will allow you to learn, test, try, think, try some more, all
+side-by-side with all of your existing systems.  Then, when you are
+ready, switch over seamlessly to use GNU remotecontrol as your primary
+system, along with your (then) old Energy Management Control System, to
+make sure you are absolutely comfortable with your setup of your GNU
+remotecontrol system.  Finally, once your are comfortable with your GNU
+remotecontrol, decommission your old Energy Management Control System.
+
+   Benefits of running GNU remotecontrol on a smaller hardware
+combination include:
+   * Getting GNU remotecontrol up and running for a Proof-of-Concept.
+   * Managing the HVAC systems of different sites without having to be
+     at each of those sites.
+
+8.2 Strongly Encouraged
+=======================
+
+   * Restrict your data network to only allow a few network addresses to
+     connect to the IP enabled thermostat devices.  This makes sure the
+     IP enabled thermostat devices does not get overloaded from too many
+     users trying to access it where it fails to respond, possibly
+     requiring the IP enabled thermostat devices to be power cycled.
+     Instead, use the logged data of by minute and by quarter hour to
+     run your monitoring and reporting.
+   * Setup your Remote Monitoring Server to log sensor readings every
+     minute.  Do this for fifteen concurrent minutes.  Delete previous
+     records so you only have the fifteen readings in this record set at
+     any given time.  Then, you have a granular recording of data in
+     combination with your Remote Monitoring Server recording the same
+     information in fifteen-minute intervals.  It takes about a minute
+     for a change to register on a sensor, shy of an extreme combination
+     of circumstances.  This sensor reading approach provides you with
+     all of the monitoring and reporting data you could ever hope for.
+   * Script setting the time on your IP enabled thermostat devices.
+     Recommend setting the time every month, at a minimum.  Clocks of
+     all kinds are always gaining or losing a few seconds here and
+     there, to the point things add up to a few minutes here and there.
+     Setting the time on a regular monthly basis avoids the whole
+     gaining and losing problem.
+   * Roaming Brown Outs
+     (http://en.wikipedia.org/wiki/Brownout_%28electricity%29) and
+     Natural Disasters in the vicinity of your thermostat devices cause
+     for your thermostat devices to have all kinds of power supply
+     problems.  Your thermostat device may well have a weak on-board
+     battery.  That means the time on your thermostat has a poor chance
+     of being correct and any Setback Scheduling on the device has
+     little to no chance of being properly executed.  Set the time every
+     hour on your thermostat device, at the minimum.  The fact a Natural
+     Disaster has occurred means your Energy Management strategy will be
+     unable to occur, anyway.  Plan some type of HVAC Settings for
+     dealing with a Natural Disaster.  Perhaps a plan for the Winter
+     months and a plan for the Summer months.  Perhaps turning on the
+     fan for Architecture Ventilation
+     (http://en.wikipedia.org/wiki/Ventilation_%28architecture%29) is
+     the best course of action, promoting health and safety in the
+     facility.  Perhaps activating heating or cooling is also in the
+     best course of action.  Use scripting to help you meet this need.
+   * Use Database Management to change the time in the thermostat
+     profile when Daylight Savings Time occurs.  For example, Database
+     Management will convert North America Eastern Standard Time, with a
+     UTC offset of -5, to North America Eastern Daylight Time, with a
+     UTC offset of -4.  Remember, there is Australian Eastern Time and
+     North American Eastern Time, each with Daylight and Standard
+     options.  Clearly, the database aspect of GNU remotecontrol will
+     help you keep all of your time settings correct.  Set it up as a
+     SQL script to change the Time Zone entry in the thermostat profile.
+     Run the script when Daylight Savings Time occurs.
+   * Script setting your heating-cooling-ventilation levels as a
+     comparison of outdoors conditions.  Say so many degrees difference
+     between outside and inside, same for a difference in percentage of
+     relative humidity.
+   * Use the Remote Monitoring of your location to change a website
+     appearance
+     (http://css-tricks.com/using-weather-data-to-change-your-websites-apperance-through-php-and-css/).
+   * Use the Remote Monitoring of your location to build Software
+     Widgets (http://en.wikipedia.org/wiki/Software_widget) or Web
+     Widgets (http://en.wikipedia.org/wiki/Web_widget).
+   * Setup a simple web page which will fit the temperature and humidity
+     readings of both the thermostat devices and the weather conditions
+     you care about onto the screen of your cell phone
+     (http://en.wikipedia.org/wiki/Microbrowser).  You then can easily
+     see, in a single viewing (http://en.wikipedia.org/wiki/Mobile_Web),
+     what you care to know.
+
+8.3 Food for Thought
+====================
+
+There are many different ways you can use the data you collect:
+   * Really Simple Syndication (http://en.wikipedia.org/wiki/Rss) (RSS)
+   * JavaScript Object Notation (http://en.wikipedia.org/wiki/JSON)
+     (JSON)
+   * Extensible Markup Language (http://en.wikipedia.org/wiki/XML) (XML)
+   * Atom (http://en.wikipedia.org/wiki/Atom_%28standard%29)
+   * Web Service (http://en.wikipedia.org/wiki/Web_service)
+   * Software Widget (http://en.wikipedia.org/wiki/Software_widget)
+   * Web Widget (http://en.wikipedia.org/wiki/Web_widget)
+
+9 Use Case Scenarios
+********************
+
+The following are real examples, with abstract names, to illustrate how
+to put all of this technology together so it will work for you.
+
+9.1 Scenario 1 - Building Maintenance
+=====================================
+
+This person is overworked and underpaid at the *ABC Corporation*.  They
+have a boss that all the time wants to know if "thus and so" got done.
+This person needs a way to get things done faster and have automated
+documentation that it is complete.
+
+   This person uses GNU remotecontrol to help with setting the HVAC in
+this company, and does a screen shot of the transaction history for
+their boss to see, as their boss wants an email to see what happens.
+
+9.2 Scenario 2 - Office Worker
+==============================
+
+This person is overworked and underpaid at *Super-Duper Insurance
+Company*.  They haves a boss that all the time wants to know if "thus
+and so" got done.  They need a way to get things done faster and have
+automated documentation that it is complete.
+
+   They use GNU remotecontrol to help with setting the HVAC in this
+company, and does a screen shot of the transaction history for their
+boss to see, as their boss wants an email to see what happens.
+
+9.3 Scenario 3 - Property Manager
+=================================
+
+This person is overworked and underpaid at *Manage 4 You Property
+Management Corporation*.  They have a boss that all the time wants to
+know if "thus and so" got done.  This person needs a way to get things
+done faster and have automated documentation that it is complete.
+
+   This person uses GNU remotecontrol to help with setting the HVAC in
+the properties to achieve considerable savings on energy cost, and does
+a screen shot of the transaction history for their boss to see, as their
+boss wants an email to see what happens.
+
+9.4 Scenario 4 - Restaurant Operations
+======================================
+
+This person is doing pretty well in life.  This person owns several
+restaurants around town called *Super Good Eats*.  Each site has two
+different HVAC units.  This person also setup a thermostat in their
+house.  Later, they needed to care for their elderly mother, so they put
+a thermostat in the house of their mother.  When this person sets the
+thermostat in their house, they set the house of their mother the same
+way.  This way, this person knows pretty well how things are in the
+house of their mother, even though they are not there with their mother.
+
+   The corporate office is all of the time messing with the thermostat
+and there is a lot of inner-office politics from this problem.  This
+person wanted that problem to go away, and to quit paying through the
+nose in electric bill to keep the air conditioning going.  This person
+set's the corporate office the same as their home, so they know the
+climate in the office pretty is much the same as the climate in their
+home.  The owner can now can shut down arguments often before they
+occur.
+
+   This person is saving so much money on energy costs they were able to
+buy a cabin in the mountains for when they and their family want to get
+away from the ocean front, where they live.  This person remotely sets
+the temperature before they arrive at their cabin.  The owner also makes
+sure that the temperature and humidity in their cabin is not too extreme
+when they are away, so pipes don't burst, and that there is not a mold
+or mildew problem.
+
+9.5 Scenario 5 - Certified Energy Manager
+=========================================
+
+The Certified Energy Manager (CEM) needs to manage multiple sites for
+multiple customers.  The CEM needs to log data over a long time period.
+The CEM needs to adjust set-points on different HVAC equipment to work
+out the specific energy control measures for each customer.  The CEM has
+multiple Direct Digital Control
+(http://en.wikipedia.org/wiki/Direct_Digital_Control) (DDC) points.  The
+CEM needs to know a great deal of information from these DDC points.
+The CEM could greatly benefit from having all of this information coming
+to them in a structured manner, all stored in a database, leveraging
+their already existing Information Technology to access and manage this
+collection of resources.
+
+   The CEM can setup GNU remotecontrol over different computers.  The
+Web Server, Database Server, Email Server, and Remote Monitoring Server
+are all separate from the CEM laptop.  The CEM is free to travel and
+access GNU remotecontrol as necessary to adjust set-points, while
+receiving notifications something needs attention.  The CEM is not bound
+to their office all day long.
+
+9.6 Scenario 6 - Industrial Manufacturing Facility
+==================================================
+
+This site has many different air-handling units, many different dampers,
+and several sources of heat.  The facility has adequate staff to handle
+on-site maintenance.  Please see the section above regarding the
+*Certified Energy Manager* to learn more about the aspect of accessing
+and managing Direct Digital Control (DDC) points.
+
+   The benefit here is using GNU remotecontrol to decrease reaction time
+when Remote Monitoring finds a temperature or humidity threshold is
+close to being reached and not interrupt manufacturing operations.
+
+9.7 Scenario 7 - Facility Manager
+=================================
+
+This scenario is a refinement of the Industrial Manufacturing Facility
+illustration, but wider in scope than only manufacturing.
+
+   The Facility Manager often does not have a Certified Energy Manager
+to work with them.  Please see the section above regarding the
+*Certified Energy Manager* to learn more about the aspect of accessing
+and managing Direct Digital Control (DDC) points.
+
+   This site has many different air-handling units, many different
+dampers, and several sources of heat.  The facility has adequate staff
+to handle on-site maintenance.  The benefit here is using GNU
+remotecontrol to decrease reaction time when Remote Monitoring finds a
+temperature or humidity threshold is close to being reached and not
+interrupt facility operations.
+
+   Examples of their daily maintenance routine includes:
+
+   * Cleaning thermostat devices and sensors after they get a build up
+     of dust, oil, or other pollutants on them, defeating their ability
+     to operate well or at all.
+   * Assist with device calibrating efforts, as a hand-held thermostat
+     and a networked sensor showing the same reading is always
+     preferred.
+   * Justifying HVAC upgrades, as appropriate, to different areas of the
+     facility.  Examples of this functionality include a fan, a
+     compressor, a coil, or changing from constant air volume to a
+     variable air volume terminal unit.
+   * Managing workers to achieve these tasks.
+
+   There are loads of reasons to implement automation in this facility.
+Mostly, to help the staff accomplish their work in a timely manner, and
+assure they have a way to schedule vacation time for the staff.
+
+9.8 Scenario 8 - External Information
+=====================================
+
+See the *Cautionary* paragraph in the *Power over Ethernet* section.  It
+is necessary to understand about powering a thermostat device for this
+scenario to make sense.  There are countless ways to bring external
+information sensors into your IP enabled thermostat device and use your
+Remote Monitoring Server to get that data to you.
+
+9.9 Scenario 9 - Financial Manager
+==================================
+
+The Financial Manager is the person who has spending authority over the
+facility.  Month after month, they have high electric and fuel bills
+because their facility is running either too hot or too cold due to an
+inability to effectively operate the HVAC systems.  They do not have
+separate meters to know what part of the facility is using however much
+electricity or fuel.  They simply have to do something, as they cannot
+justify these high expense every month.  They lead a Cost Benefit
+Analysis (http://en.wikipedia.org/wiki/Cost%E2%80%93benefit_analysis)
+for their facility, leveraging the staff working at the facility, a
+Certified Energy Manager, off-site staff, and anyone else they need to
+complete their Cost Benefit Analysis.  The end result is to know if GNU
+remotecontrol will help them lower their electric and fuel bills.  Most
+likely, it will.
+
+9.10 Scenario 10 - Automated Meter Reading
+==========================================
+
+Automated Meter Reading
+(http://en.wikipedia.org/wiki/Automated_meter_reading) is not the same
+as Smart Metering (http://en.wikipedia.org/wiki/Smart_meter).  They are
+both part of Advanced Metering Infrastructure
+(http://en.wikipedia.org/wiki/Smart_meter#Advanced_metering_infrastructure).
+Smart Metering has much more capability than Automated Meter Reading.
+Suffice it to say, if you are going to implement either of these
+technologies, it only makes sense to be able to do something with all of
+this data.  Responding by changing your HVAC system, as appropriate,
+considerably helps to increase the effectiveness of you Energy
+Management strategy.  Connect your Remote Monitoring Server to the data
+coming in from your Automated Meter Reading or Smart Metering so you can
+compare the data to the rest of the data you are capturing.  You will
+have a clear picture of how much energy you are using to achieve your
+Energy Management strategy.
+
+9.11 Scenario 11 - Smart Metering
+=================================
+
+Smart Metering (http://en.wikipedia.org/wiki/Smart_meter) is not the
+same as Automated Meter Reading
+(http://en.wikipedia.org/wiki/Automated_meter_reading).  They are both
+part of Advanced Metering Infrastructure
+(http://en.wikipedia.org/wiki/Smart_meter#Advanced_metering_infrastructure).
+Smart Metering has much more capability than Automated Meter Reading.
+Suffice it to say, if you are going to implement either of these
+technologies, it only makes sense to be able to do something with all of
+the data.  Responding by changing your HVAC system, as appropriate,
+helps to increase the effectiveness of you Energy Management strategy.
+Connect your Remote Monitoring Server to the data coming in from your
+Automated Meter Reading or Smart Metering so you can compare the data to
+the rest of the data you are capturing.  You will have a clear picture
+of how much energy you are using to achieve your Energy Management
+strategy.
+
+9.12 Scenario 12 - Utility Providers
+====================================
+
+This provider has decided to offer an Energy Management service to their
+customer.  They have thousands and thousands of customers.  They need a
+way to help their customer manage their thermostat device for generating
+heating and cooling, but also maintain air flow in their residential and
+commercial facilities.  This provider also needs to improve their
+ability to monitor energy consumption, plan for energy manufacturing,
+and manage emergencies such as roaming Brownouts
+(http://en.wikipedia.org/wiki/Brownout_%28electricity%29) caused by
+storms and other catastrophic events.  Please see the section *Usage
+Recommendations* for more information.
+
+   Turning off all power to the HVAC system as a whole removes the
+ability of the HVAC fan to circulate air and maintain air flow.  This
+defeats the Energy Management strategy, as circulating some amount of
+air necessary for a variety of reasons.  Perhaps most importantly,
+Environmental Health and Safety
+(http://en.wikipedia.org/wiki/Environmental_Health_and_Safety) has
+different ventilation requirements for residential, commercial, and
+industrial facilities.
+
+   This provider has a two-part offering to their customers.  First, the
+provider uses GNU remotecontrol to do more than just turn off the
+electricity, water, or fuel to the HVAC unit.  They are now capable of
+providing either heating or cooling adjustments while having the HVAC
+fan circulate air, or only circulate air without a heating or cooling
+adjustment.  This combination of options now available are much more
+than turning off the entire HVAC unit.  Second, the provider also uses
+Smart Metering to connect HVAC usage with energy meter readings to log
+readings on an hourly basis.  This combined offering provides for better
+control and usage of energy resources, HVAC resources, and visibility to
+understand customer energy usage.  Energy usage as the billing cycle
+progresses and historically, of course.  Imagine how happy the customer
+will be to be able to see this granular level of detailed billing.
+
+9.13 Summary
+============
+
+There is no single reason to implement GNU remotecontrol.  The reasoning
+is often multiple and overlapping.  All of these reasons help to
+decrease your costs and increase your comfort level.  Think locally and
+globally, and you will easily see there is more good reasoning to use
+GNU remotecontrol than ever considered before.
+
+10 Implementation Cost
+**********************
+
+The GNU remotecontrol framework leverages already existing Information
+Technologies of a Data Network, Web Server with a complete Operating
+System, Database Server, Remote Monitoring Server, and Email Server.
+The cost to implement GNU remotecontrol is then reduced to the following
+ordered list:
+
+  1. Labor to obtain and prepare GNU remotecontrol.
+  2. Labor to configure your already existing Information Technologies.
+  3. Purchase cabling to run from your data network to your IP enabled
+     thermostat device.
+  4. Labor to install cabling from your data network to your IP enabled
+     thermostat device.
+  5. Purchase IP enabled thermostat device.
+  6. Purchase a power supply for IP enabled thermostat device.
+  7. Labor to install IP enabled thermostat device.
+  8. Labor to install power supply for IP enabled thermostat device.
+  9. Labor to configure IP enabled thermostat device.
+
+   It is highly recommended you choose external sensors for your IP
+enabled thermostat device having pre-wired cabling long enough to reach
+where you need the external sensor to reside.  Adding in more cable
+between a device and an external sensor is often problematic.  Mixing
+different cable types, in either quality of cable or type of
+cable.....or both.....often result with problems to having accurate
+sensor readings.  This pre-wired cabling, per manufacturer design and
+intent of their sensor, decreases the likelihood of the sensor resulting
+with skewed metrics.  Most external sensors are extremely touchy.  This
+is a good thing, as it provides you with accurate metrics.  However,
+proper cable selection of an external sensor is paramount to proper
+metrics.  Go with the option of a manufacturer having enough cable
+as-built to meet your needs and not splicing on additional cable.
+
+   Finally, consider the benefit of connecting your external sensor
+directly to your IP enabled thermostat device, provided the IP enabled
+thermostat device can accept it.  The benefit of sensor averaging is
+highly valuable to improving system performance.  A direct connection to
+the IP enabled thermostat device also eliminates the need for another
+power supply to operate the external sensor.
+
+   The cost to implement GNU remotecontrol, in comparison with a lesser
+Energy Management strategy for any HVAC system, justifies the completion
+of a Cost Benefit Analysis
+(http://en.wikipedia.org/wiki/Cost%E2%80%93benefit_analysis) to
+determine if GNU remotecontrol is appropriate for your circumstances.
+Most likely, it is.
+
+11 Roadmap
+**********
+
+The working list of action items for GNU remotecontrol is posted in the
+*TODO.txt* file.  This file is located in the
+'/PATH-TO-YOUR-SVN/remotecontrol/doc/' directory.  These action items
+are specific changes we decide to accomplish and release in future
+versions.  Each action item is loaded as either a Bug
+(http://savannah.gnu.org/bugs/?group=remotecontrol) or Task
+(https://savannah.gnu.org/task/?group=remotecontrol) into our GNU
+Savannah section (http://savannah.gnu.org/projects/remotecontrol/).  The
+GNU remotecontrol Road Map is planned for and limited by the following
+boundaries.
+
+11.1 Interoperability
+=====================
+
+The Future of GNU remotecontrol is a commitment to international
+standards and protocols for Information Technology to provide
+availability, relevance, transparency, and maintenance of the GNU
+remotecontrol framework.  The BACnet XML Working Group
+(http://www.bacnet.org/WG/XML/index.html) is an excellent example of
+these attributes.
+
+11.2 HVAC Original Equipment Manufacturer - Feature Addition
+============================================================
+
+OEM's now often have the feature of IP enablement.  The benefits for
+OEM's to add IP enablement to their thermostat device product offering
+far outweigh any hindrance from remaining a standalone device.  Examples
+of these benefits include interoperability, furthered Energy Management
+strategies, and increased customer satisfaction from the new capability
+of remote access to their thermostat device.
+
+11.3 HVAC Aftermarket Equipment Manufacturer - Feature Addition
+===============================================================
+
+AEM's have added the feature of IP enablement in the past with limited
+success.  This is mostly due to the dependency on another piece of
+proprietary technology to handle translation of some proprietary
+technology to the data network for the thermostat device.  The
+proprietary aspect of the technology will often bottleneck the success
+of this technology.  The success of the thermostat device as a
+complimentary good is well-proven.  There are hundreds of different
+programmable thermostat devices for sale at both the local home supply
+stores and globally.  Proper selection of any aftermarket product or
+service is critical to the success of the primary product being
+supplemented.  A simple example of this scenario is selecting the
+different parts to enhance an engine for an automobile, or a boat, or a
+snow mobile, et cetera.  Aftermarket Equipment Manufacturers must
+demonstrate they have in their offering the capability to not damage the
+existing primary product.  Specifically, a heating and cooling system.
+There must also be solid proof their offering enhances system
+performance by adding additional feature or benefit combinations.
+Finally, their offering must be constructed to meet manufacturing
+directives, such as RoHS (http://en.wikipedia.org/wiki/ROHS).
+
+11.4 Cost Benefit Analysis
+==========================
+
+The outcome of your Cost Benefit Analysis
+(http://en.wikipedia.org/wiki/Cost%E2%80%93benefit_analysis) will help
+you see your Return on Investment
+(http://en.wikipedia.org/wiki/Rate_of_return) (ROI). This will probably
+be the bottom line to the success of GNU remotecontrol for you.
+Additionally, consider your Return on Assets
+(http://en.wikipedia.org/wiki/Return_on_assets) (ROA) as you consider
+your cost and benefits.
+
+   The Retro Commission
+(http://en.wikipedia.org/wiki/Energy_service_company#Retro-commissioning)
+(RCx) of any facility, small or large, is best evaluated by.....*is it
+worth it*?  Even Testing-Adjusting-Balancing
+(http://en.wikipedia.org/wiki/Testing_Adjusting_Balancing) a system is
+well worth the time and effort, to make sure your system is setup as
+suitable for your needs and wants.  The answer to this ROI question
+mandates completing several different calculations to make this
+determination.  The answer to this ROA question mandates defining how
+your investment is considered an asset.
+
+   New construction does not require as many calculations to understand
+costs, but often mandates different aspects to be evaluated and then
+calculated.  Don't forget to add in the costs and savings of Information
+Technology.  This list includes system design, capital expenditures, and
+system operation.  This is identified as IT Cost Transparency
+(http://en.wikipedia.org/wiki/IT_cost_transparency).  Then, don't forget
+to add in your End User costs and savings for training and system
+operation.  This is identified as Human Resource Accounting
+(http://en.wikipedia.org/wiki/Human_resource_accounting).
+
+   Not every facility must have a complete set of calculations to know
+what you need to do for your Energy Management strategy.  Consider
+simple advice on best practices offered by your *qualified* Decision
+Makers to help you select what is best for you.  Regardless of what you
+choose for your Energy Management strategy, have a plan.....work the
+plan.....review and revise your plan, as appropriate.
+
+   The cost to implement GNU remotecontrol, in comparison with a lesser
+Energy Management strategy for any HVAC system, justifies the completion
+of a Cost Benefit Analysis to determine if GNU remotecontrol is
+appropriate for your circumstances.  Most likely, it is.
+
+12 REFERENCE
+************
+
+12.1 Cabling 101
+================
+
+12.1.1 Introduction
+-------------------
+
+The intent of this writing is *not* to make you an expert in cabling
+(http://en.wikipedia.org/wiki/Cable).  The intent is to provide you with
+the necessary reference information, tips, and recommendations for you
+to wisely use cabling.  There is no, repeat.....no substitute for hands
+on experience with cabling.
+
+   Please carefully read all of this information before you attempt your
+cabling efforts.  Experience is a great teacher, so don't be afraid or
+discouraged if you mix up wiring patterns or do not suitably terminate
+(http://en.wikipedia.org/wiki/Electrical_termination) a connection with
+the proper amount of pressure on a wire connector as you begin your
+cabling efforts.
+
+12.1.2 Cable
+------------
+
+A wire is a single conductor.  A cable is a group of two or more
+insulated conductors.  Category 5 cable
+(http://en.wikipedia.org/wiki/Category_5_cable) is available in many
+forms.  The cable is solid core 24-AWG
+(http://en.wikipedia.org/wiki/American_wire_gauge).  8 separately
+jacketed wires, twisted in pairs, making 4 pairs all contained within a
+protective jacket.  The jacket wrapping around the cable is either
+Plenum (http://en.wikipedia.org/wiki/Plenum_cable) or Non-Plenum.
+Plenum cable is rated for a fire hazard area.  Category 5 cabling is
+often rated as low-voltage (http://en.wikipedia.org/wiki/Low_voltage),
+meaning you do not need a license to install the cable.  Please contact
+your local fire authority for more information.
+
+12.1.3 Grounding
+----------------
+
+Proper cable grounding is essential for safety.  The assumption the
+cable carries a low amount of voltage is true, but it also carries
+enough capability to damage the equipment connected together via your
+cable and you.....the cabling person.  The differences between
+surge-suppression (http://en.wikipedia.org/wiki/Surge_suppression) and
+transient-voltage-suppression
+(http://en.wikipedia.org/wiki/Transient-voltage-suppression_diode)
+cannot be stated enough.  Please contact your local fire authority for
+more information.
+
+12.1.4 Installation
+-------------------
+
+Category 5 cable is installed in either electrical conduit
+(http://en.wikipedia.org/wiki/Electrical_conduit), cable trays
+(http://en.wikipedia.org/wiki/Cable_tray), or J-Hooks
+(https://www.google.com/search?q=j-hooks).  Cable must, must, must be
+properly supported to prevent stretching the copper wire and cause small
+breaks in the wire.  Small wire breaks cause for performance issues in
+quality-of-service (http://en.wikipedia.org/wiki/Quality_of_service),
+and lead to a complete breakage in one or more wires.  Cable is laid out
+in a pattern of either a main distribution frame
+(http://en.wikipedia.org/wiki/Main_distribution_frame) or an
+intermediate distribution frame
+(http://en.wikipedia.org/wiki/Intermediate_distribution_frame).
+
+12.1.5 Termination
+------------------
+
+Properly installed cable is then connected with some type of registered
+jack -and- plug (http://en.wikipedia.org/wiki/Registered_jack).  This
+end result is called a cable termination or a wire termination.
+
+12.1.6 Testing
+--------------
+
+All cabling must have continuity
+(http://en.wikipedia.org/wiki/Continuity_test) all of the time.  A
+simple cable tester (http://en.wikipedia.org/wiki/Cable_tester) is
+probably the most manageable continuity tester
+(http://en.wikipedia.org/wiki/Continuity_tester) there is after cable
+has been terminated with a registered jack and plug to determine if you
+have continuity.  If you have nothing else to test with, connecting two
+bare wires together with a wire nut
+(http://en.wikipedia.org/wiki/Wire_nut) on one end, then testing the
+other ends with a multi-meter (http://en.wikipedia.org/wiki/Multimeter)
+is always an option.  This is quite valuable after cable has been laid
+in place and you want to know if it has continuity before terminating
+the cable.
+
+12.1.7 Usage Notes
+------------------
+
+   * You have the probability of good quality-of-service
+     (http://en.wikipedia.org/wiki/Quality_of_service) after cable is
+     properly installed, but it is not guaranteed.  Wise planning of
+     your installation is paramount to not having problems related to
+     cabling.
+   * Most cable installations go through some type of usage change
+     during the lifecycle of the cable.  Today, imagine you have a singe
+     device connecting to a single port on your data network switch.
+     Tomorrow, you may need more devices to connect to the same port on
+     that same data network switch.  That means you need to put another
+     data network switch into the picture.  Where that additional data
+     network switch will reside is the unknown.  Moving more data across
+     that same cable means the quality of that cable, and the quality of
+     installing that cable, really does matter.  Sure, you can always
+     pull more cable.  However, you still need more ports on a data
+     network switch that lives somewhere to connect those additional
+     devices.  Wise choices for cable installation provides more options
+     to choose from, options that can easily increase cost effectiveness
+     for owning and operating your equipment.
+   * Your continuity tester will help you see when you have the proper
+     wiring pattern and the proper amount of pressure on a wire
+     termination.
+   * A majority of the cables manufacturers post a required a minimum
+     bend radius for their cable of, "_four times the diameter_" to
+     avoid problems.  A cable loop that is too small results in nothing
+     more than broken cable.  Small wire breaks cause for performance
+     issues in quality-of-service.  It is not worth installing lesser
+     quality cable that will cause you problems, nor is it worth
+     installing good cable in a way that will cause you problems.  Plan
+     your installation and you will have years of satisfaction from your
+     cable.
+   * Pull some extra cable, loop it in a circle, and wire tie the cable
+     loop together.  That provides for moving terminated cable a bit if
+     necessary, and provides extra cable should you mix up things when
+     you terminate the cable and need to correct the termination.
+   * The satisfaction from installing your own cable is great, indeed.
+     The cost of installing your own cable is sometimes best paid for
+     through a cabling company.  Count the cost and choose either your
+     own labor or labor from a cabling company that best suits you
+     requirements.
+   * Remember, quality-of-service
+     (http://en.wikipedia.org/wiki/Quality_of_service) is only possible
+     after cable is properly installed.
+
+12.1.8 Cautionary
+-----------------
+
+Whatever you do, always install your cable as required by your fire
+authority and always, always, always properly support your cable with
+either electrical conduit, cable trays, or J-Hooks.  Suffice it to say,
+cable that is not properly supported will eventually have small cracks
+in the wire, resulting in a quality-of-service
+(http://en.wikipedia.org/wiki/Quality_of_service) loss, progressing to
+intermittent continuity problems, and ultimately completely break the
+wire somewhere within the cable jacket.
+
+12.2 Power over Ethernet (PoE) 101
+==================================
+
+12.2.1 Introduction
+-------------------
+
+Power over Ethernet (http://en.wikipedia.org/wiki/Power_over_Ethernet)
+is quite possibly the best thing to come along to the Information
+Technology world of hardware since the 1980's.  Literally, it is that
+wonderful!  The essence of PoE is you can use cable that is rated as
+low-voltage (http://en.wikipedia.org/wiki/Low_voltage) to power a
+multitude of PoE hardware devices
+(http://en.wikipedia.org/wiki/Power_over_Ethernet#Uses).  The list of
+what is capable of PoE is constantly growing.  Here are some common PoE
+terms to understand.
+
+12.2.2 Power Sourcing Equipment (PSE)
+-------------------------------------
+
+The PSE
+(http://en.wikipedia.org/wiki/Power_over_Ethernet#Power_sourcing_equipment)
+is the network PoE element that inserts power onto a Category 5 cable.
+It may be an endspan device, such as a PoE-enabled data network switch,
+or a midspan device located between the data network switch and the
+Powered Device (PD).
+
+12.2.3 Powered Device (PD)
+--------------------------
+
+A PD (http://en.wikipedia.org/wiki/Power_over_Ethernet#Powered_device)
+is the PoE capable device that receives power over Category 5 cable.  It
+could be a PoE-enabled IP telephone, a Wireless Access Point, an IP
+enabled HVAC thermostat, any other IP device that needs electrical
+power.
+
+12.2.4 Midspan
+--------------
+
+A midspan device is a PSE that inserts power onto the Category 5 cable.
+It is situated between the data network switch and the PD. Typically,
+midspan devices are added to existing networks to allow the use of
+PoE-enabled PD's.
+
+12.2.5 Endspan
+--------------
+
+An endspan device is typically a data network switch that incorporates
+PoE capabilities.  Endspan devices often are implemented when a new
+network is created, to avoid adding both midspan devices and a data
+network switch.
+
+12.2.6 Usage Notes
+------------------
+
+Now, should you need or want to move a device such as a Wireless Access
+Point, an IP telephone, or an HVAC sensor to another
+location.....imagine how nice it would be to not have to juggle the
+powering of that device.  There are many combination
+(http://en.wikipedia.org/wiki/Power_over_Ethernet#Powering_devices)
+options available for PoE capable hardware.
+
+   Pressing onward, imagine a device is locked up and you need to power
+the device off and then turn it back on.  Walking to that device could
+be a hassle, and could require opening a lot of access panels.  Using
+PoE, you can turn off the power over your data network and then turn it
+back on.
+
+   The thing for you with PoE is you need to determine how much
+electrical power you need.  This amount will tell you what specification
+you need to comply with.  The manufacturer of the PoE device will tell
+you what standards they are compatible with.  From there, buy the PoE
+supply.  Your selection is either a simple single-port power injector
+(Midspan), or a rack-mounted
+(http://www.microsemi.com/products/powerdsine) midspan power injector,
+or buy new data network switches that have PoE built-in as an integrated
+feature (Endspan).  Count the cost and choose as best suits you.
+
+   The biggest benefit of PoE is you have the ability to have a better
+handle on your surge-suppression
+(http://en.wikipedia.org/wiki/Surge_suppression) and
+transient-voltage-suppression
+(http://en.wikipedia.org/wiki/Transient-voltage-suppression_diode)
+efforts.  This is because you so chose to install your cabling as
+recommended.  Running a wire as an extension off of an HVAC unit, or a
+wall outlet, to supply electricity to power the PoE capable hardware,
+without also providing proper protection for that PoE hardware, is
+absolutely and positively nothing but trouble.  That trouble often shows
+up as electrical damage in the form of peculiar performance of the
+hardware, or even hardware failure.
+
+12.2.7 Cautionary
+-----------------
+
+Here is a strong and simple example of why powering your IP enabled
+thermostat device from an HVAC unit is a bad idea.
+
+   The drain line on the HVAC unit somehow gets blocked.  This triggers
+the float switch (http://en.wikipedia.org/wiki/Float_switch) to prevent
+flooding and that powers down the whole system.  The thermostat has then
+been turned off due to the absence of power to the thermostat.  The same
+is true if you power your IP enabled thermostat device from your HVAC
+and not PoE. *That means you will be unable to access your IP enabled
+thermostat device from your data network*.
+
+   You can also hook your float switch to your IP enabled thermostat
+device, as an external information sensor, and know when that float
+switch is activated via Remote Monitoring.  Power over Ethernet is a
+really.....really.....good idea.
+
+   Whatever you do, always use cable safely.  Please contact your local
+fire authority for more information.
+
+13 Contributors
+***************
+
+Stephen Dawson (https://savannah.gnu.org/users/shdawson), Robbin
+Tallent, Robert Vincent, Michael Jacoby, Travis Paul, Virgilio Lino,
+John Elliot V, Esteban Monge, Wensheng Xie, Federico Daguerre, Vinicius
+Madureira, Jagadees S., and a host of other people.  Their contribution
+is both respected and appreciated.
+
+Appendix A GNU Free Documentation License
+*****************************************
+
+                      Version 1.2, November 2002
+
+     Copyright (C) 2000,2001,2002 Free Software Foundation, Inc.
+     51 Franklin St, Fifth Floor, Boston, MA  02110-1301, USA
+
+     Everyone is permitted to copy and distribute verbatim copies
+     of this license document, but changing it is not allowed.
+
+  0. PREAMBLE
+
+     The purpose of this License is to make a manual, textbook, or other
+     functional and useful document "free" in the sense of freedom: to
+     assure everyone the effective freedom to copy and redistribute it,
+     with or without modifying it, either commercially or
+     noncommercially.  Secondarily, this License preserves for the
+     author and publisher a way to get credit for their work, while not
+     being considered responsible for modifications made by others.
+
+     This License is a kind of "copyleft", which means that derivative
+     works of the document must themselves be free in the same sense.
+     It complements the GNU General Public License, which is a copyleft
+     license designed for free software.
+
+     We have designed this License in order to use it for manuals for
+     free software, because free software needs free documentation: a
+     free program should come with manuals providing the same freedoms
+     that the software does.  But this License is not limited to
+     software manuals; it can be used for any textual work, regardless
+     of subject matter or whether it is published as a printed book.  We
+     recommend this License principally for works whose purpose is
+     instruction or reference.
+
+  1. APPLICABILITY AND DEFINITIONS
+
+     This License applies to any manual or other work, in any medium,
+     that contains a notice placed by the copyright holder saying it can
+     be distributed under the terms of this License.  Such a notice
+     grants a world-wide, royalty-free license, unlimited in duration,
+     to use that work under the conditions stated herein.  The
+     "Document", below, refers to any such manual or work.  Any member
+     of the public is a licensee, and is addressed as "you".  You accept
+     the license if you copy, modify or distribute the work in a way
+     requiring permission under copyright law.
+
+     A "Modified Version" of the Document means any work containing the
+     Document or a portion of it, either copied verbatim, or with
+     modifications and/or translated into another language.
+
+     A "Secondary Section" is a named appendix or a front-matter section
+     of the Document that deals exclusively with the relationship of the
+     publishers or authors of the Document to the Document's overall
+     subject (or to related matters) and contains nothing that could
+     fall directly within that overall subject.  (Thus, if the Document
+     is in part a textbook of mathematics, a Secondary Section may not
+     explain any mathematics.)  The relationship could be a matter of
+     historical connection with the subject or with related matters, or
+     of legal, commercial, philosophical, ethical or political position
+     regarding them.
+
+     The "Invariant Sections" are certain Secondary Sections whose
+     titles are designated, as being those of Invariant Sections, in the
+     notice that says that the Document is released under this License.
+     If a section does not fit the above definition of Secondary then it
+     is not allowed to be designated as Invariant.  The Document may
+     contain zero Invariant Sections.  If the Document does not identify
+     any Invariant Sections then there are none.
+
+     The "Cover Texts" are certain short passages of text that are
+     listed, as Front-Cover Texts or Back-Cover Texts, in the notice
+     that says that the Document is released under this License.  A
+     Front-Cover Text may be at most 5 words, and a Back-Cover Text may
+     be at most 25 words.
+
+     A "Transparent" copy of the Document means a machine-readable copy,
+     represented in a format whose specification is available to the
+     general public, that is suitable for revising the document
+     straightforwardly with generic text editors or (for images composed
+     of pixels) generic paint programs or (for drawings) some widely
+     available drawing editor, and that is suitable for input to text
+     formatters or for automatic translation to a variety of formats
+     suitable for input to text formatters.  A copy made in an otherwise
+     Transparent file format whose markup, or absence of markup, has
+     been arranged to thwart or discourage subsequent modification by
+     readers is not Transparent.  An image format is not Transparent if
+     used for any substantial amount of text.  A copy that is not
+     "Transparent" is called "Opaque".
+
+     Examples of suitable formats for Transparent copies include plain
+     ASCII without markup, Texinfo input format, LaTeX input format,
+     SGML or XML using a publicly available DTD, and standard-conforming
+     simple HTML, PostScript or PDF designed for human modification.
+     Examples of transparent image formats include PNG, XCF and JPG.
+     Opaque formats include proprietary formats that can be read and
+     edited only by proprietary word processors, SGML or XML for which
+     the DTD and/or processing tools are not generally available, and
+     the machine-generated HTML, PostScript or PDF produced by some word
+     processors for output purposes only.
+
+     The "Title Page" means, for a printed book, the title page itself,
+     plus such following pages as are needed to hold, legibly, the
+     material this License requires to appear in the title page.  For
+     works in formats which do not have any title page as such, "Title
+     Page" means the text near the most prominent appearance of the
+     work's title, preceding the beginning of the body of the text.
+
+     A section "Entitled XYZ" means a named subunit of the Document
+     whose title either is precisely XYZ or contains XYZ in parentheses
+     following text that translates XYZ in another language.  (Here XYZ
+     stands for a specific section name mentioned below, such as
+     "Acknowledgements", "Dedications", "Endorsements", or "History".)
+     To "Preserve the Title" of such a section when you modify the
+     Document means that it remains a section "Entitled XYZ" according
+     to this definition.
+
+     The Document may include Warranty Disclaimers next to the notice
+     which states that this License applies to the Document.  These
+     Warranty Disclaimers are considered to be included by reference in
+     this License, but only as regards disclaiming warranties: any other
+     implication that these Warranty Disclaimers may have is void and
+     has no effect on the meaning of this License.
+
+  2. VERBATIM COPYING
+
+     You may copy and distribute the Document in any medium, either
+     commercially or noncommercially, provided that this License, the
+     copyright notices, and the license notice saying this License
+     applies to the Document are reproduced in all copies, and that you
+     add no other conditions whatsoever to those of this License.  You
+     may not use technical measures to obstruct or control the reading
+     or further copying of the copies you make or distribute.  However,
+     you may accept compensation in exchange for copies.  If you
+     distribute a large enough number of copies you must also follow the
+     conditions in section 3.
+
+     You may also lend copies, under the same conditions stated above,
+     and you may publicly display copies.
+
+  3. COPYING IN QUANTITY
+
+     If you publish printed copies (or copies in media that commonly
+     have printed covers) of the Document, numbering more than 100, and
+     the Document's license notice requires Cover Texts, you must
+     enclose the copies in covers that carry, clearly and legibly, all
+     these Cover Texts: Front-Cover Texts on the front cover, and
+     Back-Cover Texts on the back cover.  Both covers must also clearly
+     and legibly identify you as the publisher of these copies.  The
+     front cover must present the full title with all words of the title
+     equally prominent and visible.  You may add other material on the
+     covers in addition.  Copying with changes limited to the covers, as
+     long as they preserve the title of the Document and satisfy these
+     conditions, can be treated as verbatim copying in other respects.
+
+     If the required texts for either cover are too voluminous to fit
+     legibly, you should put the first ones listed (as many as fit
+     reasonably) on the actual cover, and continue the rest onto
+     adjacent pages.
+
+     If you publish or distribute Opaque copies of the Document
+     numbering more than 100, you must either include a machine-readable
+     Transparent copy along with each Opaque copy, or state in or with
+     each Opaque copy a computer-network location from which the general
+     network-using public has access to download using public-standard
+     network protocols a complete Transparent copy of the Document, free
+     of added material.  If you use the latter option, you must take
+     reasonably prudent steps, when you begin distribution of Opaque
+     copies in quantity, to ensure that this Transparent copy will
+     remain thus accessible at the stated location until at least one
+     year after the last time you distribute an Opaque copy (directly or
+     through your agents or retailers) of that edition to the public.
+
+     It is requested, but not required, that you contact the authors of
+     the Document well before redistributing any large number of copies,
+     to give them a chance to provide you with an updated version of the
+     Document.
+
+  4. MODIFICATIONS
+
+     You may copy and distribute a Modified Version of the Document
+     under the conditions of sections 2 and 3 above, provided that you
+     release the Modified Version under precisely this License, with the
+     Modified Version filling the role of the Document, thus licensing
+     distribution and modification of the Modified Version to whoever
+     possesses a copy of it.  In addition, you must do these things in
+     the Modified Version:
+
+       A. Use in the Title Page (and on the covers, if any) a title
+          distinct from that of the Document, and from those of previous
+          versions (which should, if there were any, be listed in the
+          History section of the Document).  You may use the same title
+          as a previous version if the original publisher of that
+          version gives permission.
+
+       B. List on the Title Page, as authors, one or more persons or
+          entities responsible for authorship of the modifications in
+          the Modified Version, together with at least five of the
+          principal authors of the Document (all of its principal
+          authors, if it has fewer than five), unless they release you
+          from this requirement.
+
+       C. State on the Title page the name of the publisher of the
+          Modified Version, as the publisher.
+
+       D. Preserve all the copyright notices of the Document.
+
+       E. Add an appropriate copyright notice for your modifications
+          adjacent to the other copyright notices.
+
+       F. Include, immediately after the copyright notices, a license
+          notice giving the public permission to use the Modified
+          Version under the terms of this License, in the form shown in
+          the Addendum below.
+
+       G. Preserve in that license notice the full lists of Invariant
+          Sections and required Cover Texts given in the Document's
+          license notice.
+
+       H. Include an unaltered copy of this License.
+
+       I. Preserve the section Entitled "History", Preserve its Title,
+          and add to it an item stating at least the title, year, new
+          authors, and publisher of the Modified Version as given on the
+          Title Page.  If there is no section Entitled "History" in the
+          Document, create one stating the title, year, authors, and
+          publisher of the Document as given on its Title Page, then add
+          an item describing the Modified Version as stated in the
+          previous sentence.
+
+       J. Preserve the network location, if any, given in the Document
+          for public access to a Transparent copy of the Document, and
+          likewise the network locations given in the Document for
+          previous versions it was based on.  These may be placed in the
+          "History" section.  You may omit a network location for a work
+          that was published at least four years before the Document
+          itself, or if the original publisher of the version it refers
+          to gives permission.
+
+       K. For any section Entitled "Acknowledgements" or "Dedications",
+          Preserve the Title of the section, and preserve in the section
+          all the substance and tone of each of the contributor
+          acknowledgements and/or dedications given therein.
+
+       L. Preserve all the Invariant Sections of the Document, unaltered
+          in their text and in their titles.  Section numbers or the
+          equivalent are not considered part of the section titles.
+
+       M. Delete any section Entitled "Endorsements".  Such a section
+          may not be included in the Modified Version.
+
+       N. Do not retitle any existing section to be Entitled
+          "Endorsements" or to conflict in title with any Invariant
+          Section.
+
+       O. Preserve any Warranty Disclaimers.
+
+     If the Modified Version includes new front-matter sections or
+     appendices that qualify as Secondary Sections and contain no
+     material copied from the Document, you may at your option designate
+     some or all of these sections as invariant.  To do this, add their
+     titles to the list of Invariant Sections in the Modified Version's
+     license notice.  These titles must be distinct from any other
+     section titles.
+
+     You may add a section Entitled "Endorsements", provided it contains
+     nothing but endorsements of your Modified Version by various
+     parties--for example, statements of peer review or that the text
+     has been approved by an organization as the authoritative
+     definition of a standard.
+
+     You may add a passage of up to five words as a Front-Cover Text,
+     and a passage of up to 25 words as a Back-Cover Text, to the end of
+     the list of Cover Texts in the Modified Version.  Only one passage
+     of Front-Cover Text and one of Back-Cover Text may be added by (or
+     through arrangements made by) any one entity.  If the Document
+     already includes a cover text for the same cover, previously added
+     by you or by arrangement made by the same entity you are acting on
+     behalf of, you may not add another; but you may replace the old
+     one, on explicit permission from the previous publisher that added
+     the old one.
+
+     The author(s) and publisher(s) of the Document do not by this
+     License give permission to use their names for publicity for or to
+     assert or imply endorsement of any Modified Version.
+
+  5. COMBINING DOCUMENTS
+
+     You may combine the Document with other documents released under
+     this License, under the terms defined in section 4 above for
+     modified versions, provided that you include in the combination all
+     of the Invariant Sections of all of the original documents,
+     unmodified, and list them all as Invariant Sections of your
+     combined work in its license notice, and that you preserve all
+     their Warranty Disclaimers.
+
+     The combined work need only contain one copy of this License, and
+     multiple identical Invariant Sections may be replaced with a single
+     copy.  If there are multiple Invariant Sections with the same name
+     but different contents, make the title of each such section unique
+     by adding at the end of it, in parentheses, the name of the
+     original author or publisher of that section if known, or else a
+     unique number.  Make the same adjustment to the section titles in
+     the list of Invariant Sections in the license notice of the
+     combined work.
+
+     In the combination, you must combine any sections Entitled
+     "History" in the various original documents, forming one section
+     Entitled "History"; likewise combine any sections Entitled
+     "Acknowledgements", and any sections Entitled "Dedications".  You
+     must delete all sections Entitled "Endorsements."
+
+  6. COLLECTIONS OF DOCUMENTS
+
+     You may make a collection consisting of the Document and other
+     documents released under this License, and replace the individual
+     copies of this License in the various documents with a single copy
+     that is included in the collection, provided that you follow the
+     rules of this License for verbatim copying of each of the documents
+     in all other respects.
+
+     You may extract a single document from such a collection, and
+     distribute it individually under this License, provided you insert
+     a copy of this License into the extracted document, and follow this
+     License in all other respects regarding verbatim copying of that
+     document.
+
+  7. AGGREGATION WITH INDEPENDENT WORKS
+
+     A compilation of the Document or its derivatives with other
+     separate and independent documents or works, in or on a volume of a
+     storage or distribution medium, is called an "aggregate" if the
+     copyright resulting from the compilation is not used to limit the
+     legal rights of the compilation's users beyond what the individual
+     works permit.  When the Document is included in an aggregate, this
+     License does not apply to the other works in the aggregate which
+     are not themselves derivative works of the Document.
+
+     If the Cover Text requirement of section 3 is applicable to these
+     copies of the Document, then if the Document is less than one half
+     of the entire aggregate, the Document's Cover Texts may be placed
+     on covers that bracket the Document within the aggregate, or the
+     electronic equivalent of covers if the Document is in electronic
+     form.  Otherwise they must appear on printed covers that bracket
+     the whole aggregate.
+
+  8. TRANSLATION
+
+     Translation is considered a kind of modification, so you may
+     distribute translations of the Document under the terms of section
+     4.  Replacing Invariant Sections with translations requires special
+     permission from their copyright holders, but you may include
+     translations of some or all Invariant Sections in addition to the
+     original versions of these Invariant Sections.  You may include a
+     translation of this License, and all the license notices in the
+     Document, and any Warranty Disclaimers, provided that you also
+     include the original English version of this License and the
+     original versions of those notices and disclaimers.  In case of a
+     disagreement between the translation and the original version of
+     this License or a notice or disclaimer, the original version will
+     prevail.
+
+     If a section in the Document is Entitled "Acknowledgements",
+     "Dedications", or "History", the requirement (section 4) to
+     Preserve its Title (section 1) will typically require changing the
+     actual title.
+
+  9. TERMINATION
+
+     You may not copy, modify, sublicense, or distribute the Document
+     except as expressly provided for under this License.  Any other
+     attempt to copy, modify, sublicense or distribute the Document is
+     void, and will automatically terminate your rights under this
+     License.  However, parties who have received copies, or rights,
+     from you under this License will not have their licenses terminated
+     so long as such parties remain in full compliance.
+
+  10. FUTURE REVISIONS OF THIS LICENSE
+
+     The Free Software Foundation may publish new, revised versions of
+     the GNU Free Documentation License from time to time.  Such new
+     versions will be similar in spirit to the present version, but may
+     differ in detail to address new problems or concerns.  See
+     <http://www.gnu.org/copyleft/>.
+
+     Each version of the License is given a distinguishing version
+     number.  If the Document specifies that a particular numbered
+     version of this License "or any later version" applies to it, you
+     have the option of following the terms and conditions either of
+     that specified version or of any later version that has been
+     published (not as a draft) by the Free Software Foundation.  If the
+     Document does not specify a version number of this License, you may
+     choose any version ever published (not as a draft) by the Free
+     Software Foundation.
+
+ADDENDUM: How to use this License for your documents
+====================================================
+
+To use this License in a document you have written, include a copy of
+the License in the document and put the following copyright and license
+notices just after the title page:
+
+       Copyright (C)  YEAR  YOUR NAME.
+       Permission is granted to copy, distribute and/or modify this document
+       under the terms of the GNU Free Documentation License, Version 1.2
+       or any later version published by the Free Software Foundation;
+       with no Invariant Sections, no Front-Cover Texts, and no Back-Cover
+       Texts.  A copy of the license is included in the section entitled ``GNU
+       Free Documentation License''.
+
+   If you have Invariant Sections, Front-Cover Texts and Back-Cover
+Texts, replace the "with...Texts."  line with this:
+
+         with the Invariant Sections being LIST THEIR TITLES, with
+         the Front-Cover Texts being LIST, and with the Back-Cover Texts
+         being LIST.
+
+   If you have Invariant Sections without Cover Texts, or some other
+combination of the three, merge those two alternatives to suit the
+situation.
+
+   If your document contains nontrivial examples of program code, we
+recommend releasing these examples in parallel under your choice of free
+software license, such as the GNU General Public License, to permit
+their use in free software.
+

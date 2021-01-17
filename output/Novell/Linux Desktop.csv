@@ -1,0 +1,7 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2006-0736,,,Linux Desktop,2006-02-27,Exec Code Overflow
+CVE-2005-1767,,,Linux Desktop,2005-08-05,DoS
+CVE-2005-1763,,,Linux Desktop,2005-06-09,Overflow
+CVE-2005-1761,CWE-20 - CWE definition,20,Linux Desktop,2005-08-05,DoS
+CVE-2005-1065,,,Linux Desktop,2005-05-02,
+CVE-2005-1040,,,Linux Desktop,2005-05-02,+Priv

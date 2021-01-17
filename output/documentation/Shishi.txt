@@ -1,0 +1,662 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<!-- start of server/head-include-1.html -->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rev="made" href="mailto:webmasters@gnu.org" />
+<link rel="icon" type="image/png" href="/graphics/gnu-head-mini.png" />
+<meta name="ICBM" content="42.355469,-71.058627" />
+<meta name="DC.title" content="gnu.org" />
+<link rel="stylesheet" type="text/css" href="/reset.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/mini.css" media="handheld" />
+<link rel="stylesheet" type="text/css" href="/layout.min.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/print.min.css" media="print" />
+<link rel="stylesheet" type="text/css" href="/speech.css" media="speech" />
+<!-- end of server/head-include-1.html -->
+
+<!-- end of server/header.html -->
+
+<!-- Parent-Version: 1.79 -->
+<title>GNU Shishi - GNU Project - Free Software Foundation</title>
+<!-- begin /server/gnun/initial-translations-list.html -->
+<!-- HTML head: set a flag for further expansion in body-include*.html. -->
+<!-- end /server/gnun/initial-translations-list.html -->
+
+<!-- start of server/banner.html -->
+<!-- start of head-include-2.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<link rel="stylesheet" type="text/css" href="/server/banners/fundraiser.css" media="screen" />
+<style type="text/css" media="screen"><!--
+.progress-bar {
+  width: 38%;
+}
+.percentage {
+  padding-left: 38%;
+}
+--></style>
+
+<style type="text/css" media="screen">
+<!-- TRANSLATORS: Change direction to rtl if you translate
+     the fundraiser and your script is right-to-left.  -->
+.fundraiser {
+  direction: ltr;
+}
+</style>
+<!-- end of head-include-2.html -->
+
+</head>
+<body>
+<div class="inner">
+<!-- start of server/body-include-1.html -->
+<div id="top">
+<a class="skip" href="#content"><b>Skip to main text</b></a>
+</div>
+<!-- GNUN: localize URL /server/banners/sign1.png
+  /server/banners/sign2.png /server/banners/sign3.png -->
+<div id='fundraiser'>
+  <div class="message">
+    <p>
+      <a href="https://fsf.org/appeal?pk_campaign=fall20&amp;pk_kwd=banner">
+      Your membership fuels the voyage forward, and
+      will help us reach our ultimate destination: full software freedom.
+      Become an associate member by December 31st.
+      <span class="highlight">Read more &gt;</span></a>
+    </p>
+  </div><!-- .message -->
+  <img class="fence" src="/server/banners/fence.png" alt="" />
+  <a href="https://my.fsf.org/join?pk_campaign=frfall2020&amp;pk_source=banner">
+  <img class="clouds" id="cloud1" src="/server/banners/cloud1.png" alt="" />
+  <img class="clouds" id="cloud2" src="/server/banners/cloud1.png" alt="" />
+  <img class="clouds" id="cloud3" src="/server/banners/cloud2.png" alt="" />
+  <img class="clouds" id="cloud4" src="/server/banners/cloud3.png" alt="" />
+  <img class="signs" id="sign1" src="/server/banners/sign1.png" alt="" />
+  <img class="signs" id="sign2" src="/server/banners/sign2.png" alt="" />
+  <img class="signs" id="sign3" src="/server/banners/sign3.png" alt="" />
+  <img class="signsxs" id="signxs1" src="/server/banners/sign-xs-plain.png" alt="" />
+  <img class="signsxs" id="signxs2" src="/server/banners/sign-xs-plain.png" alt="" />
+  <img class="signsxs" id="signxs3" src="/server/banners/sign-xs-plain.png" alt="" />
+  </a>
+  <div class="progresswidget">
+    <div class="progress">
+      <div class="progress-bar">
+        <a href="https://my.fsf.org/join?pk_campaign=frfall2020&amp;pk_source=banner">
+          <img class="train" src="/server/banners/fsf35-train.png" alt="" />
+        </a>
+        <span class="percentage"><span class="gnun-split"></span>191</span>
+      </div>
+      <span class="goal">500 members</span>
+    </div>
+  </div><!-- .progresswidget -->
+</div><!-- #fundraiser -->
+
+<div style="clear: both"></div>
+
+<div id="header">
+<p id="gnu-banner">
+ <a href="/">
+ <img src="/graphics/heckert_gnu.transp.small.png" height="48"
+      alt="&nbsp;[A GNU head]&nbsp;" /><strong>GNU</strong> <span
+ class="hide">Operating System</span></a><br />
+ <small id="fsf-support">Supported by the
+ <a href="#mission-statement">Free Software Foundation</a></small>
+</p>
+
+<div id="switches">
+ <a id="search-button" class="switch" href="//www.gnu.org/cgi-bin/estseek.cgi">
+  <img id="search-icon" height="24"
+       src="/graphics/icons/search.png"
+       alt="&nbsp;[Search www.gnu.org]&nbsp;" /></a>
+
+</div>
+</div>
+<!-- end of server/body-include-1.html -->
+
+<!-- start of server/body-include-2 -->
+
+
+<div style="clear: both"></div>
+
+<div id="navigation">
+ <a id="more-links" href="#navigation" title="More...">
+   <span>Site navigation</span></a>
+ <a id="less-links" href="#content"><b>Skip</b></a>
+ <ul>
+
+   <li id="tabAboutGNU"><a href="/gnu/gnu.html">ABOUT&nbsp;GNU</a></li>
+
+
+  <li id="tabPhilosophy"><a href="/philosophy/philosophy.html">PHILOSOPHY</a></li>
+
+
+  <li id="tabLicenses"><a href="/licenses/licenses.html">LICENSES</a></li>
+
+
+  <li id="tabEducation"><a href="/education/education.html">EDUCATION</a></li>
+
+
+  <li id="tabSoftware" class="active">
+     <span class='no-display'>=</span> 
+    <a href="/software/software.html">SOFTWARE</a>
+    <span class="gnun-split"></span>
+     <span class='no-display'>=</span> 
+  </li>
+
+
+  <li id="tabDoc"><a href="/doc/doc.html">DOCS</a></li>
+
+
+  <li id="tabMalware"><a href="/proprietary/proprietary.html">MALWARE</a></li>
+
+
+  <li id="tabHelp"><a href="/help/help.html">HELP&nbsp;GNU</a></li>
+
+
+  <li id="tabArt"><a href="/graphics/graphics.html">GNU&nbsp;ART</a></li>
+
+
+  <li id="tabPeople"><a href="/people/people.html">GNU'S&nbsp;WHO?</a></li>
+
+  <li><a href="/server/sitemap.html">SITEMAP</a></li>
+  <li><a href="//directory.fsf.org">SOFTWARE&nbsp;DIRECTORY</a></li>
+  <li><a href="https://h-node.org/">HARDWARE</a></li>
+ </ul>
+ <div style="clear: both"></div>
+</div><!-- /"navigation -->
+<!-- end of server/body-include-2 -->
+
+<div id="content">
+<!-- end of server/banner.html -->
+
+<h2>GNU Shishi</h2>
+
+<!-- Please ensure links are consistent with Apache's MultiView. -->
+<!-- Change include statements to be consistent with the relevant -->
+<!-- language, where necessary. -->
+
+<hr class="thin" />
+
+<h3><a href="#TOCintroduction" id="introduction">Introduction</a></h3>
+
+<p>
+  This page contains information about Shishi, a free implementation of
+  the Kerberos 5 network security system.
+</p>
+
+<p>
+  If you do not know what Kerberos 5 is, I suggest to read
+  the <a href="https://www.ietf.org/rfc/rfc4120.txt">Kerberos V5
+    standard</a>.  Also see the <a href="research.html">page with
+    related research papers</a> that may be of interest.
+</p>
+
+<p>
+  The goals of this project are:
+</p>
+
+<ul>
+  <li>Full standards compliance.</li>
+  <li>Thread safe library.</li>
+  <li>Internationalization, both for client messages but also for
+    non-ASCII username and passwords.</li>
+  <li>Integrate with existing password management systems
+    (/etc/passwd, PAM, SASL).</li>
+  <li>Support authentication using OpenPGP and X.509 through
+    TLS, including smart card support.</li>
+  <li>Clean room implementation with clear copyright and
+    license.</li>
+</ul>
+
+<p>
+  Shishi is licensed under the GPLv3, and the Shishi manual is
+  licensed under the GFDL.
+</p>
+
+<p>
+  <a class="FlattrButton" style="display:none;"
+     href="/software/shishi/"></a>
+</p>
+
+<h3><a href="#TOCtoc" id="toc">Table of Contents</a></h3>
+
+<ul>
+  <li><a href="#introduction" id="TOCintroduction">Introduction</a></li>
+  <li><a href="#status" id="TOCstatus">Documentation and Status</a></li>
+  <li><a href="#news" id="TOCnews">News</a></li>
+  <li><a href="#support" id="TOCsupport">Support</a></li>
+  <li><a href="#downloading" id="TOCdownloading">Downloading</a></li>
+  <li><a href="#development" id="TOCdevelopment">Development</a></li>
+  <li><a href="#screenshot" id="TOCscreenshot">Screenshot</a></li>
+</ul>
+
+<hr class="thin" />
+
+<h3><a href="#TOCstatus" id="status">Documentation and Status</a></h3>
+
+<p>
+  Refer to the <a href="manual/">Shishi Manual</a> web page for links
+  to the manual in all formats; however, quick links to the most
+  popular formats:
+</p>
+
+<ul>
+  <li><a href="manual/shishi.html">Online HTML manual</a></li>
+  <li><a href="manual/shishi.pdf">PDF manual</a></li>
+  <li><a href="reference/">API reference in HTML</a></li>
+</ul>
+
+<p>
+  Shishi has received some real-world testing and should be considered
+  stable, although it is still a fairly young implementation.  Basic
+  support for acquiring and managing tickets are working, as well as
+  serving requests in a Key Distribution Center daemon.  DES, 3DES and
+  AES cipher suites are supported. A <i>PAM</i> module for host
+  security is included, as well as a Shishi port of a
+  <i>rsh</i>/<i>rlogin</i> client.
+</p>
+
+<p>
+  A <i>telnet</i> client and server with Kerberos authentication is
+  supported via <a href="/software/inetutils/">GNU InetUtils</a>.
+  A <i>SSH</i> client and server with Kerberos authentication is
+  supported via <a href="/software/gss/">GSS</a>
+  and <a href="/software/gss/gss-lsh.html">GSS-LSH</a>.  A <i>IMAP</i> server
+  with Kerberos authentication (GSSAPI SASL mechanism) is supported
+  via <a href="https://mailutils.org">GNU MailUtils</a>.  A <i>IMAP</i>
+  command line client with Kerberos authentication (GSSAPI SASL
+  mechanism) is supported via <a href="/software/gsasl/">GNU SASL</a>, which
+  also provide authentication (including Kerberos 5 via GSSAPI) via
+  the SASL API for any application.
+</p>
+
+<p>
+  Shishi is developed for the GNU/Linux system, but runs on over 20
+  platforms including most major Unix platforms and Windows, and many
+  kind of devices including iPAQ handhelds and S/390 mainframes.
+</p>
+
+<p>
+  Shishi requires <a href="/software/libtasn1/">GNU Libtasn1</a>, which is
+  included in the package, so you do not need to install it
+  separately.
+</p>
+
+<p>
+  Shishi can optionally use <a href="https://gnutls.org/">GnuTLS</a> (for
+  OpenPGP and X.509 authentication), <a href="/software/libidn/">GNU
+  Libidn</a> (recommended for non-ASCII support),
+  and <a href="https://www.gnupg.org/related_software/libgcrypt/">GNU
+  libgcrypt</a>.
+</p>
+
+<h3><a href="TOCnews" id="news">News</a></h3>
+
+<p>
+  Note that new releases are only mentioned here if they introduce a
+  major feature or is significant in some other way.  Read
+  the <a href="https://lists.gnu.org/archive/html/info-gnu/">info-gnu</a>
+  mailing list if you seek more frequent announcements.
+</p>
+
+<ul>
+  <li>2010-05-20: <a href="https://lists.gnu.org/archive/html/help-shishi/2010-05/msg00000.html">
+      Version 1.0.0</a> released, takes Shishi out of alpha testing.</li>
+
+  <li>2007-06-29: <a href="https://web.archive.org/web/20091215053203/https://article.gmane.org/gmane.comp.gnu.shishi.general/425">
+      Version 0.0.32</a> released under the GPLv3.</li>
+
+  <li>2006-03-25: <a href="https://web.archive.org/web/20091215053157/http://article.gmane.org/gmane.comp.gnu.shishi.general/24">
+      Version 0.0.23</a> released, mainly as a foundation to build
+      official Debian packages.</li>
+
+  <li>2006-01-17: Experimental Shishi packages for Debian are
+    available.</li>
+
+  <li>2004-11-12: The experimental STARTTLS support is now
+    <a href="https://josefsson.org/krb5starttls/">documented in an
+      Internet draft</a>.</li>
+
+  <li>2004-06-13: The InetUtils work has <a href="feg-inetutils/">its
+      own home page</a> now, and will be a playground for new features
+    (even non-Shishi related) in GNU InetUtils.</li>
+
+  <li>2004-01-22: New releases are no longer announced here, and
+    hasn't been for a while.  Instead,
+    read <a href="https://lists.gnu.org/archive/html/info-gnu/">info-gnu</a>
+    or check the release directory from time to time.  By the
+    way, <a href="https://alpha.gnu.org/pub/gnu/shishi/">Shishi
+      0.0.14</a> was just released.</li>
+
+  <li>2004-01-13: A new snapshot of GNU InetUtils with Shishi support
+    was released.  Build it as usual for Kerberos support, i.e.,
+    with <code>--enable-encryption --enable-authentication</code>.  It
+    includes telnet(d), rsh(d) and rlogin(d) with Shishi support.</li>
+
+  <li>2004-01-01: Savannah had problems last month, and still isn't
+    operating fully.  CVS has been moved to a private machine, a
+    read-only mirror of it will hopefully be available via Savannah in
+    the future.</li>
+
+  <li>2003-10-16: Shishi 0.0.8 released.  STARTTLS upgrade of TCP
+      connections (only anonymous DH for now).  Password processing
+      via SASLprep instead of KRBprep.  Authorization and
+      documentation improvements.</li>
+
+  <li>2003-10-11: Snapshot of Shishi-port of GNU InetUtils released,
+    contains telnet(d) and rsh(d) with Kerberos 5 support via Shishi.
+    Developed by Nicolas Pouvesle.</li>
+
+  <li>2003-10-01: Shishi-port of GNOME Ticket Applet added,
+    see <a href="#screenshot">below</a>.</li>
+
+  <li>2003-09-21: Shishi 0.0.7 released.  DES-CBC-CRC and ARCFOUR
+      works.  Short-hand aliases for encryption type names are
+      supported.</li>
+
+  <li>2003-09-14: Shishi 0.0.6 released.  Proxiable, proxy,
+    forwardable and forwarded tickets supported.  Man pages for all
+    public functions are included. The internal crypto interface now
+    fully modularized.</li>
+
+  <li>2003-09-07: Shishi 0.0.5 released.  SAFE and PRIV fixes.  Server
+      name to realm mapping via DNS.  Reference manual.</li>
+
+  <li>2003-08-31: Shishi 0.0.4 released.  KDC works.  Shishi port of
+      rsh/rlogin client, contributed by Nicolas Pouvesle, included.
+      Accompanies <a href="/software/gss/"> GSSLib 0.0.5</a>.</li>
+
+  <li>2003-08-25: Shishi becomes a GNU project.</li>
+
+  <li>2003-08-22: Shishi 0.0.3 released.</li>
+
+  <li>2003-08-17: Shishi 0.0.2 released.</li>
+
+  <li>2003-08-10: Shishi 0.0.1 released.  Few new features, but
+    improved internally.  Accompanies <a href="/software/gss/"> GSSLib
+    0.0.4</a>.</li>
+
+  <li>2003-06-23: A patch for telnet(d) in <a href="/software/inetutils/">GNU
+      InetUtils</a> that implement Kerberos 5 authentication via
+    Shishi <a href="https://lists.gnu.org/archive/html/bug-inetutils/2003-06/msg00044.html">
+      is published</a>.</li>
+
+  <li>2003-06-02: Shishi 0.0.0 released.  No major changes compared to
+    last snapshot, but used by <a href="../gss/">Generic Security
+    Services API (GSS-API) 0.0.0</a>.</li>
+
+  <li>2003-02-11: Another snapshot release.  Used
+      by <a href="/software/gsasl/">GNU SASL</a>.</li>
+
+  <li>2002-12-26:
+      Moved <a href="https://savannah.nongnu.org/projects/shishi/">
+      project to savannah</a>.</li>
+
+  <li>2002-12-14: Second snapshot released.</li>
+
+  <li>2002-12-13: PAM works.</li>
+
+  <li>2002-12-08: Telnetd works.</li>
+
+  <li>2002-12-01: Web page opened and a snapshot released.</li>
+
+  <li>2002-11-25: Telnet works.</li>
+
+  <li>2002-10-26: Code moved into CVS.</li>
+
+  <li>2002-09-30: Started coding.</li>
+</ul>
+
+<h3><a href="#TOCsupport" id="support">Support</a></h3>
+
+<p>
+  A mailing list where Shishi users may help each other exists, and
+  you can reach it by sending e-mail
+  to <a href="mailto:help-shishi@gnu.org">help-shishi@gnu.org</a>.
+  Archives of the mailing list discussions, and an interface to manage
+  subscriptions, is available through the World Wide Web at
+  <a href="https://lists.gnu.org/mailman/listinfo/help-shishi">
+    http://lists.gnu.org/mailman/listinfo/help-shishi</a>.
+</p>
+
+<p>
+  If you are interested in paid support of Shishi, or sponsor the
+  development, please <a href="mailto:simon@josefsson.org">contact
+  me</a>.  If you provide paid services for Shishi, and would like to
+  be mentioned here, also <a href="mailto:simon@josefsson.org">contact
+  me</a>.
+</p>
+
+<p>
+  The following organizations provide paid support for Shishi:
+</p>
+
+<ul>
+  <li><a href="https://josefsson.org/">Simon Josefsson Datakonsult AB</a></li>
+  <li><a href="https://sourceforge.net/projects/arudius/">Arudius</a></li>
+</ul>
+
+<p>
+  If you find GNU Shishi useful, please consider making a donation.  No
+  amount is too small!
+</p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+  <p><input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="simon@josefsson.org" />
+    <input type="hidden" name="item_name" value="Donation for development" />
+    <input type="hidden" name="item_number" value="GNU Shishi" />
+    <input type="hidden" name="no_shipping" value="1" />
+    <input type="hidden" name="cn" value="Comment" />
+    <input type="hidden" name="currency_code" value="EUR" />
+    <input type="hidden" name="tax" value="0" />
+    <input type="hidden" name="bn" value="PP-DonationsBF" />
+    <input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" />
+    <a class="FlattrButton" style="display:none;"
+       href="/software/shishi/"></a>
+  </p>
+</form>
+
+<h3><a href="#TOCdownloading" id="downloading">Downloading</a></h3>
+
+<p>
+  The stable releases are distributed from
+  <a href="https://ftp.gnu.org/gnu/shishi/">
+    https://ftp.gnu.org/gnu/shishi/</a>.
+</p>
+
+<p>
+  All official releases are signed with an
+  <a href="https://josefsson.org/key.txt">OpenPGP key with fingerprint
+    0xB565716F</a>.
+</p>
+
+<h3><a href="#TOCdevelopment" id="development">Development</a></h3>
+
+<p>
+  There is
+  a <a href="https://savannah.gnu.org/projects/shishi/">Savannah
+  Shishi</a> project page.  You
+  can <a href="https://savannah.gnu.org/git/?group=shishi">check out
+  the sources</a> by using <a href="http://git.or.cz/">git</a> as
+  follows:
+</p>
+
+<pre class="emph-box">
+$ git clone git://git.savannah.gnu.org/shishi.git
+</pre>
+
+<p>
+  The <a href="https://git.savannah.gnu.org/gitweb/?p=shishi.git">online
+    git interface</a> is available.
+</p>
+
+<!--
+<p>
+  Notifications of each commit is sent
+  to <a href="http://lists.gnu.org/mailman/listinfo/shishi-commit">
+  shishi-commit@gnu.org</a>.
+</p>
+-->
+<!-- Unavailable as of 2019-10-20 -th_g
+<p>
+  If you have trouble using git, you may download
+  a <a href="http://daily.josefsson.org/shishi/">daily snapshot</a>.
+  The snapshots are prepared similar to regular releases, i.e., you
+  simply build them using <code>./configure &amp;&amp; make</code>.
+</p>
+
+<p>
+  Build logs from building the package, where you can also contribute
+  a build system for your own platform, are available from
+  <a href="http://autobuild.josefsson.org/shishi/">the Shishi autobuild
+    page</a>.
+</p>
+
+<p>
+  See the
+  file <a href="http://git.josefsson.org/?p=shishi.git;a=blob;f=README-alpha;hb=HEAD">README-alpha</a>
+  on how to bootstrap and build the package from version controlled
+  sources.
+</p>
+-->
+<p>
+  For every release, we publish <a href="cyclo/cyclo-shishi.html">
+  cyclomatic code complexity charts</a> for the package.  There is
+  also <a href="coverage/">self-test code coverage charts</a>
+  available.
+</p>
+
+<h3><a href="#TOCscreenshot" id="screenshot">Screenshot</a></h3>
+
+<p>
+  Since Shishi is a library, there isn't much in the way of graphical
+  user interfaces to show.  However,
+  the <a href="https://web.archive.org/web/20050409005008/http://quackerhead.com/~duff/ticket_applet-2/">GNOME 2
+  port</a>
+  of <a href="https://web.archive.org/web/20100421084035/http://andrewchatham.com/ticket_applet">Ticket
+  Applet</a> support Shishi, so we can at least show how it looks.
+</p>
+
+<p>
+  <a href="ticket-applet-shishi-large.png">
+    <img src="ticket-applet-shishi.png" alt="Screenshot" />
+  </a>
+</p>
+
+<p>
+  There is a snapshot release of Ticket Applet available from
+  <a href="https://alpha.gnu.org/pub/gnu/shishi/">
+    https://alpha.gnu.org/pub/gnu/shishi/ticket-applet-shishi-*.tar.gz</a>.
+</p>
+<!-- Unavailable as of 2019-10-20 -th_g
+<p>
+  You can also
+  <a href="http://savannah.gnu.org/cgi-bin/viewcvs/shishi/ticket-applet/">
+    browse the CVS of the Shishi port of Ticket Applet</a>.
+</p>
+-->
+</div><!-- for id="content", starts in the include above -->
+
+              <!-- begin server/footer-text.html -->
+
+
+
+
+
+<div style="clear:both"></div>
+
+
+
+<div id="mission-statement">
+ <div class="backtotop">
+  <hr class="no-display" />
+  <a href="#header"><span>BACK TO TOP </span>&#11165;</a>
+ </div>
+<div style="clear: both"></div>
+<blockquote>
+<p style="direction:ltr; text-align:left"><a href="//www.fsf.org"><img id="fsfbanner"
+src="/graphics/fsf-logo-notext-small.png" alt="&nbsp;[FSF logo]&nbsp;"/></a><strong>
+&ldquo;The Free Software Foundation (FSF) is a nonprofit with a worldwide
+mission to promote computer user freedom. We defend the rights of all
+software users.&rdquo;</strong></p>
+</blockquote>
+
+<div id="support-the-fsf" class="button">
+ <a class="join" href="//www.fsf.org/associate/support_freedom?referrer=4052">JOIN</a>
+ <a class="donate" href="//donate.fsf.org/">DONATE</a>
+ <a class="shop" href="//shop.fsf.org/">SHOP</a>
+</div>
+</div>
+<!-- end server/footer-text.html -->
+
+
+<div id="footer">
+<div class="unprintable">
+
+<p>Please send general FSF &amp; GNU inquiries to
+<a href="mailto:gnu@gnu.org">&lt;gnu@gnu.org&gt;</a>.
+There are also <a href="/contact/">other ways to contact</a>
+the FSF.  Broken links and other corrections or suggestions can be sent
+to <a href="mailto:help-shishi@gnu.org">&lt;help-shishi@gnu.org&gt;</a>.
+</p>
+
+<p>Please see the <a
+href="/server/standards/README.translations.html">Translations
+README</a> for information on coordinating and submitting translations
+of this article.</p>
+</div>
+
+<p class="imgright unprintable">
+  <a href="https://validator.w3.org/check?uri=referer">
+    <img src="https://www.w3.org/Icons/valid-xhtml10"
+	 alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+</p>
+
+<!-- Regarding copyright, in general, standalone pages (as opposed to
+     files generated as part of manuals) on the GNU web server should
+     be under CC BY-ND 4.0.  Please do NOT change or remove this
+     without talking with the webmasters or licensing team first.
+     Please make sure the copyright date is consistent with the
+     document.  For web pages, it is ok to list just the latest year the
+     document was modified, or published.
+     
+     If you wish to list earlier years, that is ok too.
+     Either "2001, 2002, 2003" or "2001-2003" are ok for specifying
+     years, as long as each year in the range is in fact a copyrightable
+     year, i.e., a year in which the document was published (including
+     being publicly visible on the web or in a revision control system).
+     
+     There is more detail about copyright years in the GNU Maintainers
+     Information document, www.gnu.org/prep/maintain. -->
+<p>
+Copyright &copy; 2002, 2003, 2004, 2005, 2006, 2007, 2008 Simon Josefsson
+</p>
+<p>Copyright &copy; 2016 Free Software Foundation, Inc.</p>
+
+<p>This page is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nd/4.0/">Creative
+Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+
+<!-- start of server/bottom-notes.html -->
+<div id="bottom-notes" class="unprintable">
+<p><a href="//www.fsf.org/about/dmca-notice">Copyright Infringement Notification</a></p>
+<div id="generic">
+
+
+</div>
+</div>
+<!-- end of server/bottom-notes.html -->
+
+
+<p class="unprintable">Updated:
+<!-- timestamp start -->
+$Date: 2019/10/20 18:05:21 $
+<!-- timestamp end -->
+</p>
+</div>
+</div>
+</body>
+</html>

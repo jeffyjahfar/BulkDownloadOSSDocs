@@ -1,0 +1,2 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2009-0930,CWE-79 - CWE definition,79,Horde Imp,2009-03-17,XSS

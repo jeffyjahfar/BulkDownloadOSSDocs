@@ -1,0 +1,3 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2011-0466,CWE-264 - CWE definition,264,Opensuse Build Service,2011-04-09,Bypass
+CVE-2011-0462,CWE-79 - CWE definition,79,Opensuse Build Service,2011-04-09,XSS

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>GNU FM  &middot; GNU Network Services</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="">
+
+
+<meta property="og:title" content="GNU FM  &middot; GNU Network Services ">
+<meta property="og:site_name" content="GNU Network Services"/>
+<meta property="og:url" content="/fm/" />
+<meta property="og:locale" content="en-US">
+
+<meta property="content-source" content="fm.md">
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="0001-01-01T00:00:00Z" />
+<meta property="og:article:modified_time" content="0001-01-01T00:00:00Z" />
+
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@" />
+<meta name="twitter:title" content="GNU FM" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="/fm/" />
+<meta name="twitter:domain" content="/">
+  
+
+  
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "GNU FM",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+?rel=author"
+    },
+    "datePublished": "0001-01-01",
+    "description": "",
+    "wordCount":  242 
+  }
+</script>
+  
+
+
+
+<link rel="canonical" href="/fm/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+<link rel="icon" href="/favicon.png">
+<meta name="generator" content="Hugo 0.55.6" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/bundle.min.068a8fc80b9e5f1229c330b7ccc5bb5c4d69668e9fba710b25928c253bbd7b48c7396b69680a3ec5a3adb868d800de683bb75cf17e2d2d4c615c4320d0911c14.css" >
+
+</head>
+<body class="map[name:paper]" data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+    <header id="main-header">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+        <a class="navbar-brand" href="/">
+          GNU Network Services
+          
+          
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            
+            
+            <li class="">
+              
+		<a href="/"  title="About This Site">
+                  
+                  About This Site
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+		<a href="/fm/"  title="GNU FM">
+                  
+                  GNU FM
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+		<a href="/social/"  title="GNU social">
+                  
+                  GNU social
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+		<a href="/source/"  title="Source Code">
+                  
+                  Source Code
+                </a>
+              
+            </li>
+            
+            <li class="">
+              
+		<a href="/contact/"  title="Contact Us">
+                  
+                  Contact Us
+                </a>
+              
+            </li>
+            
+            
+              
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
+  </header>
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+<header class="container hat">
+  <h1>GNU FM
+</h1>
+
+</header>
+</div>
+
+
+      <div class="content">
+  
+
+<p><img src="/images/librefm.png" alt="Libre FM Logo" /></p>
+
+<h2 id="what-is-gnu-fm">What is GNU FM?</h2>
+
+<p>GNU FM is the music community platform created in 2009 for the GNU Project.
+It implements the Audioscrobbler protocol, powers <a href="https://libre.fm">libre.fm</a>
+and supports federation between many Auidoscrobbler servers, including Last.fm.</p>
+
+<h2 id="where-can-i-join-gnu-fm">Where can I join GNU FM?</h2>
+
+<p>The main GNU FM instance is <a href="https://libre.fm">libre.fm</a> .</p>
+
+<p>The front page says (among other things):</p>
+
+<p>&ldquo;Share your listening habits from your phone, computer or tablet, and find
+ similiar artists.
+All the music on Libre.fm is freely licensed for you to stream, download and
+ remix.</p>
+
+<p>The Libre.fm community is a mixture of music superfans and artists, where
+artists can share their music for everyone to enjoy.</p>
+
+<p>We believe we represent a good deal for artists: we only promote artists who
+choose to share their music with the world.&rdquo;</p>
+
+<h2 id="how-can-i-run-my-own-instance-of-gnu-fm">How can I run my own instance of GNU FM?</h2>
+
+<p>You can check out the source code for GNU FM from its git repository -
+<a href="https://git.gnu.io/gnu/gnu-fm/">https://git.gnu.io/gnu/gnu-fm/</a></p>
+
+<p>The source code includes
+<a href="https://git.gnu.io/gnu/gnu-fm/blob/master/gnufm_install.txt">installation instructions</a>.</p>
+
+<h2 id="i-found-a-bug-how-can-i-report-it-or-get-help">I found a bug, how can I report it or get help?</h2>
+
+<p>You can report a bug using the issue tracker at
+<a href="https://git.gnu.io/gnu/gnu-fm/issues">https://git.gnu.io/gnu/gnu-fm/issues</a> .</p>
+
+<p>If you use IRC you can contact us on  the GNU fm IRC channel at
+<a href="https://webchat.freenode.net/?channels=#libre.fm">#libre.fm</a>.</p>
+
+<h2 id="who-makes-gnu-fm">Who makes GNU FM?</h2>
+
+<p>The maintainer of the GNU FM project is Rob Myers.</p>
+
+<p>The founders of the GNU FM project were Matt Lee, Michael Sheldon, Clint Adams,
+and Rob Myers.</p>
+
+<p>Thank you to Bytemark, who provide the servers that run libre.fm .</p>
+
+</div>
+
+
+      
+    </div>
+    
+  </div>
+</div>
+    
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="pull-left">
+  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+</div>
+<div class="pull-right">
+
+</div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              
+    
+<div class="container footline">
+    <small>
+</small>
+</div>
+
+
+    
+<div class="container copyright">
+    <small>
+  <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">gnu.io</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://gnu.io/" property="cc:attributionName" rel="cc:attributionURL">The GNU Network Services Project</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+  </small>
+</div>
+
+
+
+        </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+<script src="//s3.amazonaws.com/mailmunch/static/site.js" id="mailmunch-script" data-mailmunch-site-id="" async="async"></script>
+
+
+
+<script src="//load.sumome.com/" data-sumo-site-id="" async="async"></script>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var ENABLE_POPOVER =  null , 
+EXPIRE_COOKIE =  null , 
+SHOW_MODAL_TIMEOUT =  null , 
+MOUSE_LEAVE =  null , 
+MODAL_SIZE =  null , 
+POST_URL =  null , 
+SIGNUP_HEADER =  null ,
+HEADER_IMAGE =  null ,
+IMG_DESCRIPTION =  null ,
+SIGNUP_TEXT =  null ,
+INPUT_PLACEHOLDER =  null ,
+SUBMIT_BUTTON =  null ,
+SUCCESS_MESSAGE =  null ,
+ERROR_MESSAGE =  null ,
+OPTIN =  null ,
+COOKIE_NAME =  null ,
+CONTENTLANGUAGE =  null ; 
+</script>
+
+
+
+
+
+
+
+<script  src="/js/bundle.min.a0761bf8598edda2bb2c0e348a3160c418f2bc30908f40740ee7f30dabbdeed27d82ee58e16400badd1ae84ce7be7ce10702c9be216abe5de1cb497de995e850.js" ></script>
+
+
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//MathJax.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax//config/TeX-AMS-MML_HTMLorMML.js"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    for(var all in MathJax.Hub.getAllJax()) {
+        all.SourceElement().parentNode.className += ' has-jax';
+
+    }
+});
+</script>
+
+
+
+
+
+  </body>
+</html>
+

@@ -1,0 +1,4 @@
+CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
+CVE-2016-7052,CWE-476 - CWE definition,476,Suse Linux Enterprise Module For Web Scripting,2016-09-26,DoS
+CVE-2016-6306,CWE-125 - CWE definition,125,Suse Linux Enterprise Module For Web Scripting,2016-09-26,DoS
+CVE-2016-6304,CWE-399 - CWE definition,399,Suse Linux Enterprise Module For Web Scripting,2016-09-26,DoS
