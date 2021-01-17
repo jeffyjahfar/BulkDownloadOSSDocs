@@ -1,11 +1,9 @@
-package com.uw.css.gnu;
+package com.uw.css.cve;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -42,9 +40,9 @@ public class ProductListCreator {
         return products;
     }
     public static void main(String[] args) {
-        String url = "https://www.cvedetails.com/product-list/vendor_id-452/Mozilla.html";
-        String vendor = "Mozilla";
-        Integer vendorId = 452;
+        String url = "https://www.cvedetails.com/product-list/vendor_id-20/Novell.html";
+        String vendor = "Novell";
+        Integer vendorId = 20;
         List<Product> products = getProductList(url,vendorId);
         exportProductsToCsv(products,vendor);
     }
