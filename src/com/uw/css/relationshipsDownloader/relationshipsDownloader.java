@@ -42,7 +42,10 @@ public class relationshipsDownloader {
                     getRelationships(n, row.child(2).text());
                 }
             }
-            else { n.setParents(ID); }
+            else if (!n.getID().equals(ID)) {
+                n.setParents(ID);
+            }
+            else { n.setParents("0"); }
         }
         catch (IOException e) {
             e.printStackTrace();
