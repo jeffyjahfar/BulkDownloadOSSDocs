@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\src\com\uw\css\relationshipsDownloader\CWE_DATA">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\com\uw\css\relationshipsDownloader\relationshipsDownloader.java">
           <value>
             <Attribute>
