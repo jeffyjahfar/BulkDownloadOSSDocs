@@ -17,6 +17,7 @@ public class ProductListCreator {
         try {
             //Get Document object after parsing the html from given url.
             doc = Jsoup.connect(url).get();
+           // String vendorName = doc.select(cssQuery)
             Elements elements = doc.select("div[id=pagingb]").get(0).getElementsByTag("a");
             int pages = elements.size();
             for(int i=1;i<=pages;i++){
@@ -30,7 +31,8 @@ public class ProductListCreator {
                     String href = children.get(2).attr("href");
                     Integer productId = Integer.valueOf(href.split("/")[3].split("-")[1]);
                     Integer numVulnerabilities = Integer.valueOf(children.get(2).text());
-                    Product product = new Product(text,productId,vendorId,href,numVulnerabilities);
+                    String vendor = children.get(1).text();
+                    Product product = new Product(text,productId,vendorId,href,numVulnerabilities, vendor);
                     products.add(product);
                 }
             }
@@ -40,11 +42,18 @@ public class ProductListCreator {
         return products;
     }
     public static void main(String[] args) {
-        String url = "https://www.cvedetails.com/product-list/vendor_id-20/Novell.html";
-        String vendor = "Novell";
-        Integer vendorId = 20;
-        List<Product> products = getProductList(url,vendorId);
-        exportProductsToCsv(products,vendor);
+        Integer firstVendor = 1;
+        Integer lastVendor = 20592;
+        Integer vendorId;
+
+        for(vendorId = firstVendor; vendorId <= lastVendor; vendorId++){
+            String url = "https://www.cvedetails.com/product-list/vendor_id-" + Integer.toString(vendorId);
+            List<Product> products = getProductList(url,vendorId);
+            if(products != null){
+                String vendor = products.get(0).vendor;
+                exportProductsToCsv(products,vendor);
+            }
+        }
     }
 
     private static void exportProductsToCsv(List<Product> products,String vendor) {
