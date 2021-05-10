@@ -1,3 +1,5 @@
 
 *.class
 output/.DS_Store
+output/
+out/

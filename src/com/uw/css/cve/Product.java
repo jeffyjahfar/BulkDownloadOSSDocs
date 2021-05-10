@@ -21,4 +21,6 @@ public class Product {
     public String toString() {
         return  name + "," + url +"," + noVulnerabilities+","+productId+","+vendorId;
     }
+
+
 }
