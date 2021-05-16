@@ -19,7 +19,7 @@ import org.jsoup.select.Elements;
 public class ManualDownloader {
     public static String GNU_URL="https://www.gnu.org/manual/manual.html";
     public static String BASE_URL="https://www.gnu.org";
-    public static String DOCUMENTATION_DIR="./output/documentation/";
+    public static String DOCUMENTATION_DIR="./output/documentation/gnu";
 
     public static void main(String[] args) {
         getPackagesList();
