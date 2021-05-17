@@ -1,4 +1,4 @@
-package com.uw.css.intel;
+package com.uw.css.graphicsmagick;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -12,8 +12,8 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
 public class ManualDownloader {
-    public static String BASE_URL="https://software.intel.com/";
-    public static String DOCUMENTATION_DIR="./output/documentation/intel/";
+    public static String BASE_URL="http://www.graphicsmagick.org/README.html#documentation";
+    public static String DOCUMENTATION_DIR="./output/documentation/graphicsmagick/";
 
     public static void main(String[] args) {
         getPackagesList();
@@ -23,31 +23,19 @@ public class ManualDownloader {
         Document doc;
         Integer count = 0;
         Integer failed = 0;
-        try {
-            //https://www.intel.com/content/www/us/en/products/docs/processors/xeon/3rd-gen-xeon-scalable-processors-brief.html
-            //Get Document object after parsing the html from given url.
-            String command = "curl -L \"https://software.intel.com/content/www/us/en/develop/tools/documentation-library.html?query=&currentPage=1&externalFilter=guid:etm-74fc3401b6764c42ad8255f4feb9bd9e|guid:etm-3161d113daab4df0985c14e38d1e88be;\"";
-            post2Parse(command);
-            doc = Jsoup.connect(BASE_URL+"/Software").get();
-            Elements elements = doc.select("div[class=searchresults] a");
-            for(Element element: elements){
-                try{
-                    String url = element.attr("href");
-                    String productName = sanitizeProductName(element.text());
-                    System.out.println("*****"+productName+"*****");
-                    String doctext = Jsoup.connect(BASE_URL+url).get().select("div[id=content]").get(0).text();
-                    exportTextContentToTxtFile(doctext,productName);
-                    count+=1;
-                }catch (Exception e){
-                    e.printStackTrace();
-                    failed+=1;
-                }
+            try {
+                doc = Jsoup.connect(BASE_URL+"/docs/").get();
+                String doctext = doc.select("div[class=document]").text();
+                String productName = "GraphicsMagick";
+                exportTextContentToTxtFile(doctext,productName);
+                count+=1;
 
+            } catch (Exception e) {
+                e.printStackTrace();
+                failed+=1;
             }
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
         System.out.println("Downloaded "+count);
         System.out.println("Failed "+failed);
     }

@@ -1,6 +1,8 @@
-package com.uw.css.drupal;
+package com.uw.css.apache;
 
-import org.jsoup.Connection;
+import com.google.gson.Gson;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -8,13 +10,16 @@ import org.jsoup.select.Elements;
 
 import java.io.*;
 import java.net.URL;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
 public class ManualDownloader {
-    public static String BASE_URL="https://www.drupal.org";
-    public static String DOCUMENTATION_DIR="./output/documentation/drupal/";
+    public static String BASE_URL="https://projects.apache.org/";
+    public static String DOCUMENTATION_DIR="./output/documentation/apache/";
+    public static String JSON_API="https://projects.apache.org/json/projects/";
 
     public static void main(String[] args) {
         getPackagesList();
@@ -24,45 +29,33 @@ public class ManualDownloader {
         Document doc;
         Integer count = 0;
         Integer failed = 0;
-        try {
-            //Get Document object after parsing the html from given url.
-            File input = new File("src/com/uw/css/drupal/drupal.html");
-            doc = Jsoup.parse(input, "UTF-8", BASE_URL+"/docs/");
-            Elements elements = doc.select("div[class=pane-content] section").get(6).select("ul a");
-            for(Element element: elements){
-                try{
-                    String url = element.attr("href");
-                    String productName = sanitizeProductName(element.text());
-                    System.out.println("*****"+productName+"*****");
-//                    Connection connection1 = null;
-//                    if(connection1==null){
-//                        connection1 = Jsoup.connect(BASE_URL + url);
-//                        connection1.userAgent("Mozilla/5.0");
-//                        connection1.referrer(BASE_URL + url);
-//                        connection1.header("x-newrelic-id","XAcEV19XGwcCUldTDwg=");
-//                        connection1.header("origin","https://www.drupal.org");
-//                    }
-//                    Document contributedModule = connection1.get();
-                    Document contributedModule = Jsoup.parse(post2Parse("curl "+BASE_URL+url));
-                    String doctext = "";
-                    doctext+=contributedModule.select("div[class=pane-content] p").text();
-                    Elements submodules = contributedModule.select("div[class=pane-content] section h2 a");
-                    for(Element submodule: submodules){
-                        Document submoduleText = Jsoup.parse(post2Parse("curl "+BASE_URL + submodule.attr("href")));
-                        doctext += submoduleText.select("div[class=pane-content]").get(6).text();
-                    }
-                    exportTextContentToTxtFile(doctext,productName);
-                    count+=1;
-                }catch (Exception e){
-                    e.printStackTrace();
-                    failed+=1;
+            try {
+                doc = Jsoup.connect("https://projects.apache.org/json/projects/").get();
+                Elements elements = doc.select("table td a");
+                for (Element element: elements) {
+                        try{
+                            String url = element.attr("href");
+                            InputStream jsoninput = new URL(JSON_API + url).openStream();
+                            Reader reader = new InputStreamReader(jsoninput, "UTF-8");
+                            JsonObject productDoc = new Gson().fromJson(reader, JsonObject.class);
+                            String productName = sanitizeProductName(productDoc.get("name").getAsString());
+                            System.out.println("*****"+productName+"*****");
+                            String doctext = productDoc.get("description").getAsString();
+                            doctext += Jsoup.connect(productDoc.get("homepage").getAsString()).get().text();
+
+                            exportTextContentToTxtFile(doctext,productName);
+                            count+=1;
+                        }catch (Exception e){
+                            e.printStackTrace();
+                            failed+=1;
+                        }
                 }
 
+            } catch (Exception e) {
+                e.printStackTrace();
             }
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
         System.out.println("Downloaded "+count);
         System.out.println("Failed "+failed);
     }
@@ -94,6 +87,7 @@ public class ManualDownloader {
             e.printStackTrace();
         }
     }
+
     public static String post2Parse(String command) {
 
         String outputString;
