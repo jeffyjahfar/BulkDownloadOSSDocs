@@ -26,9 +26,72 @@ public class ManualDownloader {
     public static String CONTENT_API="https://www.ibm.com/docs/api/v1/content/";
     public static String DOCUMENTATION_DIR="./output/documentation/ibm/";
     public static String SUBSECTION_BASE_URL = "https://www.ibm.com/docs/api/v1/content/STCTNLZ/com.ibm.storage.etc.doc/";
-
+    public static String breadcrumb_URL = "https://www.ibm.com/docs/api/v1/breadcrumb/";
     public static void main(String[] args) {
         getPackagesList();
+        getJsonBasedProductList();
+    }
+
+    private static void getJsonBasedProductList() {
+        Integer count = 0;
+        Integer failed = 0;
+        InputStream jsoninput = null;
+        try {
+            jsoninput = new URL("https://www.ibm.com/docs/api/v1/products").openStream();
+            Reader reader = new InputStreamReader(jsoninput, "UTF-8");
+            JsonArray jsonArray = new Gson().fromJson(reader, JsonArray.class);
+            for(JsonElement product: jsonArray){
+                JsonObject product1 = product.getAsJsonObject();
+                String productName = product1.get("name").getAsString();
+                System.out.println("*****"+productName+"*****");
+                String productId = product1.get("productUrlKey").getAsString();
+                try{
+                    InputStream productJsonInput = new URL(breadcrumb_URL + productId + "?lang=en").openStream();
+                    Reader productReader = new InputStreamReader(productJsonInput, "UTF-8");
+                    JsonObject productDocObject = new Gson().fromJson(productReader, JsonObject.class);
+                    JsonElement jsonElement = productDocObject.get("breadcrumb").getAsJsonObject().get("topicBreadcrumb");
+                    JsonArray topicBreadCrump = null;
+                    if (jsonElement!=null){
+                        topicBreadCrump = jsonElement.getAsJsonArray();
+                    }
+
+                    String doctext = "";
+                    Boolean flag = false;
+                    for(JsonElement jsonObject: topicBreadCrump){
+                        String label = jsonObject.getAsJsonObject().get("label").getAsString();
+                        if(label.equalsIgnoreCase("Overview") || label.equalsIgnoreCase("User Guide") || label.equalsIgnoreCase("Getting started") || label.contains("documentation") || label.contains("guide")){
+                            flag = true;
+                            String docURL = jsonObject.getAsJsonObject().get("href").getAsString();
+                            Document document = Jsoup.connect(CONTENT_API + docURL).get();
+                            doctext += document.select("p[class=shortdesc]").text();
+                            Elements sublinks = document.select("div[class=related-links] a");
+                            for(Element sublink: sublinks){
+                                String[] split1 = docURL.split("/");
+                                String suburl = docURL.replaceFirst(split1[split1.length-1],sublink.attr("href"));
+                                doctext += Jsoup.connect(CONTENT_API+suburl).get().text();
+                            }
+                            if(flag){
+                                break;
+                            }
+                        }
+                    }
+                    if(!flag){
+                        throw new Exception("documentation not found");
+                    }
+                    exportTextContentToTxtFile(doctext,productName);
+                    count+=1;
+                }catch (Exception e){
+                    e.printStackTrace();
+                    failed+=1;
+                }
+
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Downloaded "+count);
+        System.out.println("Failed "+failed);
+
     }
 
     private static void getPackagesList() {
@@ -87,7 +150,7 @@ public class ManualDownloader {
                                 Elements sublinks = document.select("div[class=related-links] a");
                                 for(Element sublink: sublinks){
                                     String[] split1 = docURL.split("/");
-                                    String suburl = docURL.replaceFirst(split1[split.length-1],sublink.attr("href"));
+                                    String suburl = docURL.replaceFirst(split1[split1.length-1],sublink.attr("href"));
                                     doctext += Jsoup.connect(CONTENT_API+suburl).get().text();
                                 }
                             }
