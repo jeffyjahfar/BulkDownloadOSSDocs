@@ -1,6 +1,6 @@
 
 *.class
-output/.DS_Store
+*.DS_Store
 output/
-out/
-out/production/
+out/*
+out/production/*
