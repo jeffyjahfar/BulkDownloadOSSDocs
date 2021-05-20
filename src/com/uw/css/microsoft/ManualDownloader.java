@@ -42,12 +42,26 @@ public class ManualDownloader {
                         if (header.equals("Overview")) {
                             Element link = div.select("h3 a").get(0);
                             String h3href = link.attr("href");
-                            Document text = Jsoup.connect(BASE_URL + url + h3href).get();
-                            String doctext = text.select("div[id=main-column]").text();
-                            exportTextContentToTxtFile(doctext, productName);
-                            flag = true;
-                            count += 1;
-                            break;
+                            if(!h3href.startsWith("http")){
+                                h3href = BASE_URL + url + h3href;
+                            }
+                            try{
+                                Document text = Jsoup.connect( h3href).get();
+                                String doctext = text.select("div[id=main-column]").text();
+                                exportTextContentToTxtFile(doctext, productName);
+                                flag = true;
+                                count += 1;
+                                break;
+                            }catch (Exception e){
+                                h3href = BASE_URL+link.attr("href");
+                                Document text = Jsoup.connect( h3href).get();
+                                String doctext = text.select("div[id=main-column]").text();
+                                exportTextContentToTxtFile(doctext, productName);
+                                flag = true;
+                                count += 1;
+                                break;
+                            }
+
                         }
                     }
                     if (!flag) {
