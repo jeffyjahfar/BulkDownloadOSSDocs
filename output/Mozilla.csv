@@ -1,25 +1,29 @@
 Product,URL,Num_Vulnerabilities
-Bleach,/vulnerability-list/vendor_id-452/product_id-44376/Mozilla-Bleach.html,1,44376,452
-Bonsai,/vulnerability-list/vendor_id-452/product_id-2879/Mozilla-Bonsai.html,4,2879,452
-Bugzilla,/vulnerability-list/vendor_id-452/product_id-785/Mozilla-Bugzilla.html,148,785,452
-Camino,/vulnerability-list/vendor_id-452/product_id-4755/Mozilla-Camino.html,4,4755,452
-Durian Web Application Server,/vulnerability-list/vendor_id-452/product_id-9679/Mozilla-Durian-Web-Application-Server.html,1,9679,452
-Firefox,/vulnerability-list/vendor_id-452/product_id-3264/Mozilla-Firefox.html,1873,3264,452
-Firefox Esr,/vulnerability-list/vendor_id-452/product_id-22101/Mozilla-Firefox-Esr.html,672,22101,452
-Firefox Mobile,/vulnerability-list/vendor_id-452/product_id-22270/Mozilla-Firefox-Mobile.html,20,22270,452
-Firefox Os,/vulnerability-list/vendor_id-452/product_id-32200/Mozilla-Firefox-Os.html,14,32200,452
-Firefoxos,/vulnerability-list/vendor_id-452/product_id-27245/Mozilla-Firefoxos.html,1,27245,452
-Geckb,/vulnerability-list/vendor_id-452/product_id-14456/Mozilla-Geckb.html,1,14456,452
-Gecko,/vulnerability-list/vendor_id-452/product_id-3877/Mozilla-Gecko.html,2,3877,452
-Libxul,/vulnerability-list/vendor_id-452/product_id-15817/Mozilla-Libxul.html,1,15817,452
-Mozilla,/vulnerability-list/vendor_id-452/product_id-889/Mozilla-Mozilla.html,109,889,452
-Mozilla Suite,/vulnerability-list/vendor_id-452/product_id-5869/Mozilla-Mozilla-Suite.html,27,5869,452
-Mozjpeg,/vulnerability-list/vendor_id-452/product_id-52301/Mozilla-Mozjpeg.html,1,52301,452
-Netscape Portable Runtime,/vulnerability-list/vendor_id-452/product_id-26468/Mozilla-Netscape-Portable-Runtime.html,3,26468,452
-Network Security Services,/vulnerability-list/vendor_id-452/product_id-4052/Mozilla-Network-Security-Services.html,46,4052,452
-NSS,/vulnerability-list/vendor_id-452/product_id-17794/Mozilla-NSS.html,4,17794,452
-Nunjucks,/vulnerability-list/vendor_id-452/product_id-46314/Mozilla-Nunjucks.html,1,46314,452
-Seamonkey,/vulnerability-list/vendor_id-452/product_id-7048/Mozilla-Seamonkey.html,698,7048,452
-Thunderbird,/vulnerability-list/vendor_id-452/product_id-3678/Mozilla-Thunderbird.html,921,3678,452
-Thunderbird Esr,/vulnerability-list/vendor_id-452/product_id-22102/Mozilla-Thunderbird-Esr.html,216,22102,452
-Zamboni,/vulnerability-list/vendor_id-452/product_id-23528/Mozilla-Zamboni.html,1,23528,452
+Bleach,/vulnerability-list/vendor_id-452/product_id-44376/Mozilla-Bleach.html,3,44376,452,Application
+Bonsai,/vulnerability-list/vendor_id-452/product_id-2879/Mozilla-Bonsai.html,4,2879,452,Application
+Bugzilla,/vulnerability-list/vendor_id-452/product_id-785/Mozilla-Bugzilla.html,145,785,452,Application
+Camino,/vulnerability-list/vendor_id-452/product_id-4755/Mozilla-Camino.html,4,4755,452,Application
+Durian Web Application Server,/vulnerability-list/vendor_id-452/product_id-9679/Mozilla-Durian-Web-Application-Server.html,1,9679,452,Application
+Firefox,/vulnerability-list/vendor_id-452/product_id-3264/Mozilla-Firefox.html,1941,3264,452,Application
+Firefox Esr,/vulnerability-list/vendor_id-452/product_id-22101/Mozilla-Firefox-Esr.html,744,22101,452,Application
+Firefox Mobile,/vulnerability-list/vendor_id-452/product_id-22270/Mozilla-Firefox-Mobile.html,19,22270,452,Application
+Firefox Os,/vulnerability-list/vendor_id-452/product_id-32200/Mozilla-Firefox-Os.html,14,32200,452,OS
+Firefoxos,/vulnerability-list/vendor_id-452/product_id-27245/Mozilla-Firefoxos.html,1,27245,452,OS
+Geckb,/vulnerability-list/vendor_id-452/product_id-14456/Mozilla-Geckb.html,1,14456,452,Application
+Gecko,/vulnerability-list/vendor_id-452/product_id-3877/Mozilla-Gecko.html,1,3877,452,Application
+Hubs Cloud Reticulum,/vulnerability-list/vendor_id-452/product_id-97448/Mozilla-Hubs-Cloud-Reticulum.html,1,97448,452,Application
+Libxul,/vulnerability-list/vendor_id-452/product_id-15817/Mozilla-Libxul.html,0,15817,452,Application
+Mozilla,/vulnerability-list/vendor_id-452/product_id-889/Mozilla-Mozilla.html,108,889,452,Application
+Mozilla Suite,/vulnerability-list/vendor_id-452/product_id-5869/Mozilla-Mozilla-Suite.html,27,5869,452,Application
+Mozjpeg,/vulnerability-list/vendor_id-452/product_id-52301/Mozilla-Mozjpeg.html,2,52301,452,Application
+Netscape Portable Runtime,/vulnerability-list/vendor_id-452/product_id-26468/Mozilla-Netscape-Portable-Runtime.html,3,26468,452,Application
+Network Security Services,/vulnerability-list/vendor_id-452/product_id-4052/Mozilla-Network-Security-Services.html,41,4052,452,Application
+NSS,/vulnerability-list/vendor_id-452/product_id-17794/Mozilla-NSS.html,3,17794,452,Application
+Nunjucks,/vulnerability-list/vendor_id-452/product_id-46314/Mozilla-Nunjucks.html,1,46314,452,Application
+Persona,/vulnerability-list/vendor_id-452/product_id-63914/Mozilla-Persona.html,1,63914,452,Application
+Pollbot,/vulnerability-list/vendor_id-452/product_id-81134/Mozilla-Pollbot.html,1,81134,452,Application
+Seamonkey,/vulnerability-list/vendor_id-452/product_id-7048/Mozilla-Seamonkey.html,680,7048,452,Application
+Thunderbird,/vulnerability-list/vendor_id-452/product_id-3678/Mozilla-Thunderbird.html,999,3678,452,Application
+Thunderbird Esr,/vulnerability-list/vendor_id-452/product_id-22102/Mozilla-Thunderbird-Esr.html,219,22102,452,Application
+Webthings Gateway,/vulnerability-list/vendor_id-452/product_id-91468/Mozilla-Webthings-Gateway.html,2,91468,452,Application
+Zamboni,/vulnerability-list/vendor_id-452/product_id-23528/Mozilla-Zamboni.html,1,23528,452,Application

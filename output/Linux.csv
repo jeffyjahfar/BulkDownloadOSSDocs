@@ -1,18 +1,24 @@
 Product,URL,Num_Vulnerabilities
-,/vulnerability-list/vendor_id-33/product_id-30380/Linux-.html,0,30380,33
-Audit,/vulnerability-list/vendor_id-33/product_id-13730/Linux-Audit.html,1,13730,33
-Direct Connect,/vulnerability-list/vendor_id-33/product_id-14392/Linux-Direct-Connect.html,2,14392,33
-Ipsec Tools Racoon Daemon,/vulnerability-list/vendor_id-33/product_id-14771/Linux-Ipsec-Tools-Racoon-Daemon.html,1,14771,33
-Kernel,/vulnerability-list/vendor_id-33/product_id-6861/Linux-Kernel.html,1,6861,33
-Kernel,/vulnerability-list/vendor_id-33/product_id-17489/Linux-Kernel.html,14,17489,33
-Linux,/vulnerability-list/vendor_id-33/product_id-15003/Linux-Linux.html,0,15003,33
-Linux,/vulnerability-list/vendor_id-33/product_id-17220/Linux-Linux.html,0,17220,33
-Linux,/vulnerability-list/vendor_id-33/product_id-17837/Linux-Linux.html,0,17837,33
-Linux Kernel,/vulnerability-list/vendor_id-33/product_id-47/Linux-Linux-Kernel.html,2357,47,33
-Linux Kernel,/vulnerability-list/vendor_id-33/product_id-20457/Linux-Linux-Kernel.html,0,20457,33
-Linux Kernel I40e/i40evf,/vulnerability-list/vendor_id-33/product_id-43288/Linux-Linux-Kernel-I40e-i40evf.html,1,43288,33
-Linux Kernel Ixgbe,/vulnerability-list/vendor_id-33/product_id-43287/Linux-Linux-Kernel-Ixgbe.html,1,43287,33
-Linux Kernel-rt,/vulnerability-list/vendor_id-33/product_id-34136/Linux-Linux-Kernel-rt.html,2,34136,33
-Parduslinux,/vulnerability-list/vendor_id-33/product_id-14718/Linux-Parduslinux.html,0,14718,33
-Systemd,/vulnerability-list/vendor_id-33/product_id-22614/Linux-Systemd.html,1,22614,33
-Util-linux,/vulnerability-list/vendor_id-33/product_id-13878/Linux-Util-linux.html,4,13878,33
+,/vulnerability-list/vendor_id-33/product_id-30380/Linux-.html,0,30380,33,OS
+Acrn,/vulnerability-list/vendor_id-33/product_id-76720/Linux-Acrn.html,7,76720,33,OS
+Audit,/vulnerability-list/vendor_id-33/product_id-13730/Linux-Audit.html,1,13730,33,Application
+Dhcp6c,/vulnerability-list/vendor_id-33/product_id-62319/Linux-Dhcp6c.html,1,62319,33,Application
+Direct Connect,/vulnerability-list/vendor_id-33/product_id-14392/Linux-Direct-Connect.html,2,14392,33,Application
+Infiniband Hfi1 Driver,/vulnerability-list/vendor_id-33/product_id-91117/Linux-Infiniband-Hfi1-Driver.html,1,91117,33,Application
+Ipsec Tools Racoon Daemon,/vulnerability-list/vendor_id-33/product_id-14771/Linux-Ipsec-Tools-Racoon-Daemon.html,1,14771,33,Application
+Kernel,/vulnerability-list/vendor_id-33/product_id-6861/Linux-Kernel.html,0,6861,33,OS
+Kernel,/vulnerability-list/vendor_id-33/product_id-17489/Linux-Kernel.html,8,17489,33,Application
+Linux,/vulnerability-list/vendor_id-33/product_id-15003/Linux-Linux.html,0,15003,33,OS
+Linux,/vulnerability-list/vendor_id-33/product_id-17220/Linux-Linux.html,0,17220,33,Application
+Linux,/vulnerability-list/vendor_id-33/product_id-17837/Linux-Linux.html,0,17837,33,Hardware
+Linux Kernel,/vulnerability-list/vendor_id-33/product_id-47/Linux-Linux-Kernel.html,2676,47,33,OS
+Linux Kernel,/vulnerability-list/vendor_id-33/product_id-20457/Linux-Linux-Kernel.html,0,20457,33,Application
+Linux Kernel I40e/i40evf,/vulnerability-list/vendor_id-33/product_id-43288/Linux-Linux-Kernel-I40e-i40evf.html,0,43288,33,OS
+Linux Kernel I40e\/i40evf,/vulnerability-list/vendor_id-33/product_id-64505/Linux-Linux-Kernel-I40e-i40evf.html,1,64505,33,OS
+Linux Kernel Ixgbe,/vulnerability-list/vendor_id-33/product_id-43287/Linux-Linux-Kernel-Ixgbe.html,1,43287,33,OS
+Linux Kernel-rt,/vulnerability-list/vendor_id-33/product_id-34136/Linux-Linux-Kernel-rt.html,1,34136,33,OS
+Mac80211,/vulnerability-list/vendor_id-33/product_id-95179/Linux-Mac80211.html,3,95179,33,Application
+Parduslinux,/vulnerability-list/vendor_id-33/product_id-14718/Linux-Parduslinux.html,0,14718,33,OS
+Systemd,/vulnerability-list/vendor_id-33/product_id-22614/Linux-Systemd.html,1,22614,33,OS
+Tizen,/vulnerability-list/vendor_id-33/product_id-63426/Linux-Tizen.html,1,63426,33,OS
+Util-linux,/vulnerability-list/vendor_id-33/product_id-13878/Linux-Util-linux.html,4,13878,33,Application
