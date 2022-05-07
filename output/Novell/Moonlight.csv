@@ -1,6 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2011-0992,CWE-399 - CWE definition,399,Moonlight,2011-04-13,DoS +Info
-CVE-2011-0991,CWE-399 - CWE definition,399,Moonlight,2011-04-13,DoS
-CVE-2011-0990,CWE-362 - CWE definition,362,Moonlight,2011-04-13,DoS Overflow
-CVE-2011-0989,CWE-264 - CWE definition,264,Moonlight,2011-04-13,DoS
-CVE-2010-4254,CWE-20 - CWE definition,20,Moonlight,2010-12-06,Exec Code Bypass

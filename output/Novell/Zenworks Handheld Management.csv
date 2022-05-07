@@ -1,5 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2011-2656,,,Zenworks Handheld Management,2011-10-24,Exec Code
-CVE-2011-2655,,,Zenworks Handheld Management,2011-10-24,Exec Code
-CVE-2011-0742,CWE-119 - CWE definition,119,Zenworks Handheld Management,2011-02-01,Exec Code Overflow
-CVE-2010-4299,CWE-119 - CWE definition,119,Zenworks Handheld Management,2010-11-22,Exec Code Overflow

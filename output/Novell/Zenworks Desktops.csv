@@ -1,4 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2005-3786,,,Zenworks Desktops,2005-11-23,Bypass
-CVE-2005-1543,,,Zenworks Desktops,2005-05-25,Exec Code Overflow
-CVE-2003-1150,,,Zenworks Desktops,2003-10-27,DoS Exec Code Overflow

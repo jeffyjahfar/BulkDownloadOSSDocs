@@ -1,7 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2006-4181,,,Radius,2006-11-27,Exec Code
-CVE-2004-0849,,,Radius,2004-12-23,DoS Overflow
-CVE-2004-0576,,,Radius,2004-12-06,DoS
-CVE-2004-0131,,,Radius,2004-03-03,DoS
-CVE-2001-1377,,,Radius,2002-03-04,DoS
-CVE-2001-1376,,,Radius,2002-03-04,DoS Exec Code Overflow

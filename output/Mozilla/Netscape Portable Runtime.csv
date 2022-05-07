@@ -1,4 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2016-1951,CWE-190 - CWE definition,190,Netscape Portable Runtime,2016-08-07,DoS Overflow
-CVE-2014-1545,,,Netscape Portable Runtime,2014-06-11,DoS Exec Code
-CVE-2013-5607,CWE-189 - CWE definition,189,Netscape Portable Runtime,2013-11-20,DoS Overflow

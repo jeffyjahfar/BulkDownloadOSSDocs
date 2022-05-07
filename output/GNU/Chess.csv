@@ -1,3 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2019-15767,CWE-119 - CWE definition,119,Chess,2019-08-28,Overflow
-CVE-2002-0204,,,Chess,2002-05-16,Exec Code Overflow

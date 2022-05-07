@@ -1,6 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2015-8107,CWE-134 - CWE definition,134,A2ps,2017-04-13,Exec Code
-CVE-2014-0466,,,A2ps,2014-04-03,Exec Code
-CVE-2004-1377,,,A2ps,2004-12-27,
-CVE-2004-1170,,,A2ps,2005-01-10,Exec Code
-CVE-2001-1593,CWE-59 - CWE definition,59,A2ps,2014-04-05,

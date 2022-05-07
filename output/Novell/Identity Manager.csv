@@ -1,5 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2016-1598,CWE-79 - CWE definition,79,Identity Manager,2016-10-27,XSS
-CVE-2010-4324,CWE-79 - CWE definition,79,Identity Manager,2011-01-07,XSS
-CVE-2010-3264,CWE-255 - CWE definition,255,Identity Manager,2010-09-08,+Info
-CVE-2007-6625,CWE-134 - CWE definition,134,Identity Manager,2008-01-03,DoS

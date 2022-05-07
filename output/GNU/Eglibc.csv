@@ -1,4 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2013-4788,CWE-20 - CWE definition,20,Eglibc,2013-10-04,Overflow
-CVE-2011-2702,CWE-94 - CWE definition,94,Eglibc,2014-10-27,Exec Code
-CVE-2011-1071,CWE-399 - CWE definition,399,Eglibc,2011-04-08,DoS Exec Code

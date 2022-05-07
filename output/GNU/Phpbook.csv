@@ -1,4 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2011-3771,CWE-200 - CWE definition,200,Phpbook,2011-09-23,+Info
-CVE-2006-0075,,,Phpbook,2006-01-03,Exec Code
-CVE-2005-2397,,,Phpbook,2005-07-27,XSS

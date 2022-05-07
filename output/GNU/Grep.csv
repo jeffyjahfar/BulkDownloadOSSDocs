@@ -1,3 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2015-1345,CWE-119 - CWE definition,119,Grep,2015-02-12,DoS Overflow
-CVE-2012-5667,CWE-189 - CWE definition,189,Grep,2013-01-03,Exec Code Overflow

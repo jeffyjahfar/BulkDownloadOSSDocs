@@ -1,4 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2016-0376,,,Suse Linux Enterprise Module For Legacy Software,2016-06-03,Exec Code Bypass
-CVE-2016-0363,CWE-20 - CWE definition,20,Suse Linux Enterprise Module For Legacy Software,2016-06-03,Bypass
-CVE-2015-8567,CWE-399 - CWE definition,399,Suse Linux Enterprise Module For Legacy Software,2017-04-13,DoS

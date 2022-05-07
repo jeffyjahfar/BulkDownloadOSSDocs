@@ -1,6 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2017-8829,CWE-502 - CWE definition,502,Lintian,2017-05-08,Exec Code
-CVE-2009-4015,CWE-89 - CWE definition,89,Lintian,2010-02-02,Exec Code Sql
-CVE-2009-4014,CWE-134 - CWE definition,134,Lintian,2010-02-02,
-CVE-2009-4013,CWE-22 - CWE definition,22,Lintian,2010-02-02,Dir. Trav. +Info
-CVE-2004-1000,,,Lintian,2004-01-10,

@@ -1,7 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2013-1096,CWE-79 - CWE definition,79,Identity Manager Roles Based Provisioning Module,2013-12-27,XSS
-CVE-2013-1083,,,Identity Manager Roles Based Provisioning Module,2013-03-29,
-CVE-2011-2227,CWE-79 - CWE definition,79,Identity Manager Roles Based Provisioning Module,2011-10-07,XSS
-CVE-2011-1696,CWE-79 - CWE definition,79,Identity Manager Roles Based Provisioning Module,2011-10-07,XSS
-CVE-2010-4324,CWE-79 - CWE definition,79,Identity Manager Roles Based Provisioning Module,2011-01-07,XSS
-CVE-2008-5095,CWE-79 - CWE definition,79,Identity Manager Roles Based Provisioning Module,2008-11-14,XSS

@@ -1,3 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2010-4227,CWE-119 - CWE definition,119,Netware,2011-02-25,DoS Exec Code Overflow
-CVE-2010-2351,CWE-119 - CWE definition,119,Netware,2010-06-21,Exec Code Overflow

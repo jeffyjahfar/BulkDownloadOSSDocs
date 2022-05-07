@@ -1,6 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2016-4805,CWE-416 - CWE definition,416,Suse Linux Enterprise Software Development Kit,2016-05-23,DoS Mem. Corr.
-CVE-2016-3951,,,Suse Linux Enterprise Software Development Kit,2016-05-02,DoS
-CVE-2016-1583,CWE-119 - CWE definition,119,Suse Linux Enterprise Software Development Kit,2016-06-27,DoS Overflow +Priv
-CVE-2015-7566,,,Suse Linux Enterprise Software Development Kit,2016-02-07,DoS
-CVE-2015-4830,,,Suse Linux Enterprise Software Development Kit,2015-10-21,

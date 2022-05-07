@@ -1,4 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2009-0932,CWE-22 - CWE definition,22,Horde,2009-03-17,Dir. Trav.
-CVE-2009-0931,CWE-79 - CWE definition,79,Horde,2009-03-17,XSS
-CVE-2008-3330,CWE-79 - CWE definition,79,Horde,2008-07-27,XSS

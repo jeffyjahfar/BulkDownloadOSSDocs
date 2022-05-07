@@ -1,8 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2005-2878,,,Mailutils,2005-09-13,Exec Code
-CVE-2005-1824,,,Mailutils,2005-06-02,Sql
-CVE-2005-1523,,,Mailutils,2005-05-26,Exec Code
-CVE-2005-1522,,,Mailutils,2005-05-26,DoS
-CVE-2005-1521,,,Mailutils,2005-05-26,Exec Code Overflow
-CVE-2005-1520,,,Mailutils,2005-05-26,Exec Code Overflow
-CVE-2004-0984,,,Mailutils,2004-12-31,+Priv

@@ -1,4 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2003-0859,,,Zebra,2003-12-15,DoS
-CVE-2003-0858,CWE-399 - CWE definition,399,Zebra,2003-12-15,DoS
-CVE-2003-0795,CWE-20 - CWE definition,20,Zebra,2003-12-15,DoS

@@ -1,2 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2004-2093,,,Rsync,2004-02-09,DoS Exec Code Overflow

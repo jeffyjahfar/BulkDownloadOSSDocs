@@ -1,7 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2017-5618,CWE-269 - CWE definition,269,Screen,2017-03-20,+Priv
-CVE-2009-1214,CWE-264 - CWE definition,264,Screen,2009-04-01,+Info
-CVE-2007-3048,,,Screen,2007-06-05,
-CVE-2006-4573,,,Screen,2006-10-24,DoS
-CVE-2003-0972,,,Screen,2003-12-15,Exec Code Overflow
-CVE-2002-1602,,,Screen,2002-04-23,Exec Code Overflow

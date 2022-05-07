@@ -1,3 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2014-4510,CWE-352 - CWE definition,352,Apt-cacher,2014-10-06,XSS
-CVE-2005-1854,,,Apt-cacher,2005-08-05,Exec Code

@@ -1,4 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2012-4933,CWE-255 - CWE definition,255,Zenworks Asset Management,2012-10-20,+Info
-CVE-2011-2653,CWE-22 - CWE definition,22,Zenworks Asset Management,2011-12-08,Exec Code Dir. Trav.
-CVE-2006-6299,,,Zenworks Asset Management,2006-12-05,Exec Code Overflow

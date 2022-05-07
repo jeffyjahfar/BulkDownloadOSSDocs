@@ -1,8 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2012-4959,CWE-22 - CWE definition,22,File Reporter,2012-11-18,Dir. Trav.
-CVE-2012-4958,CWE-22 - CWE definition,22,File Reporter,2012-11-18,Dir. Trav.
-CVE-2012-4957,CWE-22 - CWE definition,22,File Reporter,2012-11-18,Dir. Trav.
-CVE-2012-4956,CWE-119 - CWE definition,119,File Reporter,2012-11-18,Exec Code Overflow
-CVE-2011-2750,CWE-399 - CWE definition,399,File Reporter,2011-07-17,
-CVE-2011-2220,CWE-119 - CWE definition,119,File Reporter,2011-07-14,Exec Code Overflow
-CVE-2011-0994,CWE-119 - CWE definition,119,File Reporter,2011-04-09,Exec Code Overflow

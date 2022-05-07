@@ -1,8 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2016-4957,CWE-20 - CWE definition,20,Suse Manager,2016-07-04,DoS
-CVE-2016-4956,CWE-19 - CWE definition,19,Suse Manager,2016-07-04,DoS
-CVE-2016-4955,CWE-362 - CWE definition,362,Suse Manager,2016-07-04,DoS
-CVE-2016-1286,CWE-20 - CWE definition,20,Suse Manager,2016-03-09,DoS
-CVE-2016-1285,CWE-20 - CWE definition,20,Suse Manager,2016-03-09,DoS
-CVE-2016-0376,,,Suse Manager,2016-06-03,Exec Code Bypass
-CVE-2016-0363,CWE-20 - CWE definition,20,Suse Manager,2016-06-03,Bypass

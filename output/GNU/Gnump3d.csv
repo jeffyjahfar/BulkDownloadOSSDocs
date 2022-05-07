@@ -1,7 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2007-6130,CWE-287 - CWE definition,287,Gnump3d,2007-11-26,Bypass
-CVE-2005-3425,,,Gnump3d,2005-11-01,XSS
-CVE-2005-3424,,,Gnump3d,2005-11-01,XSS
-CVE-2005-3355,CWE-22 - CWE definition,22,Gnump3d,2005-11-18,Dir. Trav.
-CVE-2005-3349,CWE-59 - CWE definition,59,Gnump3d,2005-11-18,
-CVE-2005-3123,,,Gnump3d,2005-10-30,Dir. Trav.

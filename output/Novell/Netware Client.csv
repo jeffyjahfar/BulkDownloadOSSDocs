@@ -1,4 +1,0 @@
-CVE ID,CWE NAME,CWE ID,PRODUCT,Publish Date,Vulnerability Type(s)
-CVE-2007-5762,CWE-20 - CWE definition,20,Netware Client,2008-01-09,Exec Code
-CVE-2006-5854,,,Netware Client,2006-12-03,Exec Code Overflow
-CVE-2002-1754,,,Netware Client,2002-12-31,DoS Overflow
