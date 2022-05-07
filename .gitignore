@@ -4,3 +4,6 @@
 output/
 out/*
 out/production/*
+*.class
+.DS_Store
+.DS_Store
