@@ -67,7 +67,7 @@ public class relationshipsDownloader {
 
     // Writes data to csv file at specified path
     public static void writeToCSV(ArrayList<HashMap<String, ArrayList<String>>> data, int numRows) throws FileNotFoundException {
-        PrintWriter p = new PrintWriter("src\\com\\uw\\css\\relationshipsDownloader\\CWE_DATA");
+        PrintWriter p = new PrintWriter("com/uw/css/relationshipsDownloader/freshPillarRelationships.csv");
         StringBuilder sb = new StringBuilder();
 
         sb.append("ID,");
@@ -104,7 +104,7 @@ public class relationshipsDownloader {
     // Assumes ids are on separate lines with no empty lines in the file.
     public static void main(String[] args) throws IOException {
         ArrayList<HashMap<String, ArrayList<String>>> relationshipData = new ArrayList<>();
-        File IDs = new File("src\\com\\uw\\css\\relationshipsDownloader\\CWE_IDs");
+        File IDs = new File("com/uw/css/relationshipsDownloader/CWE_IDs");
         Scanner idReader = new Scanner(IDs);
         int maxNumberOfParents = 0;
 

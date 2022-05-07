@@ -2,6 +2,7 @@ package com.uw.css.cve;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.FileWriter;
@@ -26,13 +27,15 @@ public class ProductListCreator {
                 Elements productByVendor = doc.select("table[class=listtable] tr");
                 int size = productByVendor.size();
                 for(int j=2;j<size;j++){
-                    Elements children = productByVendor.get(j).getElementsByTag("a");
+                    Element element = productByVendor.get(j);
+                    Elements children = element.getElementsByTag("a");
                     String text = children.get(0).text();
                     String href = children.get(2).attr("href");
                     Integer productId = Integer.valueOf(href.split("/")[3].split("-")[1]);
                     Integer numVulnerabilities = Integer.valueOf(children.get(2).text());
                     String vendor = children.get(1).text();
-                    Product product = new Product(text,productId,vendorId,href,numVulnerabilities, vendor);
+                    String productType = element.getElementsByTag("td").get(3).text();
+                    Product product = new Product(text,productId,vendorId,href,numVulnerabilities, vendor,productType);
                     products.add(product);
                 }
             }
@@ -42,16 +45,21 @@ public class ProductListCreator {
         return products;
     }
     public static void main(String[] args) {
-        Integer firstVendor = 1;
-        Integer lastVendor = 20592;
+        Integer firstVendor = 15149;
+        Integer lastVendor = 26900;
         Integer vendorId;
 
         for(vendorId = firstVendor; vendorId <= lastVendor; vendorId++){
             String url = "https://www.cvedetails.com/product-list/vendor_id-" + Integer.toString(vendorId);
             List<Product> products = getProductList(url,vendorId);
             if(products != null){
-                String vendor = products.get(0).vendor;
-                exportProductsToCsv(products,vendor);
+                try{
+                    String vendor = String.valueOf(products.get(0).vendorId);
+                    exportProductsToCsv(products,vendor);
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
+
             }
         }
     }
@@ -60,7 +68,7 @@ public class ProductListCreator {
         try {
             PrintWriter out = new PrintWriter(new FileWriter("./output/"+vendor+".csv"));
 
-            out.println("Product,URL,Num_Vulnerabilities");
+            out.println("ProductName,URL,Num_Vulnerabilities,productId,vendorId,vendorName,productType");
             for(Product product : products) {
                 out.println(product.toString());
             }

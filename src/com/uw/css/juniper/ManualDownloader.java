@@ -15,7 +15,7 @@ import java.nio.file.StandardCopyOption;
 
 public class ManualDownloader {
     public static String BASE_URL="https://www.juniper.net";
-    public static String DOCUMENTATION_DIR="./output/documentation/apache/";
+    public static String DOCUMENTATION_DIR="./output/documentation/juniper/";
     public static String JSON_API="https://projects.apache.org/json/projects/";
 
     public static void main(String[] args) {
