@@ -11,7 +11,7 @@ public class VDocScanDataCollector {
             System.out.println("Options:");
             System.out.println("--extract-products \t to extract list of all products listed on CVE");
             System.out.println("--extract-vulnerabilities \t to extract list of vulnerability reports listed on CVE");
-            System.out.println("--extract-vulnerability-classification \t to extract relationships between vulnerability classes");
+//            System.out.println("--extract-vulnerability-classification \t to extract relationships between vulnerability classes");
             return;
         }
         switch (args[0]){
@@ -19,7 +19,7 @@ public class VDocScanDataCollector {
                 System.out.println("Options:");
                 System.out.println("--extract-products \t to extract list of all products listed on CVE");
                 System.out.println("--extract-vulnerabilities \t to extract list of vulnerability reports listed on CVE");
-                System.out.println("--extract-vulnerability-classification \t to extract relationships between vulnerability classes");
+//                System.out.println("--extract-vulnerability-classification \t to extract relationships between vulnerability classes");
                 break;
             case "--extract-products":
                 ProductListCreator.run();
@@ -35,7 +35,7 @@ public class VDocScanDataCollector {
                 System.out.println("Options:");
                 System.out.println("--extract-products \t to extract list of all products listed on CVE");
                 System.out.println("--extract-vulnerabilities \t to extract list of vulnerability reports listed on CVE");
-                System.out.println("--extract-vulnerability-classification \t to extract relationships between vulnerability classes");
+//                System.out.println("--extract-vulnerability-classification \t to extract relationships between vulnerability classes");
         }
     }
 }

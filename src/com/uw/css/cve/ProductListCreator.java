@@ -68,8 +68,8 @@ public class ProductListCreator {
 
     private static void exportProductsToCsv(List<Product> products,String vendor) {
         try {
-            Files.createDirectories(Paths.get("./output/"));
-            PrintWriter out = new PrintWriter(new FileWriter("./output/"+vendor+".csv"));
+            Files.createDirectories(Paths.get("./output/vendors/"));
+            PrintWriter out = new PrintWriter(new FileWriter("./output/vendors/"+vendor+".csv"));
 
             out.println("ProductName,URL,Num_Vulnerabilities,productId,vendorId,vendorName,productType");
             for(Product product : products) {
