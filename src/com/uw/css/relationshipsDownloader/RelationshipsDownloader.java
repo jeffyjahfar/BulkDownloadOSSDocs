@@ -11,7 +11,7 @@ import java.io.PrintWriter;
 import java.util.*;
 import java.io.IOException;
 
-public class relationshipsDownloader {
+public class RelationshipsDownloader {
     private static class Node {
         private String ID;
         private ArrayList<String> parents;
@@ -102,7 +102,7 @@ public class relationshipsDownloader {
 
     // Reads cwe ids from a text file at specified path.
     // Assumes ids are on separate lines with no empty lines in the file.
-    public static void main(String[] args) throws IOException {
+    public static void run() throws IOException {
         ArrayList<HashMap<String, ArrayList<String>>> relationshipData = new ArrayList<>();
         File IDs = new File("com/uw/css/relationshipsDownloader/CWE_IDs");
         Scanner idReader = new Scanner(IDs);

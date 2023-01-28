@@ -8,6 +8,8 @@ import org.jsoup.select.Elements;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -44,9 +46,9 @@ public class ProductListCreator {
         }
         return products;
     }
-    public static void main(String[] args) {
-        Integer firstVendor = 15149;
-        Integer lastVendor = 26900;
+    public static void run() {
+        Integer firstVendor = 1;
+        Integer lastVendor = 29400;
         Integer vendorId;
 
         for(vendorId = firstVendor; vendorId <= lastVendor; vendorId++){
@@ -66,6 +68,7 @@ public class ProductListCreator {
 
     private static void exportProductsToCsv(List<Product> products,String vendor) {
         try {
+            Files.createDirectories(Paths.get("./output/"));
             PrintWriter out = new PrintWriter(new FileWriter("./output/"+vendor+".csv"));
 
             out.println("ProductName,URL,Num_Vulnerabilities,productId,vendorId,vendorName,productType");
