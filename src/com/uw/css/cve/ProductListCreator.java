@@ -37,7 +37,7 @@ public class ProductListCreator {
                     Integer numVulnerabilities = Integer.valueOf(children.get(2).text());
                     String vendor = children.get(1).text();
                     String productType = element.getElementsByTag("td").get(3).text();
-                    Product product = new Product(text,productId,vendorId,href,numVulnerabilities, vendor,productType);
+                    Product product = new Product("\""+text+"\"",productId,vendorId,href,numVulnerabilities, vendor,productType);
                     products.add(product);
                 }
             }
