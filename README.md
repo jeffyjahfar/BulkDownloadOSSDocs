@@ -35,23 +35,23 @@ To run the jar file if the latest vulnerability reports or product metadata need
 3. Download the BulkDownloadOSSDocs.jar from the archive or the latest version from Github
 4. To extract product metadata: Execute command "java -jar BulkDownloadOSSDocs.jar --extract-products". This will create a directory "output" next to the jar file with a subdirectory vendors. The vendors subdirectory will contain a CSV file for each vendorID containing list of products from that vendor.
 
-Expected directory structure:
-|-BulkDownloadOSSDocs.jar
-|-output
-|--vendors
-|---1.csv
-|---6.csv
+Expected directory structure: <br>
+|-BulkDownloadOSSDocs.jar<br>
+|-output<br>
+|--vendors<br>
+|---1.csv<br>
+|---6.csv<br>
 
 
 5. To extract latest vulnerability reports: Execute command "java -jar BulkDownloadOSSDocs.jar --extract-vulnerabilities". This will create a subdirectory "vulnerabilities" under the directory "output". The "vulnerabilities" directory will have a subdirectory per vendor containing a CSV file per product of the vendor. Each CSV file will contain all vulnerability reports for the specific product.
 
-Expected directory structure:
-|-BulkDownloadOSSDocs.jar
-|-output
-|--vulnerabilities
-|---6
-|----2598.csv
-|----4708.csv
+Expected directory structure:<br>
+|-BulkDownloadOSSDocs.jar<br>
+|-output<br>
+|--vulnerabilities<br>
+|---6<br>
+|----2598.csv<br>
+|----4708.csv<br>
 
 To Modify the source code:
 The relevant classes for each functionality are as follows:
@@ -61,3 +61,27 @@ The relevant classes for each functionality are as follows:
 3. Class for extracting Vulnerability Reports of a specific Product(s)/Vendor(s) - com.uw.css.cve.VulnerabilityMapCreator
 4. Specification Document Downloader: The documentation downloader is different for each vendor. Under com.uw.css package, each vendor has a module Containing a ManualDownloader.java file
    For example, to customize the downloader for GNU website, modify com.uw.css.gnu.ManualDownloader class
+
+
+## Execution Time
+As the tool is trying to iterate through about 30,000 vendor pages and their products, the first job is expected to take approximately about 1-3 hours to complete (can vary depending on network bandwidth and system specifications). The second job is expected to take longer (approximately about 7-8 hours) as it iterates through over 300,000 vulnerability reports. The performance could be significantly improved by introducing parallelism or distributed processing. However, for ease of installation and to limit dependencies required for standalone execution, the current artifact uses a single-threaded sequential iterative approach. As the dataset size grows with CWE/CVE databases, support can be added for faster processing with parallelism (multi-threaded) including support for distributed execution.
+
+## Default Behavior and Custom Input parameters
+The default behavior of the artifact is to download all the data on CVE. This would mean about 30,000 files as output (1 file per vendor) for the "--extract-products" option and about 60,000 files (1 file per product) for the "--extract-vulnerabilities" option. We can add a release of the artifact to take other optional arguments such as a) limit the number of products/vulnerabilities b) range of product IDs or specify product ID/vendor ID to extract information for
+
+## Output Format
+The output files are in CSV format so that they can be concatenated and parsed as DataFrames for further post-processing and analytics or machine learning-based evaluations
+
+Sample output of --extract-products job:
+
+ProductName,URL,Num_Vulnerabilities,productId,vendorId,vendorName,productType
+"Advanced Linux Environment",/vulnerability-list/vendor_id-9/product_id-4916/SGI-Advanced-Linux-Environment.html,1,4916,9,SGI,OS
+
+Sample output of --extract-vulnerabilities job:
+
+CVE ID,CWE NAME,CWE ID,PRODUCT,VENDOR, productId, vendorId,Publish Date,Vulnerability Type(s)
+CVE-2020-13434,CWE-190 - CWE definition,190,Freebsd,Freebsd,7,6,2020-05-24,Overflow
+
+## Job type inter-dependency
+The "--extract-vulnerabilities" job iterates on the output of the "--extract-products" job. That is, the first job ("--extract-products") creates a CSV file per vendor. The second job ("--extract-vulnerabilities") iterates on each of those files and creates a new file per row of the CSV files from the first job. However, it is not necessary to wait for the first job to execute fully if you do not intend to download information for all 30,000 vendors. If terminated earlier, the second job will download information for the vendors that were downloaded before the first job was terminated.
+    
